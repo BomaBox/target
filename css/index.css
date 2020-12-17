@@ -6,3 +6,16 @@
     border-radius: 30px !important;
     width: 620px;
 }
+
+.footer-area {
+    background-color: #c8102e !important;
+}
+
+.footer-tittle a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-tittle a :hover {
+    border-bottom: 2px solid white;
+}

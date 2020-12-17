@@ -13,6 +13,7 @@
 .footer-area {
     background-color: #c8102e !important;
     color: white;
+    margin-top: 8px;
 }
 
 .footer-tittle a {
@@ -22,4 +23,13 @@
 
 .footer-tittle a :hover {
     border-bottom: 1px solid white;
+}
+#topFooter{
+    padding-top: 16px;
+}
+.footer-logo{
+    padding-bottom: 8px;
+}
+.footer-social{
+    padding: 16px;
 }

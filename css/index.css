@@ -2,6 +2,9 @@
     background-color: #c8102e !important;
 }
 
+#accountIcon {
+    padding: 8px;
+}
 .form-control {
     border-radius: 30px !important;
     width: 620px;
@@ -9,13 +12,14 @@
 
 .footer-area {
     background-color: #c8102e !important;
+    color: white;
 }
 
 .footer-tittle a {
     text-decoration: none;
-    color: #ffffff;
+    color: white;
 }
 
 .footer-tittle a :hover {
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid white;
 }

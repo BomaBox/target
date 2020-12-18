@@ -101,7 +101,7 @@
 <!--Hero section-->
 <section>
   <div>
-    <div>
+    <div id="circleCard">
       <a href="#">
         <h4>Save money using our Circle Card</h4>
       </a>
@@ -109,7 +109,7 @@
   </div>
   <!--header line-->
   <div>
-    <div class="sectionHeaders">
+    <div class="sectionHeaders" id="heroGreeting">
       <h1>Happy Holidays from Target</h1>
     </div>
   </div>
@@ -283,15 +283,15 @@
     </div>
   </div>
   <!--clickable pictures start-->
-  <div class="gallery-area">
+  <div class="gallery-area" id="topDeals">
     <!--top 3 images-->
     <div class="container-fluid">
-      <div class="row">
+      <div class="row" id="topDealsTop">
         <div class="gallery-items col-xl-4 col-lg-4 col-md-6 col-sm-12">
           <a href="#">
             <img src="../images/Rectangle 86.png" alt= "woman holding a mug">
           </a>
-          <div>
+          <div class="topDealsTopRow">
             <h3>Stocking Stuffers for staying cozy at home</h3>
           </div>
         </div>
@@ -299,7 +299,7 @@
           <a href="#">
             <img src="../images/Rectangle 85.png" alt=" men's grooming kit">
           </a>
-          <div>
+          <div class="topDealsTopRow">
             <h3>Grooming and Self Care gifts for Him under $25</h3>
           </div>
         </div>
@@ -307,7 +307,7 @@
           <a href="#">
             <img src="../images/Rectangle 84.png" alt="women in robes holding self care products">
           </a>
-          <div>
+          <div class="topDealsTopRow">
             <h3>Grooming and Self Care gifts for Her under $25</h3>
           </div>
         </div>
@@ -354,14 +354,14 @@
   </div>
 </section>
 <!--Top Gifts Start-->
-<section>
-  <div class="container">
+<section id="topGifts">
+  <div class="container-fluid treeMargins">
     <!--header row-->
-    <div>
+    <div class="sectionHeaders">
       <h1>Our Top Gifts</h1>
     </div>
     <!-- logo "star" row-->
-    <div>
+    <div id="starLogo">
       <img src="../images/Logo.png" alt="Target logo">
     </div>
     <!--top of tree row-->
@@ -369,7 +369,7 @@
       <!--invisible column-->
       <div class="col-xl-4 col-lg-4"></div>
       <!--clickable column-->
-      <div class="col-xl-4 col-lg-4">
+      <div class="treeBoxes col-xl-4 col-lg-4" id="under50">
         <a href="#">
           <div>
             <h4>Gifts under $50</h4>
@@ -385,16 +385,15 @@
     <div class="row">
       <!--invisible column-->
       <div class="col-xl-2 col-lg-2"></div>
-      <!--clickable column-->
-      <div class="col-xl-4 col-lg-4">
+      <!--clickable columns-->
+      <div class="treeBoxes middleRowTree col-xl-4 col-lg-4">
         <a href="#">
           <div>
             <h4>Stocking Stuffers</h4>
           </div>
         </a>
       </div>
-      <!--clickable column-->
-      <div class="col-xl-4 col-lg-4">
+      <div class="treeBoxes middleRowTree col-xl-4 col-lg-4">
         <a href="#">
           <div>
             <h4>White Elephant</h4>
@@ -408,19 +407,19 @@
 
     <!--bottom of tree row-->
     <div class="row">
-      <div class="col-xl-4 col-lg-4 col-md-4">
+      <div class="treeBoxes bottomRowTree col-xl-4 col-lg-4 col-md-4">
         <a href="#">  
           <h4>Gifts for him</h4>
         </a>
       </div>
       
-      <div class="col-xl-4 col-lg-4 col-md-4">
+      <div class="treeBoxes bottomRowTree col-xl-4 col-lg-4 col-md-4">
         <a href="#">  
           <h4>Gifts for her</h4>
         </a>
       </div>
 
-      <div class="col-xl-4 col-lg-4 col-md-4">
+      <div class="treeBoxes bottomRowTree col-xl-4 col-lg-4 col-md-4">
         <a href="#">  
           <h4>Gifts for the kids</h4>
         </a>
@@ -431,11 +430,11 @@
     <!--stump of tree-->
     <div class="row">
       <!--invisible column-->
-      <div class="col-xl-5 col-lg-5"></div>
+      <div class="treeBoxes col-xl-5 col-lg-5"></div>
       <!--visible part of stump-->
-      <div class="col-xl-2 col-lg-2"></div>
+      <div class="treeBoxes col-xl-2 col-lg-2" id="stump"></div>
       <!--invisible column-->
-      <div class="col-xl-5 col-lg-5"></div>
+      <div class="treeBoxes col-xl-5 col-lg-5"></div>
     </div>
     <!-- stump of tree end-->
   </div>
@@ -443,39 +442,38 @@
 </section>
 <!--Top Gifts end-->
 <!--Daily Deal start-->
-<section>
+<section id=dailyDeal>
   <div>
-    <div>
+    <div class="sectionHeaders">
       <h1>The Daily Deal</h1>
     </div>
   </div>
   <div class="container">
-    <div class="column">
-      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+    <div class="row">
+      <div class="dealFont col-xl-6 col-lg-6 col-md-6 col-sm-6">
         <a href="#">
           <div class="card">
             <img class="card-img-top" src="../images/Rectangle 95.png" alt="Bowl of cherries">
-            <div class="card-body">
+            <div class="card-body dailyDealShadow">
               <h2 class="card-title">Today Only!</h2>
             </div>
           </div>
         </a>
-        <div>
+        <div class="smallText">
           <h4>Save $10 on Pyrex Brand*</h4>
         </div>
       </div>
-    </div>
-    <div class="column">
-      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+
+      <div class="dealFont col-xl-6 col-lg-6 col-md-6 col-sm-6">
         <a href="#">
           <div class="card">
             <img class="card-img-top" src="../images/Rectangle 106.png" alt="Child's toy">
-            <div class="card-body">
+            <div class="card-body dailyDealShadow">
               <h2 class="card-title">Tomorrow's Deal</h2>
             </div>
           </div>
         </a>
-        <div>
+        <div class="smallText">
           <h4>Save 25% on Little Tikes*</h4>
         </div>
       </div>
@@ -487,8 +485,8 @@
 <!--Featured House Brands-->
 <section>
   <!--Header space-->
-  <div>
-    <div>
+  <div class="headers">
+    <div class="sectionHeaders">
       <h1>Featured House Brands</h1>
     </div>
   </div>

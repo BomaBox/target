@@ -50,6 +50,10 @@
 .card a {
     text-decoration: none;
 }
+.carousel-control-prev {
+   color: black !important;
+   width: 15px !important;
+}
 
 /*------------------------Top Gifts Section------------------------*/
 #topGifts a {
@@ -100,6 +104,7 @@
 #stump {
     background-color: #cc0202;
     margin-top: 9px;
+    margin-bottom: 75px;
 }
 #topDeals {
     background-color: rgb(204, 2, 2);
@@ -108,7 +113,9 @@
 /*-----------------Daily Deals----------------------*/
 #dailyDeal {
     background-color: #f5eae8;
+    padding-top: 75px;
 }
+
 .dealFont h2 {
     color: #c8102e;
     font-size: 56px;

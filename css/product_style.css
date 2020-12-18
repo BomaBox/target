@@ -1,0 +1,82 @@
+.tinyCrumb {
+    font-size: 10px !important;
+}
+
+.crumbsContain {
+    margin-left: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.colorBox1 {
+    width: 36px;
+    height: 24px;
+    background: #558499;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+}
+
+.colorBox2 {
+    width: 36px;
+    height: 24px;
+    background: #DC3F3A;
+
+
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+}
+
+.colorBox3  {
+    width: 36px;
+    height: 24px;
+    background: #FCC9AD;
+
+
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+.tabbyInfo {
+    width: 70% !important;
+    margin: 7rem auto;
+}
+
+.tabBox {
+    border: 1px solid lightgray;
+    padding: 2%;
+}
+
+.tabTime {
+    border-bottom: none !important;
+}
+
+.tabNotActive {
+    border-top: 1px solid darkgrey;
+    border-right: 1px solid darkgray;
+    background-color: lightgray;
+    border-radius: none !important;
+}

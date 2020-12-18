@@ -97,11 +97,19 @@
 </nav>             
 <!--Common Filters--> 
 <!--Main Content-->
+
 <!--Hero section-->
 <section>
+  <div>
+    <div id="circleCard">
+      <a href="#">
+        <h4>Save money using our Circle Card</h4>
+      </a>
+    </div>
+  </div>
   <!--header line-->
   <div>
-    <div class="sectionHeaders">
+    <div class="sectionHeaders" id="heroGreeting">
       <h1>Happy Holidays from Target</h1>
     </div>
   </div>
@@ -133,7 +141,7 @@
             <h2>TAKE 25% OFF</h2>
           </div>
           <div>
-            <h3>When you spend $100 on toys</h3>
+            <h4>When you spend $100 on toys</h4>
           </div>
           <button type="button" class="btn btn-primary btn-lg">
             Shop now
@@ -275,15 +283,15 @@
     </div>
   </div>
   <!--clickable pictures start-->
-  <div class="gallery-area">
+  <div class="gallery-area" id="topDeals">
     <!--top 3 images-->
     <div class="container-fluid">
-      <div class="row">
+      <div class="row" id="topDealsTop">
         <div class="gallery-items col-xl-4 col-lg-4 col-md-6 col-sm-12">
           <a href="#">
             <img src="../images/Rectangle 86.png" alt= "woman holding a mug">
           </a>
-          <div>
+          <div class="topDealsTopRow">
             <h3>Stocking Stuffers for staying cozy at home</h3>
           </div>
         </div>
@@ -291,7 +299,7 @@
           <a href="#">
             <img src="../images/Rectangle 85.png" alt=" men's grooming kit">
           </a>
-          <div>
+          <div class="topDealsTopRow">
             <h3>Grooming and Self Care gifts for Him under $25</h3>
           </div>
         </div>
@@ -299,7 +307,7 @@
           <a href="#">
             <img src="../images/Rectangle 84.png" alt="women in robes holding self care products">
           </a>
-          <div>
+          <div class="topDealsTopRow">
             <h3>Grooming and Self Care gifts for Her under $25</h3>
           </div>
         </div>
@@ -345,8 +353,220 @@
   <!--clickable pictures end-->
   </div>
 </section>
-<!--Commonly bought together-->
-<!--Collection Banner-->
+<!--Top Gifts Start-->
+<section id="topGifts">
+  <div class="container-fluid treeMargins">
+    <!--header row-->
+    <div class="sectionHeaders">
+      <h1>Our Top Gifts</h1>
+    </div>
+    <!-- logo "star" row-->
+    <div id="starLogo">
+      <img src="../images/Logo.png" alt="Target logo">
+    </div>
+    <!--top of tree row-->
+    <div class="row">
+      <!--invisible column-->
+      <div class="col-xl-4 col-lg-4"></div>
+      <!--clickable column-->
+      <div class="treeBoxes col-xl-4 col-lg-4" id="under50">
+        <a href="#">
+          <div>
+            <h4>Gifts under $50</h4>
+          </div>
+        </a>
+      </div>
+      <!--invisible column-->
+      <div class="col-xl-4 col-lg-4"></div>
+    </div>
+    <!--top of tree row end-->
+
+    <!--middle of tree row-->
+    <div class="row">
+      <!--invisible column-->
+      <div class="col-xl-2 col-lg-2"></div>
+      <!--clickable columns-->
+      <div class="treeBoxes middleRowTree col-xl-4 col-lg-4">
+        <a href="#">
+          <div>
+            <h4>Stocking Stuffers</h4>
+          </div>
+        </a>
+      </div>
+      <div class="treeBoxes middleRowTree col-xl-4 col-lg-4">
+        <a href="#">
+          <div>
+            <h4>White Elephant</h4>
+          </div>
+        </a>
+      </div>
+      <!--invisible column-->
+      <div class="col-xl-2 col-lg-2"></div> 
+    </div>
+    <!--middle of tree row end-->
+
+    <!--bottom of tree row-->
+    <div class="row" id="bottomRow">
+      <div class="treeBoxes bottomRowTree col-xl-4 col-lg-4">
+        <a href="#">  
+          <h4>Gifts for him</h4>
+        </a>
+      </div>
+      
+      <div class="treeBoxes bottomRowTree col-xl-4 col-lg-4">
+        <a href="#">  
+          <h4>Gifts for her</h4>
+        </a>
+      </div>
+
+      <div class="treeBoxes bottomRowTree col-xl-4 col-lg-4">
+        <a href="#">  
+          <h4>Gifts for the kids</h4>
+        </a>
+      </div>
+    </div>
+    <!--bottom of tree row end-->
+
+    <!--stump of tree-->
+    <div class="row">
+      <!--invisible column-->
+      <div class="treeBoxes col-xl-5 col-lg-5"></div>
+      <!--visible part of stump-->
+      <div class="treeBoxes col-xl-2 col-lg-2" id="stump"></div>
+      <!--invisible column-->
+      <div class="treeBoxes col-xl-5 col-lg-5"></div>
+    </div>
+    <!-- stump of tree end-->
+  </div>
+  <!--Top Gifts end-->
+</section>
+<!--Top Gifts end-->
+<!--Daily Deal start-->
+<section id="dailyDeal">
+  <div id="dailyTitle">
+    <div class="sectionHeaders">
+      <h1>The Daily Deal</h1>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="dealFont col-xl-6 col-lg-6 col-md-6 col-sm-6">
+        <a href="#">
+          <div class="card">
+            <img class="card-img-top" src="../images/Rectangle 95.png" alt="Bowl of cherries">
+            <div class="card-body dailyDealShadow">
+              <h2 class="card-title">Today Only!</h2>
+            </div>
+          </div>
+        </a>
+        <div class="smallText">
+          <h4>Save $10 on Pyrex Brand*</h4>
+        </div>
+      </div>
+
+      <div class="dealFont col-xl-6 col-lg-6 col-md-6 col-sm-6">
+        <a href="#">
+          <div class="card">
+            <img class="card-img-top" src="../images/Rectangle 106.png" alt="Child's toy">
+            <div class="card-body dailyDealShadow">
+              <h2 class="card-title">Tomorrow's Deal</h2>
+            </div>
+          </div>
+        </a>
+        <div class="smallText">
+          <h4>Save 25% on Little Tikes*</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Daily Deal end-->
+
+<!--Featured House Brands-->
+<section>
+  <!--Header space-->
+  <div class="headers">
+    <div class="sectionHeaders">
+      <h1>Featured House Brands</h1>
+    </div>
+  </div>
+  <!--Pictures and links-->
+  <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+    
+    <!--clickable pictures-->
+    <div class="carousel-inner" role="listbox">
+
+      <!--Slide 1 end-->
+      <div class="carousel-item active">
+
+        <div class="row">
+          <div class="col-md-4">
+            <div>
+              <a href="#">
+                <img src="../images/Rectangle 105.png" alt="A new day logo">
+              </a>
+            </div>
+          </div>
+        
+          <div class="col-md-4">
+            <div>
+              <a href="#">
+                <img src="../images/Rectangle 130.png" alt="Hearth & Hand logo">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div>
+              <a href="#">
+                <img src="../images/whowhatwear.png" alt="Who what wear">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Slide 1 end-->
+
+      <!--Slide 2-->
+      <div class="carousel-item">
+
+        <div class="row">
+          <div class="col-md-4">
+            <div>
+              <a href="#">
+                <img src="../images/Rectangle 130.png" alt="Hearth & Hand logo">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div>
+              <a href="#">
+                <img src="../images/whowhatwear.png" alt="Who what wear">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div>
+              <a href="#">
+                <img src="../images/Rectangle 132.png" alt="Joy lab logo">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Slide 2 end-->
+    </div>
+    <!--pictures end-->
+
+    <!--controls for the carousel-->
+    <div class="controls-bottom">
+      <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+      <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+    </div>
+  </div>
+</section>
 <!--Footer-->
 <div class="footer-area footer-padding">
     <div class="container">

@@ -91,15 +91,15 @@
     margin-top: 9px;
     margin-bottom: 9px;
 }
+#bottomRow {
+    margin-right: 0;
+}
 .bottomRowTree {
     background-color: #006843;
     /*margin-right: 3px;
     margin-left: 3px;*/
     margin-top: 9px;
     margin-bottom: 9px;
-}
-#bottomRow {
-    margin-right: 0;
 }
 #stump {
     background-color: #cc0202;
@@ -134,10 +134,34 @@
 }
 
 /*---------------------Featured House Brands-----------*/
-.btn-floating {
-    display: inline;
-    align-content: center;
+
+.firstBrand {
+    margin-left: 44px;
+    margin-right: 15px;
+    width: 417px;
 }
+.otherBrands {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 417px;
+}
+.controls-bottom {
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 264px;
+}
+
+.fa-chevron-left {
+    margin-left: 44px;
+}
+.extraSpace {
+    width: 90%;
+}
+.fa-chevron-right {
+    margin-left: 97%;
+}
+
+
 /*Footer code*/
 .footer-area {
     background-color: #c8102e !important;

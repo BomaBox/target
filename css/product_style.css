@@ -8,19 +8,35 @@
 
 
 
+.morePics {
+    background-color: darkgray;
+    width: 86px;
+    height: 110px;
+}
+
+.sizeSelect {
+    border: 2px solid #4F4F4F !important;
+}
 
 
+.text-primary {
+    color: #828282!important;
+}
 
+.prodTiny {
+    font-size: 14px;
+    font-weight: 400;
+    color: #828282;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
 
-
-
-
-
-
-
-
-
-
+.qtySelect {
+    font-size: 14px;
+    font-weight: 400;
+    color: #828282;
+    text-align: center;
+}
 
 .colorBox1 {
     width: 36px;
@@ -34,8 +50,6 @@
     width: 36px;
     height: 24px;
     background: #DC3F3A;
-
-
     border: 1px solid #BDBDBD;
     box-sizing: border-box;
 }
@@ -44,8 +58,6 @@
     width: 36px;
     height: 24px;
     background: #FCC9AD;
-
-
     border: 1px solid #BDBDBD;
     box-sizing: border-box;
 }

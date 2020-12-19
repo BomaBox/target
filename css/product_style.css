@@ -63,7 +63,16 @@
 }
 
 
+.targetPrimarybtn {
+    background-color: #cc0202 !important;
+}
 
+.btn-primary {
+    background-color: #cc0202 !important;
+    border-radius: 0 !important;
+    margin: 2rem 2rem !important;
+    border: none !important;
+}
 
 
 

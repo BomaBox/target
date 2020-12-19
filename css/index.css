@@ -51,6 +51,46 @@
     text-decoration: none;
 }
 
+#keepKidsBusy {
+    background-color: #f5eaea;
+    display: flex;
+    justify-content: center;
+    height: 635px;
+    width: 1440px;
+    margin-left: 75px;
+}
+#keepKidsBusy h1 {
+    color: #961d37;
+    font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 96px;
+    font-weight: bold;
+    line-height: 85px;
+    margin-top: 40px;
+    /*width: 489px;*/
+}
+#keepKidsBusy img {
+    height: 524px;
+    width: 543px;
+    margin-top: 58px;
+}
+#keepKidsBusy h2 {
+    font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+}
+#keepKidsBusy h4 {
+    font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+#shopNowHero {
+    border-radius: 0% !important;
+}
+#kidsPic {
+    display: flex;
+    justify-content: center;
+}
+
 
 /*------------------------Top Gifts Section------------------------*/
 #topGifts a {
@@ -145,22 +185,9 @@
     margin-right: 15px;
     width: 417px;
 }
-.controls-bottom {
-    display: flex;
-    margin-top: 24px;
-    margin-bottom: 264px;
+#featuredHouseDealsCarousel {
+    margin-bottom: 234px;
 }
-
-.fa-chevron-left {
-    margin-left: 44px;
-}
-.extraSpace {
-    width: 90%;
-}
-.fa-chevron-right {
-    margin-left: 97%;
-}
-
 
 /*Footer code*/
 .footer-area {

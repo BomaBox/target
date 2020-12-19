@@ -114,38 +114,41 @@
     </div>
   </div>
   <!--Carousel start-->
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <div id="heroCarousel" class="carousel slide" data-ride="carousel">
     <!--indicators of slide you're on-->
     <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      <li data-target="#heroCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#heroCarousel" data-slide-to="1"></li>
+      <li data-target="#heroCarousel" data-slide-to="2"></li>
+      <li data-target="#heroCarousel" data-slide-to="3"></li>
     </ol>
     <!--carousel items-->
     <div class="carousel-inner">
       <!--keeps the kids busy slide-->
-      <div class="carousel-item container active">
-        <!--picture div-->
-        <div class="column">
-          <div>
-            <img src="../images/Rectangle 88.png" alt="Kids having a pillow fight">
+      <div class="carousel-item container active" id="keepKidsBusy">
+        
+        <div class="row">
+          <!--picture div-->
+          <div class="col-xl-6 col-lg-6" id="kidsPic">
+            <div>
+              <img src="../images/Rectangle 88.png" alt="Kids having a pillow fight">
+            </div>
           </div>
-        </div>
-        <!--Text and button div start-->
-        <div class="column">
-          <div>
-            <h1>Keep the Kids Busy this season</h1>
+          <!--Text and button div start-->
+          <div class="col-xl-6 col-lg-6" id="kidsWords">
+            <div>
+              <h1>Keep the kids busy this season</h1>
+            </div>
+            <div>
+              <h2>TAKE 25% OFF</h2>
+            </div>
+            <div>
+              <h4>When you spend $100 on toys</h4>
+            </div>
+            <button type="button" class="col-6 mx-auto btn-danger btn-lg" id="shopNowHero">
+              Shop now
+            </button>
           </div>
-          <div>
-            <h2>TAKE 25% OFF</h2>
-          </div>
-          <div>
-            <h4>When you spend $100 on toys</h4>
-          </div>
-          <button type="button" class="btn btn-primary btn-lg">
-            Shop now
-          </button>
         </div>
         <!--Text and button div end-->
       </div>
@@ -261,11 +264,11 @@
       <!--Cheesy end-->
     </div>
     <!--forwards and backwards buttons start-->
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
@@ -353,6 +356,9 @@
   <!--clickable pictures end-->
   </div>
 </section>
+
+
+
 <!--Top Gifts Start-->
 <section id="topGifts">
   <div class="container-fluid treeMargins">

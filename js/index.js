@@ -4,16 +4,16 @@ $(document).ready(function(){
 
     // Enable Carousel Indicators
     $(".item1").click(function(){
-        $("#myCarousel").carousel(0);
+        $("#heroCarousel").carousel(0);
     });
     $(".item2").click(function(){
-        $("#myCarousel").carousel(1);
+        $("#heroCarousel").carousel(1);
     });
     $(".item3").click(function(){
-        $("#myCarousel").carousel(2);
+        $("#heroCarousel").carousel(2);
     });
     $(".item4").click(function(){
-        $("#myCarousel").carousel(3);
+        $("#heroCarousel").carousel(3);
     });
 
     // Enable Carousel Controls

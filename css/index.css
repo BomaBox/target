@@ -50,7 +50,13 @@
 .card a {
     text-decoration: none;
 }
-
+.carousel-control-prev, .carousel-control-next {
+    opacity: 1 !important;
+    color: rgb(61, 61, 61) !important;
+}
+.carousel-item {
+    left: 275px;
+}
 /*------------------Slide 1----------------*/
 #keepKidsBusy {
     background-color: #f5eaea;
@@ -93,6 +99,11 @@
     justify-content: center;
 }
 
+
+#shopNowHero, #giftGuideHero {
+    background-color: #CC0202 !important;
+    border: solid #cc0202;
+}
 /*---------------slide 2---------------------*/
 #giftGuide {
     height: 635px;
@@ -136,12 +147,13 @@
     width: 256px;
     margin-bottom: 15px;
     background-color: #cc0202;
+    border-radius: 0% !important;
+    border: none;
 }
-/*#giftGuideHero .card-body {
-    padding: 0px;
-    color: #cc0202;
-}*/
 
+.adjustCard .card-img-top {
+    border-radius: 0% !important;
+}
 
 /*------------------------Top Gifts Section------------------------*/
 #topGifts a {
@@ -182,15 +194,14 @@
     margin-top: 9px;
     margin-bottom: 9px;
 }
-#bottomRow {
-    margin-right: 0;
-}
+
 .bottomRowTree {
     background-color: #006843;
-    /*margin-right: 3px;
-    margin-left: 3px;*/
+    margin-right: 6px;
+    margin-left: 6px;
     margin-top: 9px;
     margin-bottom: 9px;
+    width: 550px;
 }
 #stump {
     background-color: #cc0202;

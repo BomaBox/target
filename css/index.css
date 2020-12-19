@@ -51,9 +51,10 @@
     text-decoration: none;
 }
 
+/*------------------Slide 1----------------*/
 #keepKidsBusy {
     background-color: #f5eaea;
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
     height: 635px;
     width: 1440px;
@@ -85,11 +86,61 @@
 }
 #shopNowHero {
     border-radius: 0% !important;
+    font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #kidsPic {
     display: flex;
     justify-content: center;
 }
+
+/*---------------slide 2---------------------*/
+#giftGuide {
+    height: 635px;
+    width: 1440px;
+    margin-left: 75px;
+    box-shadow: 0px 4px 4px black; 
+}
+#giftGuide a {
+    text-decoration: none;
+}
+#giftGuide h1 {
+    color: #006843;
+    font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 96px;
+    font-weight: bold;
+    line-height: 85px;
+    width: 400px;
+}
+#giftGuide h4 {
+    font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+#giftGuideHero {
+    border-radius: 0% !important;
+    font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.headerText2 {
+    margin-top: 181px;
+    margin-bottom: 141px;
+}
+.adjustCardMargin {
+    margin-top: 54px;
+}
+.adjustCardMargin h5 {
+    color: white;
+    font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.adjustCard {
+    height: 256px;
+    width: 256px;
+    margin-bottom: 15px;
+    background-color: #cc0202;
+}
+/*#giftGuideHero .card-body {
+    padding: 0px;
+    color: #cc0202;
+}*/
 
 
 /*------------------------Top Gifts Section------------------------*/
@@ -166,7 +217,7 @@
     text-decoration: none;
 }
 .dailyDealShadow {
-    box-shadow: 0px 4px 4px grey ;
+    box-shadow: 0px 4px 4px grey;
 }
 .smallText {
     margin-top: 18px;

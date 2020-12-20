@@ -125,7 +125,7 @@
     <!--carousel items-->
     <div class="carousel-inner">
       <!--keeps the kids busy slide-->
-      <div class="carousel-item container" id="keepKidsBusy">
+      <div class="carousel-item container shadow" id="keepKidsBusy">
         
         <div class="row">
           <!--picture div-->
@@ -153,7 +153,7 @@
         <!--Text and button div end-->
       </div>
       <!--Gift Guide Slide-->
-      <div class="carousel-item container" id="giftGuide">
+      <div class="carousel-item container shadow" id="giftGuide">
         <!--Text and button div-->
         <div class="row">
           <div class="col-6 headerText2">
@@ -224,47 +224,51 @@
       <!--gift guide end-->
 
       <!--get cooking start-->
-      <div class="carousel-item container active">
-        <div class="row">
+      <div class="carousel-item container shadow" id="getCooking">
+        <div class="row test"></div>
+        <div class="row" id="expandCookingPic">
           <div class="col-6">
             <img class="d-block w-100" src="../images/Rectangle 123.png" alt="Platter of cookies">
           </div>
           <div class="col-6">
-            <div>
+            <div class="cookingShrink">
               <h1>Get Cooking</h1>
             </div>
-            <div>
+            <div class="cookingShrink">
               <h2>Save up to 40%</h2>
             </div>
-            <div>
-              <h3>All your holiday cooking and baking needs</h3> 
+            <div class="cookingShrink">
+              <h4>All your holiday cooking and baking needs</h4> 
             </div>
-            <button type="button" class="btn btn-primary btn-lg">
+            <button type="button" class="btn btn-primary btn-lg" id="getCookingHero">
               Shop Kitchen
             </button>
           </div>
         </div>
+        <div class="row test"></div>
       </div>
       <!--get cooking end-->
 
       <!--Cheesy start-->
-      <div class="carousel-item container">
-        <div class="column">
-          <img src="../images/Rectangle 136.png" alt="Cheese and crackers">
-        </div>
-        <div class="column">
-          <div>
-            <h1>Please them with Cheese</h1>
+      <div class="carousel-item container shadow active" id="cheesy">
+        <div class="row">
+          <div class="col-6" id="cheesePicShrink">
+            <img src="../images/Rectangle 136.png" alt="Cheese and crackers">
           </div>
-          <div>
-            <h2>Save up to 25%</h2>
+          <div class="col-6" id="cheeseShrink">
+            <div>
+              <h1>Please them with Cheese</h1>
+            </div>
+            <div>
+              <h2>Save up to 25%</h2>
+            </div>
+            <div>
+              <h4>All cured meats and cheeses for your holiday entertaining</h4>
+            </div>
+            <button type="button" class="btn btn-primary btn-lg" id="cheesyHero">
+              Shop Food
+            </button>
           </div>
-          <div>
-            <h3>All cured meates and cheeses for your holiday entertaining</h3>
-          </div>
-          <button type="button" class="btn btn-primary btn-lg">
-            Shop Food
-          </button>
         </div>
       </div>
       <!--Cheesy end-->
@@ -298,27 +302,30 @@
       <div class="row" id="topDealsTop">
         <div class="gallery-items col-xl-4 col-lg-4 col-md-6 col-sm-12">
           <a href="#">
-            <img src="../images/Rectangle 86.png" alt= "woman holding a mug">
+            <div class="topDealsTopRow" id="stockingStuff">
+              <div class="hoverOverlay">
+                <h3>Stocking Stuffers for staying cozy at home</h3>
+              </div>
+            </div>
           </a>
-          <div class="topDealsTopRow">
-            <h3>Stocking Stuffers for staying cozy at home</h3>
-          </div>
         </div>
         <div class="gallery-items col-xl-4 col-lg-4 col-md-6 col-sm-12">
           <a href="#">
-            <img src="../images/Rectangle 85.png" alt=" men's grooming kit">
+            <div class="topDealsTopRow" id="groomingHim">
+              <div class="hoverOverlay">
+                <h3>Grooming and Self Care gifts for Him under $25</h3>
+              </div>
+            </div>
           </a>
-          <div class="topDealsTopRow">
-            <h3>Grooming and Self Care gifts for Him under $25</h3>
-          </div>
         </div>
         <div class="gallery-items col-xl-4 col-lg-4 col-md-6 col-sm-12">
           <a href="#">
-            <img src="../images/Rectangle 84.png" alt="women in robes holding self care products">
+            <div class="topDealsTopRow"id="groomingHer">
+              <div class="hoverOverlay">
+                <h3>Grooming and Self Care gifts for Her under $25</h3>
+              </div>
+            </div>
           </a>
-          <div class="topDealsTopRow">
-            <h3>Grooming and Self Care gifts for Her under $25</h3>
-          </div>
         </div>
       </div>
     </div>

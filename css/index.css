@@ -55,7 +55,11 @@
     color: rgb(61, 61, 61) !important;
 }
 .carousel-item {
-    left: 275px;
+    /*left: 275px;*/
+    left: 15%;
+}
+.shadow {
+    box-shadow: 0px 4px 4px black; 
 }
 /*------------------Slide 1----------------*/
 #keepKidsBusy {
@@ -155,6 +159,143 @@
     border-radius: 0% !important;
 }
 
+/*------------------------Slide 3--------------------------------*/
+.test {
+    height: 25px;
+    background-color: white;
+}
+/*.expandCookingPic {
+    overflow: visible;
+}
+.expandCookingPic img {
+    height: 538px;
+    width: 636px;    
+}*/
+#getCooking {
+    background-color: #cc0202;
+    box-shadow: 0px 4px 4px black;
+}
+.cookingShrink {
+    width: 361px;
+}
+#getCooking h1 {
+    color: white;
+    font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 96px;
+    font-weight: bold;
+    line-height: 85px;
+    margin-top: 40px;
+}
+#getCooking h2 {
+    color: black;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#getCooking h4 {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#getCookingHero {
+    border-radius: 0% !important;
+    font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: black !important;
+    border: solid black;
+    color: white;
+}
+
+/*-----------------Slide 4--------------------------------*/
+#cheesyHero {
+    border-radius: 0% !important;
+    font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #CC0202 !important;
+    border: solid #cc0202;
+}
+#cheesy {
+    box-shadow: 0px 16px 4px 0px black;
+}
+#cheesy h1 {
+    font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 96px;
+    font-weight: bold;
+    line-height: 85px;
+    margin-top: 40px;
+}
+#cheesy h2 {
+    color: black;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#cheesy h4 {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#cheesy img {
+    width: 640px;
+    height: auto;
+}
+#cheesePicShrink {
+    width: 650px;
+}
+#cheeseShrink {
+    margin-left: 10px;
+}
+
+/*-----------------------Top Deals Section------------------------*/
+#topDealsTop a {
+    text-decoration: none;
+    color: white;
+    font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.topDealsTopRow {
+    height: 351px;
+    width: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#stockingStuff {
+    background: url("../images/Rectangle 86.png");
+}
+#groomingHim {
+    background: url("../images/Rectangle 85.png");
+}
+#groomingHer {
+    background: url("../images/Rectangle 84.png");
+}
+.topDealsTopRow h3 {
+    color: rgba(255, 255, 255, 0);
+    font-size: 48px;
+    font-weight: bold;
+    font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    z-index: 1;
+    margin-left: 5px;
+    display: block;
+}
+.topDealsTopRow h3:hover {
+    color: rgba(255, 255, 255, 1);
+}
+.hoverOverlay {
+    width: 100%;
+    height: 100%;
+    background:rgba(204, 2, 2, 0);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hoverOverlay:hover {
+    background:rgba(204, 2, 2, .5);
+}
+/*#topDeals {
+    background-color: rgb(204, 2, 2);
+}8/
 /*------------------------Top Gifts Section------------------------*/
 #topGifts a {
     text-decoration: none;
@@ -208,9 +349,7 @@
     margin-top: 9px;
     margin-bottom: 75px;
 }
-#topDeals {
-    background-color: rgb(204, 2, 2);
-}
+
 
 /*-----------------Daily Deals----------------------*/
 #dailyDeal {
@@ -251,7 +390,7 @@
     margin-bottom: 234px;
 }
 
-/*Footer code*/
+/*------------------------Footer code-------------------*/
 .footer-area {
     background-color: #c8102e !important;
     color: white;

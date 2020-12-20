@@ -293,9 +293,39 @@
 .hoverOverlay:hover {
     background:rgba(204, 2, 2, .5);
 }
-/*#topDeals {
-    background-color: rgb(204, 2, 2);
-}8/
+.topDealsBottomRow {
+    height: 420px;
+    width: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.topDealsBottomRow h3 {
+    color: rgba(255, 255, 255, 0);
+    font-size: 48px;
+    font-weight: bold;
+    font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    z-index: 1;
+    margin-left: 5px;
+    display: block;
+}
+.topDealsBottomRow h3:hover {
+    color: rgba(255, 255, 255, 1);
+}
+#cocktailMaking {
+    background: url("../images/Rectangle\ 80.png")
+}
+#lastMinuteDeco {
+    background: url("../images/Rectangle\ 81.png");
+}
+#bogo50 {
+    background: url("../images/Rectangle\ 111.png");
+}
+#giftWrapSupp {
+    background: url("../images/Rectangle\ 112.png");
+}
+
 /*------------------------Top Gifts Section------------------------*/
 #topGifts a {
     text-decoration: none;

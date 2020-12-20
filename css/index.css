@@ -247,6 +247,13 @@
 }
 
 /*-----------------------Top Deals Section------------------------*/
+#topDeals {
+    background-color: #cc0202;
+    height: 1107px;
+}
+#topDealsTop {
+    padding-top: 143px;
+}
 #topDealsTop a {
     text-decoration: none;
     color: white;
@@ -259,6 +266,17 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    margin-bottom: 66px;
+}
+.topDealSize {
+    height: 351px;
+    width: 440px;
+    margin: 22px;
+}
+.topDealSize2 {
+    height: 420px;
+    width: 290px;
+    margin: 22px;
 }
 #stockingStuff {
     background: url("../images/Rectangle 86.png");

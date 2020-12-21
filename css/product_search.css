@@ -1,0 +1,101 @@
+/*Header Code*/
+.customNav {
+    background-color: #c8102e !important;
+}
+
+.dropdown-item {
+    color: white !important;
+}
+#accountIcon {
+    padding: 8px;
+}
+.form-control {
+    border-radius: 30px !important;
+    width: 620px;
+}
+
+/*-------Button Customization Code---------*/
+.btn-primary {
+    background-color: #CC0202 !important;
+    border-radius: 0 !important;
+    margin: 1rem 0 1rem 0 !important;
+    border: none !important;
+}
+.btn-outline-primary {
+    background-color: #ffffff !important;
+    border-radius: 0 !important;
+    color: #CC0202;
+    border: 1px solid #CC0202 !important;
+}
+.btn-outline-primary:hover {
+    background-color: #cc0202!important;
+    border-radius: 0 !important;
+    color: #ffffff;
+    border: 1px solid #CC0202 !important;
+}
+.btn-primary:hover{
+    background-color: #970303 !important;
+    
+}
+.btn-secondary {
+    background-color: white !important;
+    border: 4px solid #CC0202 !important;
+    color: black !important;
+    border-radius: 0 !important;
+}
+
+/*---------------------Circle Card section--------------------------*/
+#circleCard {
+    height: 74px;
+    background-color: #c4c4c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#circleCard a {
+    color: black;
+    font-size: 24px;
+    font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.sectionHeaders {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    margin-bottom: 54px;
+    font-size: 72px;
+    font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.sectionHeaders h1 {
+    font-size: 72px;
+    font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-weight: bold;
+}
+
+/*----------------Product Card Styling-------------------*/
+.productCard {
+    margin: 20px 10px 20px 10px;
+}
+/*------------------------Footer code-------------------*/
+.footer-area {
+    background-color: #c8102e !important;
+    color: white;
+    margin-top: 8px;
+}
+
+.footer-tittle a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-tittle a :hover {
+    border-bottom: 1px solid white;
+}
+#topFooter{
+    padding-top: 16px;
+}
+.footer-logo{
+    padding-bottom: 8px;
+}
+.footer-social{
+    padding: 16px;
+}

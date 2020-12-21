@@ -14,6 +14,39 @@
     width: 620px;
 }
 
+/*-------Button Customization Code---------*/
+.btn-primary {
+    background-color: #CC0202 !important;
+    border-radius: 0 !important;
+    margin: 1rem 0 1rem 0 !important;
+    border: none !important;
+}
+.btn-outline-primary {
+    background-color: #ffffff !important;
+    border-radius: 0 !important;
+    color: #CC0202;
+    border: 1px solid #CC0202 !important;
+}
+.btn-outline-primary:hover {
+    background-color: #cc0202!important;
+    border-radius: 0 !important;
+    color: #ffffff;
+    border: 1px solid #CC0202 !important;
+}
+.btn-primary:hover{
+    background-color: #970303 !important;
+    
+}
+.btn-secondary {
+    background-color: white !important;
+    border: 4px solid #CC0202 !important;
+    color: black !important;
+    border-radius: 0 !important;
+}
+
+#formLogo {
+    margin: 60px;
+}
 /*--------Home Screen code--------*/
 
 /*---------------------Circle Card section--------------------------*/

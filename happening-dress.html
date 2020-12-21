@@ -128,34 +128,35 @@
                 </div>
             </div>
 
-            <div class="col-lg-3">
-                <div class="row">
-                    <button type="button" class="targetPrimeBtn btn btn-primary btn-lg text-uppercase fw-bold">Add to Cart</button>
+            <div class="container col-lg-2">
+              <div></div>  
+              <div class="row pt-6">
+                    <button type="button" class="targetPrimeBtn btn btn-primary btn-lg text-uppercase fw-bold fs-6">Add to Cart</button>
                 </div>
                 <div class="row">
-                    <button type="button" class="btn btn-secondary btn-lg">Buy it Now</button>
+                    <button type="button" class="btn btn-secondary btn-lg text-uppercase fw-bold fs-6">Buy it Now</button>
                 </div>
                 <div class="row">
-                    <p>You are shopping at La Cantera</p>
+                    <p class="prodTiny">You are shopping at La Cantera</p>
                 </div>
                 <div class="row">
-                    <p>Store Pick Up, Delivery, & Shipping Information</p>
+                    <p class="prodTiny text-decoration-underline">Store Pick Up, Delivery, & Shipping Information</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
+<!--Looky Here for Tabs-->
 <section>
     <div class="tabbyInfo container-fluid justify-content-center">
-    <nav>
+    <nav class="col-6 ms-3">
         <div class="tabTime nav nav-tabs" id="nav-tab" role="tablist">
           <a class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Details</a>
           <a class="tabNotActive nav-link" id="nav-profile-tab" data-bs-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">More Information</a>
           <a class="tabNotActive nav-link" id="nav-contact-tab" data-bs-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Reviews (3)</a>
         </div>
       </nav>
-      <div class="tabBox tab-content" id="nav-tabContent">
+      <div class="tabBox tab-content d-flex justify-content-center" id="nav-tabContent">
         <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
             <p>Make an entrance in our pretty and feminine Happening Dress. Featuring a V-neckline, no sleeves, flattering wrap front and ditsy print. We love the soft chiffon fabric with unique crinkled texture. Team it with some strappy heels and gold hoops for a look we are loving.</p>
             <ul>
@@ -174,7 +175,7 @@
     <div class="container">
         <h2 class="text-center">Frequently Bought Together</h2>
         <div class="row d-flex justify-content-center">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="row row-cols-1 row-cols-md-5 g-1">
             <div class="col">
               <div class="card h-100">
                 <img src="..." class="card-img-top" alt="...">
@@ -184,15 +185,46 @@
                 </div>
               </div>
             </div>
+            <div class="col d-flex align-items-center justify-content-center fs-1"><p>+</p></div>
             <div class="col">
               <div class="card h-100">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a short card.</p>
+                  <div class="row">
+                    <h6 class="card-title d-flex justify-content-start col-10">Flirty Little White Dress </h6>
+                    <div class="d-flex justify-content-end col-2"><i class="far fa-heart"></i></div>
+                  </div>
+                  <h4 class="d-flex justify-content-start mt-3 card-title tw-bold">$44.20</h5>
+                  <p class="prodTiny card-text">Eligible for Pick-up in your store </p>
+                  <div class="row">
+                    <div class="row col-5">
+                      <ul class="rating list-inline d-flex align-items-center">
+                        <li class="list-inline-item me-0">
+                          <i class="rating1 fas fa-star fa-xs text-primary"></i>
+                        </li>
+                        <li class="list-inline-item me-0">
+                          <i class="rating1 fas fa-star fa-xs text-primary"></i>
+                        </li>
+                        <li class="list-inline-item me-0">
+                          <i class="rating1 fas fa-star fa-xs text-primary"></i>
+                        </li>
+                        <li class="list-inline-item me-0">
+                          <i class="rating1 fas fa-star fa-xs text-primary"></i>
+                        </li>
+                        <li class="list-inline-item me-0">
+                          <i class="far fa-star fa-xs text-primary"></i>
+                        </li>
+                      </ul>
+                      <div class="col-1">
+                        <div class="prodTiny">4</div>
+                      </div>
+                      <div class="button"></div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
+            <div class="col d-flex align-items-center justify-content-center fs-1"><p>+</p></div>
             <div class="col">
               <div class="card h-100">
                 <img src="..." class="card-img-top" alt="...">
@@ -207,7 +239,7 @@
             </div>
     </div>
 
-    <div class="mx-auto">
+    <div class="d-flex justify-content-center mx-auto">
         <button type="button" class="btn btn-primary btn-lg">Add All to Cart</button>
     </div>
 

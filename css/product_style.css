@@ -90,19 +90,20 @@
 
 .tabbyInfo {
     width: 70% !important;
-    margin: 7rem auto;
+    margin: 7rem auto 0 auto;
 }
 
 .tabBox {
     border: 1px solid lightgray;
     padding: 2%;
-    width: 70%;
+    width: 65%;
     margin: 0 auto;
 }
 
 .tabTime {
     border-bottom: none !important;
     margin: 0 auto;
+    width: 65%;
 }
 .navTabs {
     margin: 0 auto;

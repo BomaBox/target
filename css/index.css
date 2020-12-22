@@ -50,16 +50,18 @@
 .card a {
     text-decoration: none;
 }
-.carousel-control-prev, .carousel-control-next {
-    opacity: 1 !important;
-    color: rgb(61, 61, 61) !important;
-}
 .carousel-item {
     /*left: 275px;*/
     left: 15%;
 }
 .shadow {
     box-shadow: 0px 4px 4px black; 
+}
+.carousel-control-next-icon {
+    background-image: url("../images/arrow-icon-png-2.png");
+}
+.carousel-control-prev-icon {
+    background-image: url("../images/arrow-icon-png-3.png");
 }
 /*------------------Slide 1----------------*/
 #keepKidsBusy {
@@ -160,7 +162,7 @@
 }
 
 /*------------------------Slide 3--------------------------------*/
-.test {
+.whiteDiv {
     height: 25px;
     background-color: white;
 }
@@ -174,6 +176,8 @@
 #getCooking {
     background-color: #cc0202;
     box-shadow: 0px 4px 4px black;
+    height: 635px;
+    width: 1440px;
 }
 .cookingShrink {
     width: 361px;
@@ -215,6 +219,8 @@
 }
 #cheesy {
     box-shadow: 0px 16px 4px 0px black;
+    height: 635px;
+    width: 1440px;
 }
 #cheesy h1 {
     font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -371,10 +377,16 @@
     align-items: center;
     height: 100px;
 }
+.middleRowTree:hover {
+    box-shadow: 3px 3px 5px rgb(204, 2, 2);
+}
 #under50 {
     background-color: #63B347;
     margin-bottom: 9px;
     margin-top: 23px;
+}
+#under50:hover {
+    box-shadow: 3px 3px 5px rgb(204, 2, 2);
 }
 .middleRowTree {
     background-color: #09842D;
@@ -382,6 +394,9 @@
     margin-left: 6px;
     margin-top: 9px;
     margin-bottom: 9px;
+}
+.middleRowTree:hover {
+    box-shadow: 3px 3px 5px rgb(204, 2, 2);
 }
 
 .bottomRowTree {
@@ -391,6 +406,9 @@
     margin-top: 9px;
     margin-bottom: 9px;
     width: 550px;
+}
+.bottomRowTree:hover {
+    box-shadow: 3px 3px 5px rgb(204, 2, 2);
 }
 #stump {
     background-color: #cc0202;

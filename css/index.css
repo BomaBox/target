@@ -45,7 +45,13 @@
 
 /*-----------------------Hero section-----------------------------*/
 #heroGreeting h1 {
-    color: #da1a33;
+    background-color: #961d37;
+    color: transparent;
+    text-shadow: 2px 2px 2px rgba(218,26,51,0.5);
+    -webkit-background-clip: text;
+        -moz-background-clip: text;
+            background-clip: text;
+    
 }
 .card a {
     text-decoration: none;
@@ -55,13 +61,16 @@
     left: 15%;
 }
 .shadow {
-    box-shadow: 0px 4px 4px black; 
+    box-shadow: 0px 0px 4px 4px black; 
 }
 .carousel-control-next-icon {
     background-image: url("../images/arrow-icon-png-2.png");
 }
 .carousel-control-prev-icon {
     background-image: url("../images/arrow-icon-png-3.png");
+}
+.btn-lg {
+    width: 281px;
 }
 /*------------------Slide 1----------------*/
 #keepKidsBusy {
@@ -106,7 +115,7 @@
 }
 
 
-#shopNowHero, #giftGuideHero {
+#shopNowHero, #giftGuideHero, #cheesyHero {
     background-color: #CC0202 !important;
     border: solid #cc0202;
 }
@@ -132,6 +141,8 @@
     font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 24px;
     font-weight: bold;
+    width: 400px;
+    
 }
 #giftGuideHero {
     border-radius: 0% !important;
@@ -140,6 +151,8 @@
 .headerText2 {
     margin-top: 181px;
     margin-bottom: 141px;
+    width: 600px;
+    margin-left: 60px;
 }
 .adjustCardMargin {
     margin-top: 54px;
@@ -163,18 +176,14 @@
 
 /*------------------------Slide 3--------------------------------*/
 .whiteDiv {
-    height: 25px;
+    height: 100px;
     background-color: white;
 }
-/*.expandCookingPic {
+#expandCookingPic {
     overflow: visible;
-}
-.expandCookingPic img {
-    height: 538px;
-    width: 636px;    
-}*/
-#getCooking {
     background-color: #cc0202;
+}
+#getCooking {
     box-shadow: 0px 4px 4px black;
     height: 635px;
     width: 1440px;

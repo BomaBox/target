@@ -78,21 +78,32 @@
 
 /*-----------------------Hero section-----------------------------*/
 #heroGreeting h1 {
-    color: #da1a33;
+    background-color: #961d37;
+    color: transparent;
+    text-shadow: 2px 2px 2px rgba(218,26,51,0.5);
+    -webkit-background-clip: text;
+        -moz-background-clip: text;
+            background-clip: text;
+    
 }
 .card a {
     text-decoration: none;
-}
-.carousel-control-prev, .carousel-control-next {
-    opacity: 1 !important;
-    color: rgb(61, 61, 61) !important;
 }
 .carousel-item {
     /*left: 275px;*/
     left: 15%;
 }
 .shadow {
-    box-shadow: 0px 4px 4px black; 
+    box-shadow: 0px 0px 4px 4px black; 
+}
+.carousel-control-next-icon {
+    background-image: url("../images/arrow-icon-png-2.png");
+}
+.carousel-control-prev-icon {
+    background-image: url("../images/arrow-icon-png-3.png");
+}
+.btn-lg {
+    width: 281px;
 }
 /*------------------Slide 1----------------*/
 #keepKidsBusy {
@@ -137,7 +148,7 @@
 }
 
 
-#shopNowHero, #giftGuideHero {
+#shopNowHero, #giftGuideHero, #cheesyHero {
     background-color: #CC0202 !important;
     border: solid #cc0202;
 }
@@ -163,6 +174,8 @@
     font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 24px;
     font-weight: bold;
+    width: 400px;
+    
 }
 #giftGuideHero {
     border-radius: 0% !important;
@@ -171,6 +184,8 @@
 .headerText2 {
     margin-top: 181px;
     margin-bottom: 141px;
+    width: 600px;
+    margin-left: 60px;
 }
 .adjustCardMargin {
     margin-top: 54px;
@@ -193,20 +208,18 @@
 }
 
 /*------------------------Slide 3--------------------------------*/
-.test {
-    height: 25px;
+.whiteDiv {
+    height: 100px;
     background-color: white;
 }
-/*.expandCookingPic {
+#expandCookingPic {
     overflow: visible;
-}
-.expandCookingPic img {
-    height: 538px;
-    width: 636px;    
-}*/
-#getCooking {
     background-color: #cc0202;
+}
+#getCooking {
     box-shadow: 0px 4px 4px black;
+    height: 635px;
+    width: 1440px;
 }
 .cookingShrink {
     width: 361px;
@@ -248,6 +261,8 @@
 }
 #cheesy {
     box-shadow: 0px 16px 4px 0px black;
+    height: 635px;
+    width: 1440px;
 }
 #cheesy h1 {
     font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -404,10 +419,16 @@
     align-items: center;
     height: 100px;
 }
+.middleRowTree:hover {
+    box-shadow: 3px 3px 5px rgb(204, 2, 2);
+}
 #under50 {
     background-color: #63B347;
     margin-bottom: 9px;
     margin-top: 23px;
+}
+#under50:hover {
+    box-shadow: 3px 3px 5px rgb(204, 2, 2);
 }
 .middleRowTree {
     background-color: #09842D;
@@ -415,6 +436,9 @@
     margin-left: 6px;
     margin-top: 9px;
     margin-bottom: 9px;
+}
+.middleRowTree:hover {
+    box-shadow: 3px 3px 5px rgb(204, 2, 2);
 }
 
 .bottomRowTree {
@@ -424,6 +448,9 @@
     margin-top: 9px;
     margin-bottom: 9px;
     width: 550px;
+}
+.bottomRowTree:hover {
+    box-shadow: 3px 3px 5px rgb(204, 2, 2);
 }
 #stump {
     background-color: #cc0202;

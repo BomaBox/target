@@ -92,7 +92,7 @@
   <div class="container-fluid">
     <div class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-        Dropdown link
+        Download the Target App
       </a>
       <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
         <li><a class="dropdown-item" href="#">Action</a></li>
@@ -112,71 +112,432 @@
     </div>
   </div>
 </section>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <nav aria-label="breadcrumb">
+<div class="crumbsContain container-fluid"> 
+  <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="#">Home</a></li>
-        <li class="breadcrumb-item"><a href="#">Library</a></li>
-        <li class="breadcrumb-item active" aria-current="page"><a href="#">Data</a></li>
+        <li class="tinyCrumb breadcrumb-item"><a href="#">Home</a></li>
+        <li class="tinyCrumb breadcrumb-item"><a href="#">Clothing</a></li>
+        <li class="tinyCrumb breadcrumb-item active" aria-current="page">Dresses</li>
       </ol>
     </nav>
   </div>
-</nav> 
 <!--Search Results Controls-->
+<section>
 <div class="container-fluid">
   <div class="row">
-    <div class="col-4">
+    <div class="col-md-2">
+      
+        <!-- Section: Sidebar -->
+    <!-- Section: Filters -->
+    <section class="expand-lg">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#filterSupportedContent" aria-controls="filterSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-filter"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="filterSupportedContent">
+    <h3 class="mb-4">Filter By:</h3>
+    <div class="form-check pl-0 mb-3">
+      <input type="radio" class="form-check-input" id="under25" name="materialExampleRadios">
+      <label class="form-check-label small text-uppercase card-link-secondary" for="under25">Available in-store</label>
+    </div>
+    <div class="form-check pl-0 mb-3">
+      <input type="radio" class="form-check-input" id="under25" name="materialExampleRadios">
+      <label class="form-check-label small text-uppercase card-link-secondary" for="under25">Available for Pick-up</label>
+    </div>
+    <div class="form-check pl-0 mb-3">
+      <input type="radio" class="form-check-input" id="under25" name="materialExampleRadios">
+      <label class="form-check-label small text-uppercase card-link-secondary" for="under25">Same Day Delivery</label>
+    </div>
+    <div class="form-check pl-0 mb-3">
+      <input type="radio" class="form-check-input" id="under25" name="materialExampleRadios">
+      <label class="form-check-label small text-uppercase card-link-secondary" for="under25">Shipping</label>
+    </div>
+
+    <section class="mb-4">
+
+      <h5 class="mb-4" style="border-bottom: 1px solid black;">More Filters:</h5>
+    </section>
+
+    <!-- Section: Condition -->
+    <section class="mb-4">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Brand
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div class="form-check pl-0 mb-3">
+              <input type="checkbox" class="form-check-input filled-in" id="new">
+              <label class="form-check-label small text-uppercase card-link-secondary" for="new">New</label>
+            </div>
+            <div class="form-check pl-0 mb-3">
+              <input type="checkbox" class="form-check-input filled-in" id="used">
+              <label class="form-check-label small text-uppercase card-link-secondary" for="used">Used</label>
+            </div>
+            <div class="form-check pl-0 mb-3">
+              <input type="checkbox" class="form-check-input filled-in" id="collectible">
+              <label class="form-check-label small text-uppercase card-link-secondary" for="collectible">Collectible</label>
+            </div>
+            <div class="form-check pl-0 mb-3 pb-1">
+              <input type="checkbox" class="form-check-input filled-in" id="renewed">
+              <label class="form-check-label small text-uppercase card-link-secondary" for="renewed">Renewed</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section: Condition -->
+
+    <!-- Section: Average -->
+    <section class="mb-4">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Avg. Rating
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <a href="#!">
+              <ul class="rating">
+                <li class="list-inline-item search-star">
+                  <i class="fas fa-star fa-sm text-primary"></i>
+                </li>
+                <li class="list-inline-item search-star">
+                  <i class="fas fa-star fa-sm text-primary"></i>
+                </li>
+                <li class="list-inline-item search-star">
+                  <i class="fas fa-star fa-sm text-primary"></i>
+                </li>
+                <li class="list-inline-item search-star">
+                  <i class="fas fa-star fa-sm text-primary"></i>
+                </li>
+                <li class="list-inline-item v">
+                  <i class="far fa-star fa-sm text-primary"></i>
+                </li>
+                <li class="list-inline-item search-star">
+                  <p class="small text-uppercase card-link-secondary px-2">& Up</p>
+                </li>
+              </ul>
+            </a>
+            <a href="#!">
+              <ul class="rating">
+                <li class="list-inline-item search-star">
+                  <i class="fas fa-star fa-sm text-primary"></i>
+                </li>
+                <li class="list-inline-item search-star">
+                  <i class="fas fa-star fa-sm text-primary"></i>
+                </li>
+                <li class="list-inline-item search-star">
+                  <i class="fas fa-star fa-sm text-primary"></i>
+                </li>
+                <li class="list-inline-item search-star">
+                  <i class="far fa-star fa-sm text-primary"></i>
+                </li>
+                <li class="list-inline-item search-star">
+                  <i class="far fa-star fa-sm text-primary"></i>
+                </li>
+                <li class="list-inline-item search-star">
+                  <p class="small text-uppercase card-link-secondary px-2">& Up</p>
+                </li>
+              </ul>
+            </a>
+            <a href="#!">
+              <ul class="rating">
+                <li class="list-inline-item search-star">
+                  <i class="fas fa-star fa-sm text-primary"></i>
+                </li>
+                <li class="list-inline-item search-star">
+                  <i class="fas fa-star fa-sm text-primary"></i>
+                </li>
+                <li class="list-inline-item search-star">
+                  <i class="far fa-star fa-sm text-primary"></i>
+                </li>
+                <li class="list-inline-item search-star">
+                  <i class="far fa-star fa-sm text-primary"></i>
+                </li>
+                <li class="list-inline-item search-star">
+                  <i class="far fa-star fa-sm text-primary"></i>
+                </li>
+                <li class="list-inline-item search-star">
+                  <p class="small text-uppercase card-link-secondary px-2">& Up</p>
+                </li>
+              </ul>
+            </a>
+            <a href="#!">
+              <ul class="rating">
+                <li class="list-inline-item search-star">
+                  <i class="fas fa-star fa-sm text-primary"></i>
+                </li>
+                <li class="list-inline-item search-star">
+                  <i class="far fa-star fa-sm text-primary"></i>
+                </li>
+                <li class="list-inline-item search-star">
+                  <i class="far fa-star fa-sm text-primary"></i>
+                </li>
+                <li class="list-inline-item search-star">
+                  <i class="far fa-star fa-sm text-primary"></i>
+                </li>
+                <li class="list-inline-item search-star">
+                  <i class="far fa-star fa-sm text-primary"></i>
+                </li>
+                <li class="list-inline-item search-star">
+                  <p class="small text-uppercase card-link-secondary px-2">& Up</p>
+                </li>
+              </ul>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section: Average -->
+
+    <!-- Section: Price -->
+    <section class="mb-4">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            Price
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div class="form-check pl-0 mb-3">
+              <input type="radio" class="form-check-input" id="under25" name="materialExampleRadios">
+              <label class="form-check-label small text-uppercase card-link-secondary" for="under25">Under $25</label>
+            </div>
+            <div class="form-check pl-0 mb-3">
+              <input type="radio" class="form-check-input" id="2550" name="materialExampleRadios">
+              <label class="form-check-label small text-uppercase card-link-secondary" for="2550">$25 to $50</label>
+            </div>
+            <div class="form-check pl-0 mb-3">
+              <input type="radio" class="form-check-input" id="50100" name="materialExampleRadios">
+              <label class="form-check-label small text-uppercase card-link-secondary" for="50100">$50 to $100</label>
+            </div>
+            <div class="form-check pl-0 mb-3">
+              <input type="radio" class="form-check-input" id="100200" name="materialExampleRadios">
+              <label class="form-check-label small text-uppercase card-link-secondary" for="100200">$100 to $200</label>
+            </div>
+            <div class="form-check pl-0 mb-3">
+              <input type="radio" class="form-check-input" id="200above" name="materialExampleRadios">
+              <label class="form-check-label small text-uppercase card-link-secondary" for="200above">$200 & Above</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section: Price -->
+    <!-- Section: Size -->
+    <section class="mb-4">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            Size
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div class="form-check pl-0 mb-3">
+              <input type="checkbox" class="form-check-input filled-in" id="34">
+              <label class="form-check-label small text-uppercase card-link-secondary" for="34">34</label>
+            </div>
+            <div class="form-check pl-0 mb-3">
+              <input type="checkbox" class="form-check-input filled-in" id="36">
+              <label class="form-check-label small text-uppercase card-link-secondary" for="36">36</label>
+            </div>
+            <div class="form-check pl-0 mb-3">
+              <input type="checkbox" class="form-check-input filled-in" id="38">
+              <label class="form-check-label small text-uppercase card-link-secondary" for="38">38</label>
+            </div>
+            <div class="form-check pl-0 mb-3">
+              <input type="checkbox" class="form-check-input filled-in" id="40">
+              <label class="form-check-label small text-uppercase card-link-secondary" for="40">40</label>
+            </div>
+            <a class="btn btn-link text-muted p-0" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+              More
+            </a>
+            <div class="collapse pt-3" id="collapseExample">
+              <div class="form-check pl-0 mb-3">
+                <input type="checkbox" class="form-check-input filled-in" id="42">
+                <label class="form-check-label small text-uppercase card-link-secondary" for="42">42</label>
+              </div>
+              <div class="form-check pl-0 mb-3">
+                <input type="checkbox" class="form-check-input filled-in" id="44">
+                <label class="form-check-label small text-uppercase card-link-secondary" for="44">44</label>
+              </div>
+              <div class="form-check pl-0 mb-3">
+                <input type="checkbox" class="form-check-input filled-in" id="46">
+                <label class="form-check-label small text-uppercase card-link-secondary" for="46">46</label>
+              </div>
+              <div class="form-check pl-0 mb-3">
+                <input type="checkbox" class="form-check-input filled-in" id="50">
+                <label class="form-check-label small text-uppercase card-link-secondary" for="50">50</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section: Size -->
+
+    <!-- Section: Color -->
+    <section class="mb-4">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSix">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            Color
+          </button>
+        </h2>
+        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+          <div class="btn-group btn-group-toggle btn-color-group d-block mt-n2 ml-n2" data-toggle="buttons">
+            <label class="btn rounded-circle white border-inset-grey p-3 m-2">
+              <input type="checkbox" autocomplete="off">
+            </label>
+            <label class="btn rounded-circle grey p-3 m-2">
+              <input type="checkbox" autocomplete="off">
+            </label>
+            <label class="btn rounded-circle black p-3 m-2">
+              <input type="checkbox" autocomplete="off">
+            </label>
+            <label class="btn rounded-circle green p-3 m-2">
+              <input type="checkbox" autocomplete="off">
+            </label>
+            <label class="btn rounded-circle blue p-3 m-2">
+              <input type="checkbox" autocomplete="off">
+            </label>
+            <label class="btn rounded-circle purple p-3 m-2">
+              <input type="checkbox" autocomplete="off">
+            </label>
+            <label class="btn rounded-circle yellow p-3 m-2">
+              <input type="checkbox" autocomplete="off">
+            </label>
+            <label class="btn rounded-circle indigo p-3 m-2">
+              <input type="checkbox" checked autocomplete="off">
+            </label>
+            <label class="btn rounded-circle red p-3 m-2">
+              <input type="checkbox" autocomplete="off">
+            </label>
+            <label class="btn rounded-circle orange p-3 m-2">
+              <input type="checkbox" autocomplete="off">
+            </label>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- Section: Color -->
+  </div>
+  </section>
+  <!-- Section: Filters -->
+
+
+<!-- Section: Sidebar -->
         
     </div>
-<!---------------Search Results----------->
-    <div class="col-8">
+    <!---------------Search Results----------->
+    <div class="col-10">
       <div class="row">
         <div class="col">
           <h3>Results for "taco shells"</h3>
         </div>
         <div class="col"></div>
         <div class="col">
-            <div class="dropdown">
+          <ul>
+            <li class="list-inline-item">
+              <div class="dropdown">
               <a class="btn btn-outline-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown link
+                Featured Items
               </a>
-            
+
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                 <li><a class="dropdown-item" href="#">Action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
             </div>
+            </li>
+            <li class="list-inline-item">
             <div class="dropdown">
               <a class="btn btn-outline-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown link
+                Price
               </a>
             
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#">
+                  <div class="form-check pl-0 mb-3">
+                    <input type="radio" class="form-check-input" id="under25" name="materialExampleRadios">
+                    <label class="form-check-label small text-uppercase card-link-secondary" for="under25">Under $25</label>
+                  </div>
+                </a></li>
+                <li><a class="dropdown-item" href="#">
+                  <div class="form-check pl-0 mb-3">
+                    <input type="radio" class="form-check-input" id="2550" name="materialExampleRadios">
+                    <label class="form-check-label small text-uppercase card-link-secondary" for="2550">$25 to $50</label>
+                  </div>
+                </a></li>
+                <li><a class="dropdown-item" href="#">
+                  <div class="form-check pl-0 mb-3">
+                    <input type="radio" class="form-check-input" id="50100" name="materialExampleRadios">
+                    <label class="form-check-label small text-uppercase card-link-secondary" for="50100">$50 to $100</label>
+                  </div>
+                </a></li>
+                <li><a class="dropdown-item" href="#">
+                  <div class="form-check pl-0 mb-3">
+                    <input type="radio" class="form-check-input" id="50100" name="materialExampleRadios">
+                    <label class="form-check-label small text-uppercase card-link-secondary" for="50100">$100 to $200</label>
+                  </div>
+                </a></li>
+                <li><a class="dropdown-item" href="#">
+                  <div class="form-check pl-0 mb-3">
+                    <input type="radio" class="form-check-input" id="50100" name="materialExampleRadios">
+                    <label class="form-check-label small text-uppercase card-link-secondary" for="50100">$200 & Above</label>
+                  </div>
+                </a></li>
               </ul>
             </div>
-          </div>
+            </li>
+            </ul>
+        </div>
+      </div>
+      <div class="row">
+        <ul>
+          <li class="list-inline-item"><h5>Related</h5>
+          <li class="list-inline-item">
+            <div class="gap-2 mx-auto">
+              <a href="#" class="btn btn-primary relate-btn" role="button" aria-pressed="true">Delivery</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="btn btn-primary relate-btn" role="button" aria-pressed="true">Delivery</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="btn btn-primary relate-btn" role="button" aria-pressed="true">Delivery</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="btn btn-primary relate-btn" role="button" aria-pressed="true">Delivery</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="btn btn-primary relate-btn" role="button" aria-pressed="true">Delivery</a>
+          </li>
+        </ul>
       </div>
       <!--Product Listings row-->
-      <div class="row">
+      <div class="row row-cols-1 row-cols-md-3 g-4 my-2">
         <!--Product Card-->
-        <div class="col col-sm-12">
-          <div class="card h-100 productCard">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
+        <div class="col">
+          <div class="shadow-sm card h-100 srchCard">
+            <img src="../images/dress_sr1.jpg" class="card-img-top p-3" alt="dress 3">
+            <div class="card-body mt-0 pt-0">
               <div class="row">
                 <h6 class="card-title d-flex justify-content-start col-10">Flirty Little White Dress </h6>
                 <div class="d-flex justify-content-end col-2"><i class="far fa-heart"></i></div>
               </div>
               <h4 class="d-flex justify-content-start mt-3 card-title tw-bold">$44.20</h5>
-              <p class="prodTiny card-text">Eligible for Pick-up in your store </p>
-              <div class="row">
-                <div class="row col-5">
-                  <ul class="rating list-inline d-flex align-items-center">
+              <p class="prodTiny card-text mt-5">Eligible for Pick-up in your store </p>
+              <div class=“row”>
+                <div class=“col”>
+                  <ul class="rating list-inline d-flex align-items-center justify-content-between mb-0">
                     <li class="list-inline-item me-0">
                       <i class="rating1 fas fa-star fa-xs text-primary"></i>
                     </li>
@@ -192,13 +553,13 @@
                     <li class="list-inline-item me-0">
                       <i class="far fa-star fa-xs text-primary"></i>
                     </li>
+                    <li class="list-inline-item mx-3">
+                      <h6 class="prodTiny">4</h6>
+                    </li>
+                    <li class="list-inline-item d-flex justify-content-end">
+                      <button type="button" class="btn btn-sm btn-outline-dark text-nowrap fa-xs">Add to Cart</button>
+                    </li>
                   </ul>
-                  <div class="col-1">
-                    <div class="prodTiny">4</div>
-                  </div>
-                  <div class="col">
-                    <a href="#" class="btn btn-outline-secondary btn-sm" tabindex="-1" role="button" aria-disabled="true">Add to Cart</a>
-                  </div>
                 </div>
               </div>
             </div>
@@ -206,19 +567,19 @@
         </div>
         <!--Product Card End-->
         <!--Product Card-->
-        <div class="col col-sm-12">
-          <div class="card h-100 productCard">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
+        <div class="col">
+          <div class="shadow-sm card h-100 srchCard">
+            <img src="../images/dress_sr2.jpg" class="card-img-top p-3" alt="dress 3">
+            <div class="card-body mt-0 pt-0">
               <div class="row">
                 <h6 class="card-title d-flex justify-content-start col-10">Flirty Little White Dress </h6>
                 <div class="d-flex justify-content-end col-2"><i class="far fa-heart"></i></div>
               </div>
               <h4 class="d-flex justify-content-start mt-3 card-title tw-bold">$44.20</h5>
-              <p class="prodTiny card-text">Eligible for Pick-up in your store </p>
-              <div class="row">
-                <div class="row col-5">
-                  <ul class="rating list-inline d-flex align-items-center">
+              <p class="prodTiny card-text mt-5">Eligible for Pick-up in your store </p>
+              <div class=“row”>
+                <div class=“col”>
+                  <ul class="rating list-inline d-flex align-items-center justify-content-between mb-0">
                     <li class="list-inline-item me-0">
                       <i class="rating1 fas fa-star fa-xs text-primary"></i>
                     </li>
@@ -234,13 +595,13 @@
                     <li class="list-inline-item me-0">
                       <i class="far fa-star fa-xs text-primary"></i>
                     </li>
+                    <li class="list-inline-item mx-3">
+                      <h6 class="prodTiny">4</h6>
+                    </li>
+                    <li class="list-inline-item d-flex justify-content-end">
+                      <button type="button" class="btn btn-sm btn-outline-dark text-nowrap fa-xs">Add to Cart</button>
+                    </li>
                   </ul>
-                  <div class="col-1">
-                    <div class="prodTiny">4</div>
-                  </div>
-                  <div class="col">
-                    <a href="#" class="btn btn-outline-secondary btn-sm" tabindex="-1" role="button" aria-disabled="true">Add to Cart</a>
-                  </div>
                 </div>
               </div>
             </div>
@@ -248,19 +609,19 @@
         </div>
         <!--Product Card End-->
         <!--Product Card-->
-        <div class="col col-sm-12">
-          <div class="card h-100 productCard">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
+        <div class="col">
+          <div class="shadow-sm card h-100 srchCard">
+            <img src="../images/dress_sr3.jpeg" class="card-img-top p-3" alt="dress 3">
+            <div class="card-body mt-0 pt-0">
               <div class="row">
                 <h6 class="card-title d-flex justify-content-start col-10">Flirty Little White Dress </h6>
                 <div class="d-flex justify-content-end col-2"><i class="far fa-heart"></i></div>
               </div>
               <h4 class="d-flex justify-content-start mt-3 card-title tw-bold">$44.20</h5>
-              <p class="prodTiny card-text">Eligible for Pick-up in your store </p>
-              <div class="row">
-                <div class="row col-5">
-                  <ul class="rating list-inline d-flex align-items-center">
+              <p class="prodTiny card-text mt-5">Eligible for Pick-up in your store </p>
+              <div class=“row”>
+                <div class=“col”>
+                  <ul class="rating list-inline d-flex align-items-center justify-content-between mb-0">
                     <li class="list-inline-item me-0">
                       <i class="rating1 fas fa-star fa-xs text-primary"></i>
                     </li>
@@ -276,13 +637,13 @@
                     <li class="list-inline-item me-0">
                       <i class="far fa-star fa-xs text-primary"></i>
                     </li>
+                    <li class="list-inline-item mx-3">
+                      <h6 class="prodTiny">4</h6>
+                    </li>
+                    <li class="list-inline-item d-flex justify-content-end">
+                      <button type="button" class="btn btn-sm btn-outline-dark text-nowrap fa-xs">Add to Cart</button>
+                    </li>
                   </ul>
-                  <div class="col-1">
-                    <div class="prodTiny">4</div>
-                  </div>
-                  <div class="col">
-                    <a href="#" class="btn btn-outline-secondary btn-sm" tabindex="-1" role="button" aria-disabled="true">Add to Cart</a>
-                  </div>
                 </div>
               </div>
             </div>
@@ -292,21 +653,21 @@
       </div>
       <!--Card Row End-->
       <!--Product Listings row-->
-      <div class="row">
+      <div class="row row-cols-1 row-cols-md-3 g-4 my-2">
         <!--Product Card-->
-        <div class="col col-sm-12">
-          <div class="card h-100 productCard">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
+        <div class="col">
+          <div class="shadow-sm card h-100 srchCard">
+            <img src="../images/dress_sr4.jpeg" class="card-img-top p-3" alt="dress 3">
+            <div class="card-body mt-0 pt-0">
               <div class="row">
                 <h6 class="card-title d-flex justify-content-start col-10">Flirty Little White Dress </h6>
                 <div class="d-flex justify-content-end col-2"><i class="far fa-heart"></i></div>
               </div>
               <h4 class="d-flex justify-content-start mt-3 card-title tw-bold">$44.20</h5>
-              <p class="prodTiny card-text">Eligible for Pick-up in your store </p>
-              <div class="row">
-                <div class="row col-5">
-                  <ul class="rating list-inline d-flex align-items-center">
+              <p class="prodTiny card-text mt-5">Eligible for Pick-up in your store </p>
+              <div class=“row”>
+                <div class=“col”>
+                  <ul class="rating list-inline d-flex align-items-center justify-content-between mb-0">
                     <li class="list-inline-item me-0">
                       <i class="rating1 fas fa-star fa-xs text-primary"></i>
                     </li>
@@ -322,13 +683,13 @@
                     <li class="list-inline-item me-0">
                       <i class="far fa-star fa-xs text-primary"></i>
                     </li>
+                    <li class="list-inline-item mx-3">
+                      <h6 class="prodTiny">4</h6>
+                    </li>
+                    <li class="list-inline-item d-flex justify-content-end">
+                      <button type="button" class="btn btn-sm btn-outline-dark text-nowrap fa-xs">Add to Cart</button>
+                    </li>
                   </ul>
-                  <div class="col-1">
-                    <div class="prodTiny">4</div>
-                  </div>
-                  <div class="col">
-                    <a href="#" class="btn btn-outline-secondary btn-sm" tabindex="-1" role="button" aria-disabled="true">Add to Cart</a>
-                  </div>
                 </div>
               </div>
             </div>
@@ -336,19 +697,19 @@
         </div>
         <!--Product Card End-->
         <!--Product Card-->
-        <div class="col col-sm-12">
-          <div class="card h-100 productCard">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
+        <div class="col">
+          <div class="shadow-sm card h-100 srchCard">
+            <img src="../images/dress_sr5.jpeg" class="card-img-top p-3" alt="dress 3">
+            <div class="card-body mt-0 pt-0">
               <div class="row">
                 <h6 class="card-title d-flex justify-content-start col-10">Flirty Little White Dress </h6>
                 <div class="d-flex justify-content-end col-2"><i class="far fa-heart"></i></div>
               </div>
               <h4 class="d-flex justify-content-start mt-3 card-title tw-bold">$44.20</h5>
-              <p class="prodTiny card-text">Eligible for Pick-up in your store </p>
-              <div class="row">
-                <div class="row col-5">
-                  <ul class="rating list-inline d-flex align-items-center">
+              <p class="prodTiny card-text mt-5">Eligible for Pick-up in your store </p>
+              <div class=“row”>
+                <div class=“col”>
+                  <ul class="rating list-inline d-flex align-items-center justify-content-between mb-0">
                     <li class="list-inline-item me-0">
                       <i class="rating1 fas fa-star fa-xs text-primary"></i>
                     </li>
@@ -364,13 +725,13 @@
                     <li class="list-inline-item me-0">
                       <i class="far fa-star fa-xs text-primary"></i>
                     </li>
+                    <li class="list-inline-item mx-3">
+                      <h6 class="prodTiny">4</h6>
+                    </li>
+                    <li class="list-inline-item d-flex justify-content-end">
+                      <button type="button" class="btn btn-sm btn-outline-dark text-nowrap fa-xs">Add to Cart</button>
+                    </li>
                   </ul>
-                  <div class="col-1">
-                    <div class="prodTiny">4</div>
-                  </div>
-                  <div class="col">
-                    <a href="#" class="btn btn-outline-secondary btn-sm" tabindex="-1" role="button" aria-disabled="true">Add to Cart</a>
-                  </div>
                 </div>
               </div>
             </div>
@@ -378,19 +739,19 @@
         </div>
         <!--Product Card End-->
         <!--Product Card-->
-        <div class="col col-sm-12">
-          <div class="card h-100 productCard">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
+        <div class="col">
+          <div class="shadow-sm card h-100 srchCard">
+            <img src="../images/dress_sr6.jpeg" class="card-img-top p-3" alt="dress 3">
+            <div class="card-body mt-0 pt-0">
               <div class="row">
                 <h6 class="card-title d-flex justify-content-start col-10">Flirty Little White Dress </h6>
                 <div class="d-flex justify-content-end col-2"><i class="far fa-heart"></i></div>
               </div>
               <h4 class="d-flex justify-content-start mt-3 card-title tw-bold">$44.20</h5>
-              <p class="prodTiny card-text">Eligible for Pick-up in your store </p>
-              <div class="row">
-                <div class="row col-5">
-                  <ul class="rating list-inline d-flex align-items-center">
+              <p class="prodTiny card-text mt-5">Eligible for Pick-up in your store </p>
+              <div class=“row”>
+                <div class=“col”>
+                  <ul class="rating list-inline d-flex align-items-center justify-content-between mb-0">
                     <li class="list-inline-item me-0">
                       <i class="rating1 fas fa-star fa-xs text-primary"></i>
                     </li>
@@ -406,35 +767,180 @@
                     <li class="list-inline-item me-0">
                       <i class="far fa-star fa-xs text-primary"></i>
                     </li>
+                    <li class="list-inline-item mx-3">
+                      <h6 class="prodTiny">4</h6>
+                    </li>
+                    <li class="list-inline-item d-flex justify-content-end">
+                      <button type="button" class="btn btn-sm btn-outline-dark text-nowrap fa-xs">Add to Cart</button>
+                    </li>
                   </ul>
-                  <div class="col-1">
-                    <div class="prodTiny">4</div>
-                  </div>
-                  <div class="col">
-                    <a href="#" class="btn btn-outline-secondary btn-sm" tabindex="-1" role="button" aria-disabled="true">Add to Cart</a>
-                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <!--Product Card End-->
+      </div>
+      <!--Card Row End-->
+      <!--Product Listings row-->
+      <div class="row row-cols-1 row-cols-md-3 g-4 my-2">
+        <!--Product Card-->
+        <div class="col">
+          <div class="shadow-sm card h-100 srchCard">
+            <img src=“./images/dress_bt1.jpg” class="card-img-top p-3" alt="dress 3">
+            <div class="card-body mt-0 pt-0">
+              <div class="row">
+                <h6 class="card-title d-flex justify-content-start col-10">Flirty Little White Dress </h6>
+                <div class="d-flex justify-content-end col-2"><i class="far fa-heart"></i></div>
+              </div>
+              <h4 class="d-flex justify-content-start mt-3 card-title tw-bold">$44.20</h5>
+              <p class="prodTiny card-text mt-5">Eligible for Pick-up in your store </p>
+              <div class=“row”>
+                <div class=“col”>
+                  <ul class="rating list-inline d-flex align-items-center justify-content-between mb-0">
+                    <li class="list-inline-item me-0">
+                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
+                    </li>
+                    <li class="list-inline-item me-0">
+                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
+                    </li>
+                    <li class="list-inline-item me-0">
+                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
+                    </li>
+                    <li class="list-inline-item me-0">
+                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
+                    </li>
+                    <li class="list-inline-item me-0">
+                      <i class="far fa-star fa-xs text-primary"></i>
+                    </li>
+                    <li class="list-inline-item mx-3">
+                      <h6 class="prodTiny">4</h6>
+                    </li>
+                    <li class="list-inline-item d-flex justify-content-end">
+                      <button type="button" class="btn btn-sm btn-outline-dark text-nowrap fa-xs">Add to Cart</button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Product Card End-->
+        <!--Product Card-->
+        <div class="col">
+          <div class="shadow-sm card h-100 srchCard">
+            <img src=“./images/dress_bt1.jpg” class="card-img-top p-3" alt="dress 3">
+            <div class="card-body mt-0 pt-0">
+              <div class="row">
+                <h6 class="card-title d-flex justify-content-start col-10">Flirty Little White Dress </h6>
+                <div class="d-flex justify-content-end col-2"><i class="far fa-heart"></i></div>
+              </div>
+              <h4 class="d-flex justify-content-start mt-3 card-title tw-bold">$44.20</h5>
+              <p class="prodTiny card-text mt-5">Eligible for Pick-up in your store </p>
+              <div class=“row”>
+                <div class=“col”>
+                  <ul class="rating list-inline d-flex align-items-center justify-content-between mb-0">
+                    <li class="list-inline-item me-0">
+                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
+                    </li>
+                    <li class="list-inline-item me-0">
+                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
+                    </li>
+                    <li class="list-inline-item me-0">
+                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
+                    </li>
+                    <li class="list-inline-item me-0">
+                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
+                    </li>
+                    <li class="list-inline-item me-0">
+                      <i class="far fa-star fa-xs text-primary"></i>
+                    </li>
+                    <li class="list-inline-item mx-3">
+                      <h6 class="prodTiny">4</h6>
+                    </li>
+                    <li class="list-inline-item d-flex justify-content-end">
+                      <button type="button" class="btn btn-sm btn-outline-dark text-nowrap fa-xs">Add to Cart</button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Product Card End-->
+        <!--Product Card-->
+        <div class="col">
+          <div class="shadow-sm card h-100 srchCard">
+            <img src=“./images/dress_bt1.jpg” class="card-img-top p-3" alt="dress 3">
+            <div class="card-body mt-0 pt-0">
+              <div class="row">
+                <h6 class="card-title d-flex justify-content-start col-10">Flirty Little White Dress </h6>
+                <div class="d-flex justify-content-end col-2"><i class="far fa-heart"></i></div>
+              </div>
+              <h4 class="d-flex justify-content-start mt-3 card-title tw-bold">$44.20</h5>
+              <p class="prodTiny card-text mt-5">Eligible for Pick-up in your store </p>
+              <div class=“row”>
+                <div class=“col”>
+                  <ul class="rating list-inline d-flex align-items-center justify-content-between mb-0">
+                    <li class="list-inline-item me-0">
+                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
+                    </li>
+                    <li class="list-inline-item me-0">
+                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
+                    </li>
+                    <li class="list-inline-item me-0">
+                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
+                    </li>
+                    <li class="list-inline-item me-0">
+                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
+                    </li>
+                    <li class="list-inline-item me-0">
+                      <i class="far fa-star fa-xs text-primary"></i>
+                    </li>
+                    <li class="list-inline-item mx-3">
+                      <h6 class="prodTiny">4</h6>
+                    </li>
+                    <li class="list-inline-item d-flex justify-content-end">
+                      <button type="button" class="btn btn-sm btn-outline-dark text-nowrap fa-xs">Add to Cart</button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Product Card End-->
+        <div class="row">
+          <nav aria-label="Page navigation" class="mx-auto">
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
       <!--Card Row End-->
     </div>
-    
-</div>
-<!--Product Search row end-->
+    </div>
+    </div>
+    <!----Product Search row end-->
   </div>
-</div>
-  <!--Side Navigation-->            
-<!--Common Filters--> 
-<!--More Filters-->
-<!--Related Searches-->
-<!--Search Results-->
+</section>
 <!--Commonly bought together-->
 <!--Collection Banner-->
 <!--Footer-->
+<section>
 <div class="footer-area footer-padding">
   <div class="container">
       <div class="row d-flex justify-content-between" id="topFooter">
@@ -524,6 +1030,7 @@
       </div>
     </div>
 </div>
+</section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>

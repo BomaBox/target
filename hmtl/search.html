@@ -92,7 +92,7 @@
   <div class="container-fluid">
     <div class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-        Dropdown link
+        Download the Target App
       </a>
       <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
         <li><a class="dropdown-item" href="#">Action</a></li>
@@ -112,35 +112,49 @@
     </div>
   </div>
 </section>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <nav aria-label="breadcrumb">
+<div class="crumbsContain container-fluid"> 
+  <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="#">Home</a></li>
-        <li class="breadcrumb-item"><a href="#">Library</a></li>
-        <li class="breadcrumb-item active" aria-current="page"><a href="#">Data</a></li>
+        <li class="tinyCrumb breadcrumb-item"><a href="#">Home</a></li>
+        <li class="tinyCrumb breadcrumb-item"><a href="#">Clothing</a></li>
+        <li class="tinyCrumb breadcrumb-item active" aria-current="page">Dresses</li>
       </ol>
     </nav>
   </div>
-</nav> 
 <!--Search Results Controls-->
 <section>
 <div class="container-fluid">
   <div class="row">
-    <div class="col-2">
-      <!-- Section: Sidebar -->
+    <div class="col-md-2">
+      
+        <!-- Section: Sidebar -->
     <!-- Section: Filters -->
-  <section>
-
-    <h5 class="mb-4">Filter By:</h5>
+    <section class="expand-lg">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#filterSupportedContent" aria-controls="filterSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-filter"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="filterSupportedContent">
+    <h3 class="mb-4">Filter By:</h3>
+    <div class="form-check pl-0 mb-3">
+      <input type="radio" class="form-check-input" id="under25" name="materialExampleRadios">
+      <label class="form-check-label small text-uppercase card-link-secondary" for="under25">Available in-store</label>
+    </div>
+    <div class="form-check pl-0 mb-3">
+      <input type="radio" class="form-check-input" id="under25" name="materialExampleRadios">
+      <label class="form-check-label small text-uppercase card-link-secondary" for="under25">Available for Pick-up</label>
+    </div>
+    <div class="form-check pl-0 mb-3">
+      <input type="radio" class="form-check-input" id="under25" name="materialExampleRadios">
+      <label class="form-check-label small text-uppercase card-link-secondary" for="under25">Same Day Delivery</label>
+    </div>
+    <div class="form-check pl-0 mb-3">
+      <input type="radio" class="form-check-input" id="under25" name="materialExampleRadios">
+      <label class="form-check-label small text-uppercase card-link-secondary" for="under25">Shipping</label>
+    </div>
 
     <section class="mb-4">
 
-      <div class="md-form md-outline mt-0 d-flex justify-content-between align-items-center">
-        <input type="text" id="search12" class="form-control mb-0" placeholder="Search...">
-        <a href="#!" class="btn btn-flat btn-md px-3 waves-effect"><i class="fas fa-search fa-lg"></i></a>
-      </div>
-
+      <h5 class="mb-4" style="border-bottom: 1px solid black;">More Filters:</h5>
     </section>
 
     <!-- Section: Condition -->
@@ -309,19 +323,6 @@
               <input type="radio" class="form-check-input" id="200above" name="materialExampleRadios">
               <label class="form-check-label small text-uppercase card-link-secondary" for="200above">$200 & Above</label>
             </div>
-            <form>
-              <div class="d-flex align-items-center mt-4 pb-1">
-                <div class="md-form md-outline my-0">
-                  <input id="from" type="text" class="form-control mb-0">
-                  <label for="form">$ Min</label>
-                </div>
-                <p class="px-2 mb-0 text-muted"> - </p>
-                <div class="md-form md-outline my-0">
-                  <input id="to" type="text" class="form-control mb-0">
-                  <label for="to">$ Max</label>
-                </div>
-              </div>
-            </form>
           </div>
         </div>
       </div>
@@ -427,7 +428,7 @@
 
     </section>
     <!-- Section: Color -->
-
+  </div>
   </section>
   <!-- Section: Filters -->
 
@@ -443,36 +444,90 @@
         </div>
         <div class="col"></div>
         <div class="col">
-            <div class="dropdown">
+          <ul>
+            <li class="list-inline-item">
+              <div class="dropdown">
               <a class="btn btn-outline-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown link
+                Featured Items
               </a>
-            
+
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                 <li><a class="dropdown-item" href="#">Action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
             </div>
+            </li>
+            <li class="list-inline-item">
             <div class="dropdown">
               <a class="btn btn-outline-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown link
+                Price
               </a>
             
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#">
+                  <div class="form-check pl-0 mb-3">
+                    <input type="radio" class="form-check-input" id="under25" name="materialExampleRadios">
+                    <label class="form-check-label small text-uppercase card-link-secondary" for="under25">Under $25</label>
+                  </div>
+                </a></li>
+                <li><a class="dropdown-item" href="#">
+                  <div class="form-check pl-0 mb-3">
+                    <input type="radio" class="form-check-input" id="2550" name="materialExampleRadios">
+                    <label class="form-check-label small text-uppercase card-link-secondary" for="2550">$25 to $50</label>
+                  </div>
+                </a></li>
+                <li><a class="dropdown-item" href="#">
+                  <div class="form-check pl-0 mb-3">
+                    <input type="radio" class="form-check-input" id="50100" name="materialExampleRadios">
+                    <label class="form-check-label small text-uppercase card-link-secondary" for="50100">$50 to $100</label>
+                  </div>
+                </a></li>
+                <li><a class="dropdown-item" href="#">
+                  <div class="form-check pl-0 mb-3">
+                    <input type="radio" class="form-check-input" id="50100" name="materialExampleRadios">
+                    <label class="form-check-label small text-uppercase card-link-secondary" for="50100">$100 to $200</label>
+                  </div>
+                </a></li>
+                <li><a class="dropdown-item" href="#">
+                  <div class="form-check pl-0 mb-3">
+                    <input type="radio" class="form-check-input" id="50100" name="materialExampleRadios">
+                    <label class="form-check-label small text-uppercase card-link-secondary" for="50100">$200 & Above</label>
+                  </div>
+                </a></li>
               </ul>
             </div>
-          </div>
+            </li>
+            </ul>
+        </div>
+      </div>
+      <div class="row">
+        <ul>
+          <li class="list-inline-item"><h5>Related</h5>
+          <li class="list-inline-item">
+            <div class="gap-2 mx-auto">
+              <a href="#" class="btn btn-primary relate-btn" role="button" aria-pressed="true">Delivery</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="btn btn-primary relate-btn" role="button" aria-pressed="true">Delivery</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="btn btn-primary relate-btn" role="button" aria-pressed="true">Delivery</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="btn btn-primary relate-btn" role="button" aria-pressed="true">Delivery</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="btn btn-primary relate-btn" role="button" aria-pressed="true">Delivery</a>
+          </li>
+        </ul>
       </div>
       <!--Product Listings row-->
-      <div class="row">
+      <div class="row row-cols-1 row-cols-md-3 g-4 my-2">
         <!--Product Card-->
         <div class="col">
-          <div class="shadow-sm card h-100">
-            <img src=“./images/dress_bt1.jpg” class="card-img-top p-3" alt="dress 3">
+          <div class="shadow-sm card h-100 srchCard">
+            <img src="../images/dress_sr1.jpg" class="card-img-top p-3" alt="dress 3">
             <div class="card-body mt-0 pt-0">
               <div class="row">
                 <h6 class="card-title d-flex justify-content-start col-10">Flirty Little White Dress </h6>
@@ -513,8 +568,8 @@
         <!--Product Card End-->
         <!--Product Card-->
         <div class="col">
-          <div class="shadow-sm card h-100">
-            <img src=“./images/dress_bt1.jpg” class="card-img-top p-3" alt="dress 3">
+          <div class="shadow-sm card h-100 srchCard">
+            <img src="../images/dress_sr2.jpg" class="card-img-top p-3" alt="dress 3">
             <div class="card-body mt-0 pt-0">
               <div class="row">
                 <h6 class="card-title d-flex justify-content-start col-10">Flirty Little White Dress </h6>
@@ -555,8 +610,8 @@
         <!--Product Card End-->
         <!--Product Card-->
         <div class="col">
-          <div class="shadow-sm card h-100">
-            <img src=“./images/dress_bt1.jpg” class="card-img-top p-3" alt="dress 3">
+          <div class="shadow-sm card h-100 srchCard">
+            <img src="../images/dress_sr3.jpeg" class="card-img-top p-3" alt="dress 3">
             <div class="card-body mt-0 pt-0">
               <div class="row">
                 <h6 class="card-title d-flex justify-content-start col-10">Flirty Little White Dress </h6>
@@ -598,11 +653,11 @@
       </div>
       <!--Card Row End-->
       <!--Product Listings row-->
-      <div class="row">
+      <div class="row row-cols-1 row-cols-md-3 g-4 my-2">
         <!--Product Card-->
         <div class="col">
-          <div class="shadow-sm card h-100">
-            <img src=“./images/dress_bt1.jpg” class="card-img-top p-3" alt="dress 3">
+          <div class="shadow-sm card h-100 srchCard">
+            <img src="../images/dress_sr4.jpeg" class="card-img-top p-3" alt="dress 3">
             <div class="card-body mt-0 pt-0">
               <div class="row">
                 <h6 class="card-title d-flex justify-content-start col-10">Flirty Little White Dress </h6>
@@ -643,8 +698,8 @@
         <!--Product Card End-->
         <!--Product Card-->
         <div class="col">
-          <div class="shadow-sm card h-100">
-            <img src=“./images/dress_bt1.jpg” class="card-img-top p-3" alt="dress 3">
+          <div class="shadow-sm card h-100 srchCard">
+            <img src="../images/dress_sr5.jpeg" class="card-img-top p-3" alt="dress 3">
             <div class="card-body mt-0 pt-0">
               <div class="row">
                 <h6 class="card-title d-flex justify-content-start col-10">Flirty Little White Dress </h6>
@@ -685,8 +740,8 @@
         <!--Product Card End-->
         <!--Product Card-->
         <div class="col">
-          <div class="shadow-sm card h-100">
-            <img src=“./images/dress_bt1.jpg” class="card-img-top p-3" alt="dress 3">
+          <div class="shadow-sm card h-100 srchCard">
+            <img src="../images/dress_sr6.jpeg" class="card-img-top p-3" alt="dress 3">
             <div class="card-body mt-0 pt-0">
               <div class="row">
                 <h6 class="card-title d-flex justify-content-start col-10">Flirty Little White Dress </h6>
@@ -728,10 +783,10 @@
       </div>
       <!--Card Row End-->
       <!--Product Listings row-->
-      <div class="row">
+      <div class="row row-cols-1 row-cols-md-3 g-4 my-2">
         <!--Product Card-->
         <div class="col">
-          <div class="shadow-sm card h-100">
+          <div class="shadow-sm card h-100 srchCard">
             <img src=“./images/dress_bt1.jpg” class="card-img-top p-3" alt="dress 3">
             <div class="card-body mt-0 pt-0">
               <div class="row">
@@ -773,7 +828,7 @@
         <!--Product Card End-->
         <!--Product Card-->
         <div class="col">
-          <div class="shadow-sm card h-100">
+          <div class="shadow-sm card h-100 srchCard">
             <img src=“./images/dress_bt1.jpg” class="card-img-top p-3" alt="dress 3">
             <div class="card-body mt-0 pt-0">
               <div class="row">
@@ -815,7 +870,7 @@
         <!--Product Card End-->
         <!--Product Card-->
         <div class="col">
-          <div class="shadow-sm card h-100">
+          <div class="shadow-sm card h-100 srchCard">
             <img src=“./images/dress_bt1.jpg” class="card-img-top p-3" alt="dress 3">
             <div class="card-body mt-0 pt-0">
               <div class="row">
@@ -855,8 +910,28 @@
           </div>
         </div>
         <!--Product Card End-->
+        <div class="row">
+          <nav aria-label="Page navigation" class="mx-auto">
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
       <!--Card Row End-->
+    </div>
     </div>
     </div>
     <!----Product Search row end-->

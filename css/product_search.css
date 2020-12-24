@@ -44,6 +44,10 @@
     border-radius: 0 !important;
 }
 
+.relate-btn {
+    border-radius: 30px !important;
+    background-color: gray !important;
+}
 /*---------------------Circle Card section--------------------------*/
 #circleCard {
     height: 74px;
@@ -78,6 +82,7 @@
 .productCard {
     margin: 20px 10px 20px 10px;
 }
+
 /*------------------------Footer code-------------------*/
 .footer-area {
     background-color: #c8102e !important;

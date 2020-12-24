@@ -1,6 +1,22 @@
+/*Header Code*/
+.customNav {
+    background-color: #c8102e !important;
+}
+
+.dropdown-item {
+    color: white !important;
+}
+#accountIcon {
+    padding: 8px;
+}
+.form-control {
+    border-radius: 30px !important;
+    width: 620px;
+}
 .tinyCrumb {
     font-size: 10px !important;
 }
+/*Hero Code*/
 
 .crumbsContain {
     margin-left: 5%;
@@ -64,7 +80,7 @@
 
 
 .targetPrimarybtn {
-    background-color: #cc0202 !important;
+    background-color: #c8102e !important;
 }
 
 .btn-primary {

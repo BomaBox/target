@@ -24,3 +24,4 @@ $(document).ready(function(){
         $("#featuredHouseDealsCarousel").carousel("next");
     });
 });
+

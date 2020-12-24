@@ -11,6 +11,55 @@
     width: 620px;
 }
 
+.srchBar{
+    position: relative;
+}
+
+.srchIcon {
+    position: absolute;
+    right: 5%;
+
+}
+
+@media only screen and (min-width:768px) {
+    .collapse.dont-collapse-sm{
+        display: block;
+        height: auto !important;
+        visibility: visible;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .filterIcon{
+        visibility: hidden;
+    }
+}
+/*-----Filter Options-------*/
+
+.colorBox1 {
+    width: 36px;
+    height: 24px;
+    background: #558499;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+}
+
+.colorBox2 {
+    width: 36px;
+    height: 24px;
+    background: #DC3F3A;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+}
+
+.colorBox3  {
+    width: 36px;
+    height: 24px;
+    background: #FCC9AD;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+}
+
 /*-------Button Customization Code---------*/
 .btn-primary {
     background-color: #CC0202 !important;
@@ -76,10 +125,44 @@
     list-style-type: none !important;
 }
 /*----------------Product Card Styling-------------------*/
-.productCard {
-    margin: 20px 10px 20px 10px;
+.srchCard {
+   max-width:260px;
+    max-height: auto;
 }
 
+.imgContain {
+    position: relative;
+    width: 100%;
+    max-width: 260px;
+}
+
+.productPic {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.productPic:hover {
+    cursor: pointer;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .imgContain:hover .overlay{
+    opacity: 100%;
+}
 /*------------------------Footer code-------------------*/
 .footer-area {
     background-color: #c8102e !important;

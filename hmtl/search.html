@@ -55,9 +55,12 @@
             </ul>
           </li>
         </ul>
-        <form class="d-flex nav-search ml-auto mr-auto">
+        <div class="nav justify-content-center srchBar">
+          <form class="d-flex nav-search align-items-center">
             <input class="form-control me-2 ml-auto" type="search" placeholder="Search" aria-label="Search">
-        </form>
+            <button type="button" class="btn srchIcon"><i class="fas fa-search special-tag"></i></button>
+          </form>
+        </div>
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -125,40 +128,41 @@
 <section>
 <div class="container-fluid">
   <div class="row">
-    <div class="col-md-2">
+    <div class="col-md-3">
       
         <!-- Section: Sidebar -->
     <!-- Section: Filters -->
-    <section class="expand-lg">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#filterSupportedContent" aria-controls="filterSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <section class="container">
+      <button class="navbar-toggler hidden visible-sm filterIcon" type="button" data-bs-toggle="collapse" data-bs-target="#filterSupportedContent" aria-controls="filterSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-filter"></i>
       </button>
-      <div class="collapse navbar-collapse" id="filterSupportedContent">
-    <h3 class="mb-4">Filter By:</h3>
-    <div class="form-check pl-0 mb-3">
-      <input type="radio" class="form-check-input" id="under25" name="materialExampleRadios">
-      <label class="form-check-label small text-uppercase card-link-secondary" for="under25">Available in-store</label>
-    </div>
-    <div class="form-check pl-0 mb-3">
-      <input type="radio" class="form-check-input" id="under25" name="materialExampleRadios">
-      <label class="form-check-label small text-uppercase card-link-secondary" for="under25">Available for Pick-up</label>
-    </div>
-    <div class="form-check pl-0 mb-3">
-      <input type="radio" class="form-check-input" id="under25" name="materialExampleRadios">
-      <label class="form-check-label small text-uppercase card-link-secondary" for="under25">Same Day Delivery</label>
-    </div>
-    <div class="form-check pl-0 mb-3">
-      <input type="radio" class="form-check-input" id="under25" name="materialExampleRadios">
-      <label class="form-check-label small text-uppercase card-link-secondary" for="under25">Shipping</label>
-    </div>
 
-    <section class="mb-4">
+      <div class="collapse dont-collapse-sm" id="filterSupportedContent">
+        <h3 class="mb-4">Filter By:</h3>
+        <div class="form-check pl-0 mb-3">
+          <input type="radio" class="form-check-input" id="under25" name="materialExampleRadios">
+          <label class="form-check-label small text-uppercase card-link-secondary" for="under25">Available in-store</label>
+        </div>
+      <div class="form-check pl-0 mb-3">
+        <input type="radio" class="form-check-input" id="under25" name="materialExampleRadios">
+        <label class="form-check-label small text-uppercase card-link-secondary" for="under25">Available for Pick-up</label>
+      </div>
+      <div class="form-check pl-0 mb-3">
+        <input type="radio" class="form-check-input" id="under25" name="materialExampleRadios">
+        <label class="form-check-label small text-uppercase card-link-secondary" for="under25">Same Day Delivery</label>
+      </div>
+      <div class="form-check pl-0 mb-3">
+        <input type="radio" class="form-check-input" id="under25" name="materialExampleRadios">
+        <label class="form-check-label small text-uppercase card-link-secondary" for="under25">Shipping</label>
+      </div>
 
-      <h5 class="mb-4" style="border-bottom: 1px solid black;">More Filters:</h5>
-    </section>
+      <section class="mb-4">
 
-    <!-- Section: Condition -->
-    <section class="mb-4">
+        <h5 class="mb-4" style="border-bottom: 1px solid black;">More Filters:</h5>
+      </section>
+
+      <!-- Section: Condition -->
+      <section class="mb-4">
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingTwo">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -392,12 +396,13 @@
         <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
           <div class="accordion-body">
           <div class="btn-group btn-group-toggle btn-color-group d-block mt-n2 ml-n2" data-toggle="buttons">
-            <label class="btn rounded-circle white border-inset-grey p-3 m-2">
+            <label class="btn rounded-circle white border-inset-grey" >
               <input type="checkbox" autocomplete="off">
             </label>
-            <label class="btn rounded-circle grey p-3 m-2">
+            <div class="circle circle-sm bg-primary"></div>
+            <div class="btn rounded-circle grey p-3 m-2">
               <input type="checkbox" autocomplete="off">
-            </label>
+            </div>
             <label class="btn rounded-circle black p-3 m-2">
               <input type="checkbox" autocomplete="off">
             </label>
@@ -437,10 +442,10 @@
         
     </div>
     <!---------------Search Results----------->
-    <div class="col-10">
+    <div class="col-8">
       <div class="row">
         <div class="col">
-          <h3>Results for "taco shells"</h3>
+          <h3>Results for "happening Dress"</h3>
         </div>
         <div class="col"></div>
         <div class="col">
@@ -527,7 +532,10 @@
         <!--Product Card-->
         <div class="col">
           <div class="shadow-sm card h-100 srchCard">
-            <img src="../images/dress_sr1.jpg" class="card-img-top p-3" alt="dress 3">
+            <div class="imgContain">
+              <img src="../images/dress_sr1.jpg" class="card-img-top p-3 productPic" alt="dress 3">
+              <div class="overlay"><a href="#" style="text-decoration: none; color: white;">View Details</a></div>
+            </div>
             <div class="card-body mt-0 pt-0">
               <div class="row">
                 <h6 class="card-title d-flex justify-content-start col-10">Flirty Little White Dress </h6>
@@ -569,7 +577,10 @@
         <!--Product Card-->
         <div class="col">
           <div class="shadow-sm card h-100 srchCard">
-            <img src="../images/dress_sr2.jpg" class="card-img-top p-3" alt="dress 3">
+            <div class="imgContain">
+            <img src="../images/dress_sr2.jpg" class="card-img-top p-3 productPic" alt="dress 3">
+            <div class="overlay"><a href="#" style="text-decoration: none; color: white;">View Details</a></div>
+          </div>
             <div class="card-body mt-0 pt-0">
               <div class="row">
                 <h6 class="card-title d-flex justify-content-start col-10">Flirty Little White Dress </h6>
@@ -611,137 +622,10 @@
         <!--Product Card-->
         <div class="col">
           <div class="shadow-sm card h-100 srchCard">
-            <img src="../images/dress_sr3.jpeg" class="card-img-top p-3" alt="dress 3">
-            <div class="card-body mt-0 pt-0">
-              <div class="row">
-                <h6 class="card-title d-flex justify-content-start col-10">Flirty Little White Dress </h6>
-                <div class="d-flex justify-content-end col-2"><i class="far fa-heart"></i></div>
-              </div>
-              <h4 class="d-flex justify-content-start mt-3 card-title tw-bold">$44.20</h5>
-              <p class="prodTiny card-text mt-5">Eligible for Pick-up in your store </p>
-              <div class=“row”>
-                <div class=“col”>
-                  <ul class="rating list-inline d-flex align-items-center justify-content-between mb-0">
-                    <li class="list-inline-item me-0">
-                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
-                    </li>
-                    <li class="list-inline-item me-0">
-                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
-                    </li>
-                    <li class="list-inline-item me-0">
-                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
-                    </li>
-                    <li class="list-inline-item me-0">
-                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
-                    </li>
-                    <li class="list-inline-item me-0">
-                      <i class="far fa-star fa-xs text-primary"></i>
-                    </li>
-                    <li class="list-inline-item mx-3">
-                      <h6 class="prodTiny">4</h6>
-                    </li>
-                    <li class="list-inline-item d-flex justify-content-end">
-                      <button type="button" class="btn btn-sm btn-outline-dark text-nowrap fa-xs">Add to Cart</button>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+            <div class="imgContain">
+            <img src="../images/dress_sr3.jpeg" class="card-img-top p-3 productPic" alt="dress 3">
+            <div class="overlay"><a href="#" style="text-decoration: none; color: white;">View Details</a></div>
             </div>
-          </div>
-        </div>
-        <!--Product Card End-->
-      </div>
-      <!--Card Row End-->
-      <!--Product Listings row-->
-      <div class="row row-cols-1 row-cols-md-3 g-4 my-2">
-        <!--Product Card-->
-        <div class="col">
-          <div class="shadow-sm card h-100 srchCard">
-            <img src="../images/dress_sr4.jpeg" class="card-img-top p-3" alt="dress 3">
-            <div class="card-body mt-0 pt-0">
-              <div class="row">
-                <h6 class="card-title d-flex justify-content-start col-10">Flirty Little White Dress </h6>
-                <div class="d-flex justify-content-end col-2"><i class="far fa-heart"></i></div>
-              </div>
-              <h4 class="d-flex justify-content-start mt-3 card-title tw-bold">$44.20</h5>
-              <p class="prodTiny card-text mt-5">Eligible for Pick-up in your store </p>
-              <div class=“row”>
-                <div class=“col”>
-                  <ul class="rating list-inline d-flex align-items-center justify-content-between mb-0">
-                    <li class="list-inline-item me-0">
-                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
-                    </li>
-                    <li class="list-inline-item me-0">
-                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
-                    </li>
-                    <li class="list-inline-item me-0">
-                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
-                    </li>
-                    <li class="list-inline-item me-0">
-                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
-                    </li>
-                    <li class="list-inline-item me-0">
-                      <i class="far fa-star fa-xs text-primary"></i>
-                    </li>
-                    <li class="list-inline-item mx-3">
-                      <h6 class="prodTiny">4</h6>
-                    </li>
-                    <li class="list-inline-item d-flex justify-content-end">
-                      <button type="button" class="btn btn-sm btn-outline-dark text-nowrap fa-xs">Add to Cart</button>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--Product Card End-->
-        <!--Product Card-->
-        <div class="col">
-          <div class="shadow-sm card h-100 srchCard">
-            <img src="../images/dress_sr5.jpeg" class="card-img-top p-3" alt="dress 3">
-            <div class="card-body mt-0 pt-0">
-              <div class="row">
-                <h6 class="card-title d-flex justify-content-start col-10">Flirty Little White Dress </h6>
-                <div class="d-flex justify-content-end col-2"><i class="far fa-heart"></i></div>
-              </div>
-              <h4 class="d-flex justify-content-start mt-3 card-title tw-bold">$44.20</h5>
-              <p class="prodTiny card-text mt-5">Eligible for Pick-up in your store </p>
-              <div class=“row”>
-                <div class=“col”>
-                  <ul class="rating list-inline d-flex align-items-center justify-content-between mb-0">
-                    <li class="list-inline-item me-0">
-                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
-                    </li>
-                    <li class="list-inline-item me-0">
-                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
-                    </li>
-                    <li class="list-inline-item me-0">
-                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
-                    </li>
-                    <li class="list-inline-item me-0">
-                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
-                    </li>
-                    <li class="list-inline-item me-0">
-                      <i class="far fa-star fa-xs text-primary"></i>
-                    </li>
-                    <li class="list-inline-item mx-3">
-                      <h6 class="prodTiny">4</h6>
-                    </li>
-                    <li class="list-inline-item d-flex justify-content-end">
-                      <button type="button" class="btn btn-sm btn-outline-dark text-nowrap fa-xs">Add to Cart</button>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--Product Card End-->
-        <!--Product Card-->
-        <div class="col">
-          <div class="shadow-sm card h-100 srchCard">
-            <img src="../images/dress_sr6.jpeg" class="card-img-top p-3" alt="dress 3">
             <div class="card-body mt-0 pt-0">
               <div class="row">
                 <h6 class="card-title d-flex justify-content-start col-10">Flirty Little White Dress </h6>
@@ -787,7 +671,10 @@
         <!--Product Card-->
         <div class="col">
           <div class="shadow-sm card h-100 srchCard">
-            <img src=“./images/dress_bt1.jpg” class="card-img-top p-3" alt="dress 3">
+            <div class="imgContain">
+            <img src="../images/dress_sr4.jpeg" class="card-img-top p-3 productPic" alt="dress 3">
+            <div class="overlay"><a href="#" style="text-decoration: none; color: white;">View Details</a></div>
+            </div>
             <div class="card-body mt-0 pt-0">
               <div class="row">
                 <h6 class="card-title d-flex justify-content-start col-10">Flirty Little White Dress </h6>
@@ -829,7 +716,10 @@
         <!--Product Card-->
         <div class="col">
           <div class="shadow-sm card h-100 srchCard">
-            <img src=“./images/dress_bt1.jpg” class="card-img-top p-3" alt="dress 3">
+            <div class="imgContain">
+            <img src="../images/dress_sr5.jpeg" class="card-img-top p-3 productPic" alt="dress 3">
+            <div class="overlay"><a href="#" style="text-decoration: none; color: white;">View Details</a></div>
+          </div>
             <div class="card-body mt-0 pt-0">
               <div class="row">
                 <h6 class="card-title d-flex justify-content-start col-10">Flirty Little White Dress </h6>
@@ -871,7 +761,149 @@
         <!--Product Card-->
         <div class="col">
           <div class="shadow-sm card h-100 srchCard">
-            <img src=“./images/dress_bt1.jpg” class="card-img-top p-3" alt="dress 3">
+            <div class="imgContain">
+            <img src="../images/dress_sr6.jpeg" class="card-img-top p-3 productPic" alt="dress 3">
+            <div class="overlay"><a href="#" style="text-decoration: none; color: white;">View Details</a></div>
+            </div>
+            <div class="card-body mt-0 pt-0">
+              <div class="row">
+                <h6 class="card-title d-flex justify-content-start col-10">Flirty Little White Dress </h6>
+                <div class="d-flex justify-content-end col-2"><i class="far fa-heart"></i></div>
+              </div>
+              <h4 class="d-flex justify-content-start mt-3 card-title tw-bold">$44.20</h5>
+              <p class="prodTiny card-text mt-5">Eligible for Pick-up in your store </p>
+              <div class=“row”>
+                <div class=“col”>
+                  <ul class="rating list-inline d-flex align-items-center justify-content-between mb-0">
+                    <li class="list-inline-item me-0">
+                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
+                    </li>
+                    <li class="list-inline-item me-0">
+                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
+                    </li>
+                    <li class="list-inline-item me-0">
+                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
+                    </li>
+                    <li class="list-inline-item me-0">
+                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
+                    </li>
+                    <li class="list-inline-item me-0">
+                      <i class="far fa-star fa-xs text-primary"></i>
+                    </li>
+                    <li class="list-inline-item mx-3">
+                      <h6 class="prodTiny">4</h6>
+                    </li>
+                    <li class="list-inline-item d-flex justify-content-end">
+                      <button type="button" class="btn btn-sm btn-outline-dark text-nowrap fa-xs">Add to Cart</button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Product Card End-->
+      </div>
+      <!--Card Row End-->
+      <!--Product Listings row-->
+      <div class="row row-cols-1 row-cols-md-3 g-4 my-2">
+        <!--Product Card-->
+        <div class="col">
+          <div class="shadow-sm card h-100 srchCard">
+            <div class="imgContain">
+            <img src=“./images/dress_bt1.jpg” class="card-img-top p-3 productPic" alt="dress 3">
+            <div class="overlay"><a href="#" style="text-decoration: none; color: white;">View Details</a></div>
+            </div>
+            <div class="card-body mt-0 pt-0">
+              <div class="row">
+                <h6 class="card-title d-flex justify-content-start col-10">Flirty Little White Dress </h6>
+                <div class="d-flex justify-content-end col-2"><i class="far fa-heart"></i></div>
+              </div>
+              <h4 class="d-flex justify-content-start mt-3 card-title tw-bold">$44.20</h5>
+              <p class="prodTiny card-text mt-5">Eligible for Pick-up in your store </p>
+              <div class=“row”>
+                <div class=“col”>
+                  <ul class="rating list-inline d-flex align-items-center justify-content-between mb-0">
+                    <li class="list-inline-item me-0">
+                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
+                    </li>
+                    <li class="list-inline-item me-0">
+                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
+                    </li>
+                    <li class="list-inline-item me-0">
+                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
+                    </li>
+                    <li class="list-inline-item me-0">
+                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
+                    </li>
+                    <li class="list-inline-item me-0">
+                      <i class="far fa-star fa-xs text-primary"></i>
+                    </li>
+                    <li class="list-inline-item mx-3">
+                      <h6 class="prodTiny">4</h6>
+                    </li>
+                    <li class="list-inline-item d-flex justify-content-end">
+                      <button type="button" class="btn btn-sm btn-outline-dark text-nowrap fa-xs">Add to Cart</button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Product Card End-->
+        <!--Product Card-->
+        <div class="col">
+          <div class="shadow-sm card h-100 srchCard">
+            <div class="imgContain">
+            <img src=“./images/dress_bt1.jpg” class="card-img-top p-3 productPic" alt="dress 3">
+            <div class="overlay"><a href="#" style="text-decoration: none; color: white;">View Details</a></div>
+            </div>
+            <div class="card-body mt-0 pt-0">
+              <div class="row">
+                <h6 class="card-title d-flex justify-content-start col-10">Flirty Little White Dress </h6>
+                <div class="d-flex justify-content-end col-2"><i class="far fa-heart"></i></div>
+              </div>
+              <h4 class="d-flex justify-content-start mt-3 card-title tw-bold">$44.20</h5>
+              <p class="prodTiny card-text mt-5">Eligible for Pick-up in your store </p>
+              <div class=“row”>
+                <div class=“col”>
+                  <ul class="rating list-inline d-flex align-items-center justify-content-between mb-0">
+                    <li class="list-inline-item me-0">
+                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
+                    </li>
+                    <li class="list-inline-item me-0">
+                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
+                    </li>
+                    <li class="list-inline-item me-0">
+                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
+                    </li>
+                    <li class="list-inline-item me-0">
+                      <i class="rating1 fas fa-star fa-xs text-primary"></i>
+                    </li>
+                    <li class="list-inline-item me-0">
+                      <i class="far fa-star fa-xs text-primary"></i>
+                    </li>
+                    <li class="list-inline-item mx-3">
+                      <h6 class="prodTiny">4</h6>
+                    </li>
+                    <li class="list-inline-item d-flex justify-content-end">
+                      <button type="button" class="btn btn-sm btn-outline-dark text-nowrap fa-xs">Add to Cart</button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Product Card End-->
+        <!--Product Card-->
+        <div class="col">
+          <div class="shadow-sm card h-100 srchCard">
+            <div class="imgContain">
+            <img src=“./images/dress_bt1.jpg” class="card-img-top p-3 productPic" alt="dress 3">
+            <div class="overlay"><a href="#" style="text-decoration: none; color: white;">View Details</a></div>
+            </div>
             <div class="card-body mt-0 pt-0">
               <div class="row">
                 <h6 class="card-title d-flex justify-content-start col-10">Flirty Little White Dress </h6>

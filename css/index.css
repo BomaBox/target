@@ -1,6 +1,16 @@
-/*Header Code*/
+/*--------------------Header Code------------------------*/
+nav {
+    position: relative;
+}
 .customNav {
     background-color: #c8102e !important;
+}
+.navbar {
+    position: relative;
+}
+#shoppingCenter {
+    position: absolute;
+    right: 0;
 }
 #accountIcon {
     padding: 8px;
@@ -9,7 +19,31 @@
     border-radius: 30px !important;
     width: 620px;
 }
-
+#searchBox {
+    position: relative;
+}
+.search-icon {
+    position: absolute;
+    top: 1;
+    left: 40%;
+}
+#autocom-box {
+    display: block;
+    visibility: hidden;
+    width: 90%;
+    margin-left: 5%;  
+}
+#autocom-box a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+#autocom-box a:hover {
+    text-decoration: underline;
+}
+.searchExpand {
+    display: block;
+}
 /*--------Home Screen code--------*/
 
 /*---------------------Circle Card section--------------------------*/
@@ -54,7 +88,7 @@
 }
 .carousel-item {
     /*left: 275px;*/
-    left: 15%;
+    left: 10%;
 }
 .shadow {
     box-shadow: 0px 0px 4px 4px black; 
@@ -74,8 +108,7 @@
     /*display: flex;*/
     justify-content: center;
     height: 635px;
-    width: 1440px;
-    margin-left: 75px;
+    width: 80%;
 }
 #keepKidsBusy h1 {
     color: #961d37;
@@ -118,8 +151,7 @@
 /*---------------slide 2---------------------*/
 #giftGuide {
     height: 635px;
-    width: 1440px;
-    margin-left: 75px;
+    width: 80%;
     box-shadow: 0px 4px 4px black; 
 }
 #giftGuide a {
@@ -176,13 +208,16 @@
     background-color: white;
 }
 #expandCookingPic {
-    overflow: visible;
     background-color: #cc0202;
+}
+#expandCookingPic img{
+    width: 100%;
+    height: auto;
 }
 #getCooking {
     box-shadow: 0px 4px 4px black;
     height: 635px;
-    width: 1440px;
+    width: 80%;
 }
 .cookingShrink {
     width: 361px;
@@ -225,7 +260,7 @@
 #cheesy {
     box-shadow: 0px 16px 4px 0px black;
     height: 635px;
-    width: 1440px;
+    width: 80%;
 }
 #cheesy h1 {
     font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -247,14 +282,15 @@
     font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #cheesy img {
-    width: 640px;
+    width: 100%;
     height: auto;
 }
-#cheesePicShrink {
+/*#cheesePicShrink {
     width: 650px;
-}
+}*/
 #cheeseShrink {
     margin-left: 10px;
+    width: 90%;
 }
 
 /*-----------------------Top Deals Section------------------------*/
@@ -370,7 +406,6 @@
 .treeMargins {
     margin-left: 30px;
     margin-right: 30px;
-    
 }
 #starLogo {
     display: flex;
@@ -410,7 +445,7 @@
     margin-left: 6px;
     margin-top: 9px;
     margin-bottom: 9px;
-    width: 550px;
+    width: 450px;
 }
 .bottomRowTree:hover {
     box-shadow: 3px 3px 5px rgb(204, 2, 2);
@@ -484,4 +519,167 @@
 }
 .footer-social{
     padding: 16px;
+}
+
+/*----------------------------Media query 1----------------------*/
+@media only screen and (max-width: 1500px) {
+    /*------Hero Carousel----*/
+    /*-----Kids slide------*/
+    #keepKidsBusy {
+        height: 550px;
+    }
+    #keepKidsBusy h1 {
+        font-size: 84px;
+    }
+    #keepKidsBusy h2 {
+        font-size: 36px;
+    }
+    #keepKidsBusy h4 {
+        font-size: 18px;
+    }
+    #keepKidsBusy img {
+        height: 450px;
+        width: 466px;
+        margin-top: 58px;
+    }
+    /*-----Gift Guide------*/
+    #giftGuide {
+        height: 550px;
+    }
+    #giftGuide h1 {
+        font-size: 84px;
+    }
+    #giftGuide h4 {
+        font-size: 18px;
+    }
+    .headerText2 {
+        margin-top: 150px;
+        margin-bottom: 100px;
+        width: 450px;
+    }
+    .adjustCardMargin {
+        margin-top: 35px;
+    }
+    .adjustCard {
+        height: 225px;
+        width: 225px;
+        margin-bottom: 15px;
+    }
+
+    /*-------Get Cooking------*/
+    #getCooking {
+        height: 550px;
+    }
+    #getCooking h1 {
+        font-size: 84px;
+    }
+    #getCooking h2 {
+        font-size: 36px;
+    }
+    #getCooking h4 {
+        font-size: 18px;
+    }
+    .whiteDiv {
+        height: 75px;
+    }
+
+    /*------Cheese board-----*/
+    #cheesy {
+        height: 550px;
+    }
+    #cheesy h1 {
+        font-size: 84px;
+    }
+    #cheesy h2 {
+        font-size: 36px;
+    }
+    #cheesy h4 {
+        font-size: 18px;
+    }
+    #cheeseShrink {
+        width: 400px;
+    }
+
+    /*------Top Deals----*/
+    #topDeals {
+        background-color: #cc0202;
+        height: 925px;
+    }
+    .topDealsTopRow {
+        height: 271px;
+        width: 340px;
+        display: flex;
+        margin-bottom: 66px;
+    }
+    .topDealSize {
+        height: 271px;
+        width: 340px;
+        margin: 22px;
+    }
+    .topDealsTopRow h3 {
+        color: rgba(255, 255, 255, 0);
+        font-size: 36px;
+    }
+    .topDealSize2 {
+        height: 290px;
+        width: 200px;
+    }
+    .topDealsBottomRow {
+        height: 290px;
+        width: 200px;
+    }
+    .topDealsBottomRow h3 {
+        color: rgba(255, 255, 255, 0);
+        font-size: 36px;
+    }
+
+    /*----------Top Gifts-------*/
+    #topGifts img {
+        height: 200px;
+        width: 200px;
+    }
+    #topGifts h4 {
+        font-size: 36px;
+    }
+    .treeBoxes {
+        height: 75px;
+    }
+    .bottomRowTree {
+        width: 400px;
+    }
+
+    /*-------Daily Deals--------*/
+    #dailyDeal {
+        padding-top: 50px;
+    }
+    .dealFont h2 {
+        font-size: 48px;
+    }
+    .mediaShrink {
+        width: 450px;
+    }
+
+    /*-------Featured House Brands-----*/
+    .firstBrand {
+        width: 300px;
+        height: auto;
+    }
+    .firstBrand img {
+        width: 300px;
+        height: auto;
+    }
+    .otherBrands {
+        width: 300px;
+        height: auto;
+    }
+    .otherBrands img {
+        width: 300px;
+        height: auto;
+    }
+
+}
+
+/*---------------------------Media query 2----------------------*/
+@media only screen and (max-width: 800px) {
+    
 }

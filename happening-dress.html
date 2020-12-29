@@ -124,28 +124,28 @@
 
   </div>
   </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-1 col-sm-6">
+    <div class="container d-flex flex-wrap">
+        <div class="d-flex flex-row">
+            <div class="d-flex flex-column me-2">
                 <div class="mb-1">
-                    <img src="./images/dress2sm.png" alt="Happening Dress on Woman">
+                    <img src="./images/dress2sm.png" class="img-fluid" alt="Happening Dress on Woman">
                 </div>
                 <div class="mb-1">
-                    <img src="./images/dress3sm.png" alt="Woman at lunch in Happening Dress">
+                    <img src="./images/dress3sm.png" class="img-fluid" alt="Woman at lunch in Happening Dress">
                 </div>
                 <div class="mb-1">
-                    <img src="./images/dress1small.png" alt="Happening Dress alternative look">
+                    <img src="./images/dress1small.png" class="img-fluid" alt="Happening Dress alternative look">
                 </div>
-                <div>
-                    <p class="morePics fs-1">+3</p>
+                <div class="m-0">
+                    <p class="morePics fs-1 text-center">+3</p>
                 </div>
             </div>
             
 
 
-            <div class="col-lg-4 col-sm-6">
+            <div class="d-flex flex-column me-2">
    
-                <div><img src="./images/dress1.png" class="img-fluid" alt="Happening Dress red">
+                <div><img src="./images/dress1.png" class="flex-fill" alt="Happening Dress red">
                 </div>
                 <div class="text-end">
                     <h5>Available at Your Store</h5>
@@ -153,12 +153,12 @@
 
             </div>
 
-            <div class="col-lg-4">
-                <div class="row">
+            <div class="d-flex flex-column ms-2 flex-wrap">
+                <div class="flex-row">
                     <h3 class="ms-0 ps-0">Happening Dress</h3>
                 </div>
                 
-                <div class="row">
+                <div class="flex-row">
                     <ul class="rating list-inline ms-0 ps-0 d-flex align-items-center">
                     <li class="list-inline-item">
                       <i class="rating1 fas fa-star fa-sm text-primary"></i>
@@ -176,39 +176,39 @@
                       <i class="far fa-star fa-sm text-primary"></i>
                     </li>
                   </ul></div>
-                <div class="row">
+                <div class="flex-row">
                     <h3 class="ms-0 mb-5 ps-0">$15.99</h3>
                 </div>
-                <div class="row">
+                
                     <h6 class="prodTiny ms-0 ps-0">Size S</h6>
+                
+                <div class="d-flex flex-row gap-1">
+                    <div class="flex-fill flex-column col-sm bg-light text-dark p-1 border text-center">XS</div>
+                    <div class="flex-fill flex-column sizeSelect col-sm bg-light text-dark p-1 text-center">S</div>
+                    <div class="flex-fill flex-column col-sm bg-light text-dark p-1 border text-center">M</div>
+                    <div class="flex-fill flex-column col-sm bg-light text-dark p-1 border text-center">L</div>
+                    <div class="flex-fill flex-column col-sm bg-light text-dark p-1 border text-center">XL</div>
                 </div>
-                <div class="row gap-1">
-                    <div class="col-sm bg-light text-dark p-1 border text-center">XS</div>
-                    <div class="sizeSelect col-sm bg-light text-dark p-1 text-center">S</div>
-                    <div class="col-sm bg-light text-dark p-1 border text-center">M</div>
-                    <div class="col-sm bg-light text-dark p-1 border text-center">L</div>
-                    <div class="col-sm bg-light text-dark p-1 border text-center">XL</div>
-                </div>
-                <div class="row">
+                <div class="flex-row">
                     <h6 class="prodTiny ms-0 ps-0">Color</h6>
                 </div>
-                <div class="row gap-1">
+                <div class="d-flex flex-row gap-1">
                     <div class="colorBox1 col-sm-3"></div>
                     <div class="colorBox2 col-sm-3"></div>
                     <div class="colorBox3 col-sm-3"></div>
                 </div>
-                <div class="row">
+                
                     <h6 class="prodTiny ms-0 ps-0">Qty</h6>
-                </div>
-                <div class="row col-2">
-                    <select class="qtySelect form-select form-select-lg mb-3 p-0 ps-1 py-1" aria-label=".form-select-lg example">
+              
+                <div class="d-flex flex-row col-3">
+                    <select class="qtySelect form-select form-select-lg mb-3 p-0 ps-2 py-1" aria-label=".form-select-lg example">
                         <option selected>1</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
                       </select>
                 </div>
-                <div class="row">
+                <div class="d-flex flex-row">
                     <div class="col-1 pt-2 ms-0 ps-0">
                         <i class="far fa-heart"></i>
                     </div>
@@ -224,7 +224,7 @@
                 </div>
             </div>
 
-            <div class="container col-lg-2">
+            <div class="d-flex flex-column container col-lg-2 flex-wrap">
               <div></div>  
               <div class="row pt-6">
                     <button type="button" class="targetPrimeBtn btn btn-primary btn-lg text-uppercase fw-bold fs-6">Add to Cart</button>
@@ -586,6 +586,24 @@
     </div>
 
 </section>
+
+<!--Test-->
+
+<div class="d-flex align-items-start">
+  <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <a class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true"><img src="images/dress1small.png" alt=""></a>
+    <a class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false"> <img src="images/dress2sm.png" alt=""></a>
+    <a class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false"> <img src="images/dress3sm.png" alt=""></a>
+    <a class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"><p class="morePics plusThree fs-1 text-center">+3</p></a>
+  </div>
+  <div class="tab-content" id="v-pills-tabContent">
+    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"><img src="images/dress1.png" alt=""></div>
+    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+  </div>
+</div>
+
 <!--Footer-->
 <div class="footer-area footer-padding">
   <div class="container">

@@ -129,3 +129,14 @@
     border-radius: none !important;
     color: black;
 }
+
+
+
+
+.nav-pills .nav-link.active {
+    background: none !important;
+}
+
+.plusThree {
+    color: black !important;
+}

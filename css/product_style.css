@@ -123,8 +123,20 @@
 }
 
 .tabNotActive {
-    border-top: 1px solid darkgrey;
-    border-right: 1px solid darkgray;
-    background-color: lightgray;
+    border-top: 1px solid lightgray !important;
+    border-right: 1px solid lightgray!important;
+    background-color: #F6F6F6 !important;
     border-radius: none !important;
+    color: black;
+}
+
+
+
+
+.nav-pills .nav-link.active {
+    background: none !important;
+}
+
+.plusThree {
+    color: black !important;
 }

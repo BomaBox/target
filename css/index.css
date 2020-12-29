@@ -522,6 +522,61 @@ nav {
 }
 
 /*----------------------------Media query 1----------------------*/
+@media only screen and (max-width: 1920px) {
+    /*---gift guide---*/
+    #giftGuide h1 {
+        font-size: 84px;
+    }
+    #giftGuide h4 {
+        font-size: 18px;
+    }
+    .headerText2 {
+        margin-top: 150px;
+        margin-bottom: 100px;
+        width: 450px;
+    }
+    .adjustCardMargin {
+        margin-top: 35px;
+    }
+    .adjustCard {
+        height: 225px;
+        width: 225px;
+        margin-bottom: 15px;
+    }
+    /*---cheesy---*/
+    #cheesy h1 {
+        font-size: 84px;
+    }
+    #cheesy h2 {
+        font-size: 36px;
+    }
+    #cheesy h4 {
+        font-size: 18px;
+    }
+    #cheeseShrink {
+        width: 450px;
+    }
+    
+    .firstBrand {
+        width: 375px;
+        height: auto;
+    }
+    .firstBrand img {
+        width: 375px;
+        height: auto;
+    }
+    .otherBrands {
+        width: 375px;
+        height: auto;
+    }
+    .otherBrands img {
+        width: 375px;
+        height: auto;
+    }
+
+}
+
+/*-----Media query 2------*/
 @media only screen and (max-width: 1500px) {
     /*------Hero Carousel----*/
     /*-----Kids slide------*/
@@ -676,7 +731,7 @@ nav {
 
 }
 
-/*---------------------------Media query 2----------------------*/
+/*---------------------------Media query 3----------------------*/
 @media only screen and (max-width: 1300px) {
     #giftGuide h1 {
         font-size: 72px;
@@ -716,7 +771,7 @@ nav {
     
 }
 
-/*---------------Media Query 3-------*/
+/*---------------Media Query 4-------*/
 @media only screen and (max-width: 1050px) {
     /*----Carousel section---*/
     /*----Kids slide----*/

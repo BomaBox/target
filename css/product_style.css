@@ -140,3 +140,7 @@
 .plusThree {
     color: black !important;
 }
+
+.nav-link {
+    padding-right: 0px !important;
+}

@@ -768,10 +768,71 @@ nav {
     #cheeseShrink {
         width: 400px;
     }
+/*--------tree section------*/
+    #topGifts img {
+        height: 200px;
+        width: 200px;
+    }
+    #topGifts h4 {
+        font-size: 36px;
+    }
+    .treeBoxes {
+        height: 75px;
+    }
+    .bottomRowTree {
+        width: 350px;
+    }
     
 }
 
-/*---------------Media Query 4-------*/
+/*-------Media Query 4------*/
+@media only screen and (max-width: 1170px) {
+    .topDealsTopRow {
+        height: 231px;
+        width: 290px;
+    }
+    .topDealSize {
+        height: 231px;
+        width: 290px;
+        margin: 15px;
+    }
+    .topDealSize2 {
+        height: 290px;
+        width: 200px;
+    }
+    .topDealsBottomRow {
+        height: 290px;
+        width: 200px;
+    }
+
+    #topGifts h4 {
+        font-size: 32px;
+    }
+    .treeBoxes {
+        height: 75px;
+    }
+    .bottomRowTree {
+        width: 300px;
+    }
+    
+    .firstBrand {
+        width: 225px;
+        height: auto;
+    }
+    .firstBrand img {
+        width: 225px;
+        height: auto;
+    }
+    .otherBrands {
+        width: 225px;
+        height: auto;
+    }
+    .otherBrands img {
+        width: 225px;
+        height: auto;
+    }
+}
+/*---------------Media Query 5-------*/
 @media only screen and (max-width: 1050px) {
     /*----Carousel section---*/
     /*----Kids slide----*/

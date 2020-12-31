@@ -63,7 +63,7 @@
     width: 36px;
     height: 24px;
     background: #DC3F3A;
-    border: 1px solid #BDBDBD;
+    border: 3px solid black;
     box-sizing: border-box;
 }
 
@@ -102,21 +102,21 @@
 
 
 .tabbyInfo {
-    width: 70% !important;
+    width: 85% !important;
     margin: 7rem auto 0 auto;
 }
 
 .tabBox {
     border: 1px solid lightgray;
     padding: 2%;
-    width: 65%;
+    width: 85%;
     margin: 0 auto;
 }
 
 .tabTime {
     border-bottom: none !important;
     margin: 0 auto;
-    width: 65%;
+    width: 85%;
 }
 .navTabs {
     margin: 0 auto;
@@ -141,6 +141,7 @@
     color: black !important;
 }
 
-.nav-link {
+.photoTab {
     padding-right: 0px !important;
+    padding-top: 0px !important;
 }

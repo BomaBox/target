@@ -989,6 +989,9 @@ nav {
 
 /*--------------Media query 6-----------*/
 @media only screen and (max-width: 1000px) {
+    #navbarSupportedContent {
+        height: 375px;
+    }
     .sectionHeaders h1 {
         font-size: 64px;
     }
@@ -1135,6 +1138,185 @@ nav {
     }
     .otherBrands img {
         width: 200px;
+        height: auto;
+    }
+}
+
+/*--------------Media query 6-----------*/
+@media only screen and (max-width: 880px) {
+    .sectionHeaders h1 {
+        font-size: 48px;
+    }
+    /*-----gift guide-----*/
+    #giftGuide h1 {
+        font-size: 36px;
+        line-height: 45px;
+    }
+    #giftGuide h2 {
+        font-size: 16px;
+    }
+    #giftGuide h4 {
+        font-size: 12px;
+    }
+    .headerText2 {
+        margin-top: 70px;
+        margin-bottom: 50px;
+        margin-left: 30px;
+        width: 275px;
+    }
+    .adjustCardMargin {
+        margin-top: 20px;
+    }
+    .adjustCard {
+        height: 145px;
+        width: 125px;
+        margin-bottom: 10px;
+    }
+    h5 {
+        font-size: 12px
+    }
+
+    /*------cheesy----*/
+    #cheesy h1 {
+        font-size: 36px;
+        line-height: 45px;
+    }
+    #cheesy h2 {
+        font-size: 16px;
+    }
+    #cheesy h4 {
+        font-size: 12px;
+    }
+    #cheeseShrink {
+        width: 275px;
+    }
+
+    /*----------top deals-----*/
+    #topDeals {
+        height: 600px;
+    }
+    .topDealsTopRow {
+        height: 139px;
+        width: 175px;
+    }
+    .topDealSize {
+        height: 139px;
+        width: 175px;
+        margin: 8px;
+    }
+    .topDealsTopRow h3 {
+        font-size: 18px;
+    }
+    .topDealSize2 {
+        height: 165px;
+        width: 113px;
+        margin: 8px;
+    }
+    .topDealsBottomRow {
+        height: 165px;
+        width: 113px;
+    }
+    .topDealsBottomRow h3 {
+        font-size: 18px;
+    }
+
+    /*----top gifts----*/
+    .treeBoxes {
+        height: 55px;
+    }
+    .bottomRowTree {
+        width: 225px;
+    }
+    #topGifts h4 {
+        font-size: 24px;
+    }
+
+    /*-------Daily deals---*/
+    #dailyDeal {
+        padding-top: 15px;
+    }
+    .dealFont h2 {
+        font-size: 24px;
+    }
+    .dealFont h4 {
+        font-size: 16px;
+    }
+    .mediaShrink {
+        width: 275px;
+    }
+
+    /*---------house brands-*/
+    .firstBrand {
+        width: 175px;
+        height: auto;
+    }
+    .firstBrand img {
+        width: 175px;
+        height: auto;
+    }
+    .otherBrands {
+        width: 175px;
+        height: auto;
+    }
+    .otherBrands img {
+        width: 175px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 855px) {
+    #giftGuide h1 {
+        font-size: 24px;
+        line-height: 45px;
+    }
+    #giftGuide h2 {
+        font-size: 14px;
+    }
+    .headerText2 {
+        margin-top: 70px;
+        margin-bottom: 50px;
+        margin-left: 30px;
+        width: 225px;
+    }
+    .adjustCard {
+        height: 145px;
+        width: 125px;
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 770px) {
+    .bottomRowTree {
+        width: 712px;
+        margin-bottom: 10px;
+    }
+    /*-------Daily deals---*/
+    #dailyDeal {
+        padding-top: 15px;
+    }
+    .dealFont h2 {
+        font-size: 18px;
+    }
+    .dealFont h4 {
+        font-size: 14px;
+    }
+    .mediaShrink {
+        width: 200px;
+    }
+    /*---------house brands-*/
+    .firstBrand {
+        width: 135px;
+        height: auto;
+    }
+    .firstBrand img {
+        width: 135px;
+        height: auto;
+    }
+    .otherBrands {
+        width: 135px;
+        height: auto;
+    }
+    .otherBrands img {
+        width: 135px;
         height: auto;
     }
 }

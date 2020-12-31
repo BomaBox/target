@@ -9,6 +9,32 @@
 
 
 /*-------Button Customization Code---------*/
+
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-lg {
+    width: 200px;
+}
+
 .btn-primary {
     background-color: #CC0202 !important;
     border-radius: 0 !important;
@@ -43,26 +69,89 @@
 }
 
 /*----------cart info row------------------------------------*/
+
+
+.mt-3 {
+    margin-top: 3 !important;
+  }
+  
+  .ms-1 {
+    margin-left: ($spacer * .25) !important;
+  }
+  
+  .px-2 {
+    padding-left: ($spacer * .5) !important;
+    padding-right: ($spacer * .5) !important;
+  }
+  
+  .p-3 {
+    padding: $spacer !important;
+  }
+.sectionHeaders {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    margin-bottom: 54px;
+    font-size: 72px;
+    font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 #cartInfo-row {
-    height: 110px;
-    padding:30px 5px;
+    height: 200px;
+    padding:40px 5px;
+    margin-top: 75px;
     background-color: white;
     justify-content: center;
     align-items: center;
 }
 
-#checkoutProgress {
-    height:110px;
-    padding:30px 5px;
-    border:2px solid black;
+#ycverticalLine {
+    grid-column: 1 / 2;
+    height: 80px;
+    width: 100%;
+    border-right: 6px solid black;
+    text-align: right;
+    padding-right: 15px;
+}
 
+#itemcount {
+    height: 80px;
+    width: 100%;
+    padding-left: 8px;
+}
+
+#editCart {
+    height: 80px;
+    width: 100%;
+    padding-top: 25px;
+    padding-left: 25px;  
+}
+
+#haveAccount {
+    grid-column: 4 / 5;
+    height: 80px;
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 130px;
+}
+
+#signIn {
+    height: 80px;
+    width: 100%;
+    padding-left: 20px;
 }
 
 
 
+#blankRow {
+    height: 40px;
+}
+
 
 /*--------------------------Payment code----------------*/
 
+
+}
 .form-outline .form-control {
     min-height: auto;
     padding: .33em .75em;
@@ -104,8 +193,6 @@
 }
 
 
-/*------------------------Payment and Shipping info code--
 
------------------*/
 
 

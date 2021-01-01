@@ -1,6 +1,17 @@
-/*Header Code*/
+/*--------------------Header Code------------------------*/
+nav {
+    position: relative;
+}
 .customNav {
     background-color: #c8102e !important;
+}
+
+.navbar {
+    position: relative;
+}
+#shoppingCenter {
+    position: absolute;
+    right: 0;
 }
 
 #accountIcon {
@@ -9,6 +20,32 @@
 .form-control {
     border-radius: 30px !important;
     width: 620px;
+}
+
+#searchBox {
+    position: relative;
+}
+.search-icon {
+    position: absolute;
+    top: 1;
+    left: 40%;
+}
+#autocom-box {
+    display: block;
+    visibility: hidden;
+    width: 90%;
+    margin-left: 5%;  
+}
+#autocom-box a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+#autocom-box a:hover {
+    text-decoration: underline;
+}
+.searchExpand {
+    display: block;
 }
 
 /*-------Button Customization Code---------*/
@@ -88,7 +125,7 @@
 }
 .carousel-item {
     /*left: 275px;*/
-    left: 15%;
+    left: 10%;
 }
 .shadow {
     box-shadow: 0px 0px 4px 4px black; 
@@ -108,8 +145,7 @@
     /*display: flex;*/
     justify-content: center;
     height: 635px;
-    width: 1440px;
-    margin-left: 75px;
+    width: 80%;
 }
 #keepKidsBusy h1 {
     color: #961d37;
@@ -152,8 +188,7 @@
 /*---------------slide 2---------------------*/
 #giftGuide {
     height: 635px;
-    width: 1440px;
-    margin-left: 75px;
+    width: 80%;
     box-shadow: 0px 4px 4px black; 
 }
 #giftGuide a {
@@ -210,13 +245,16 @@
     background-color: white;
 }
 #expandCookingPic {
-    overflow: visible;
     background-color: #cc0202;
+}
+#expandCookingPic img{
+    width: 100%;
+    height: auto;
 }
 #getCooking {
     box-shadow: 0px 4px 4px black;
     height: 635px;
-    width: 1440px;
+    width: 80%;
 }
 .cookingShrink {
     width: 361px;
@@ -259,7 +297,7 @@
 #cheesy {
     box-shadow: 0px 16px 4px 0px black;
     height: 635px;
-    width: 1440px;
+    width: 80%;
 }
 #cheesy h1 {
     font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -281,14 +319,15 @@
     font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #cheesy img {
-    width: 640px;
+    width: 100%;
     height: auto;
 }
-#cheesePicShrink {
+/*#cheesePicShrink {
     width: 650px;
-}
+}*/
 #cheeseShrink {
     margin-left: 10px;
+    width: 90%;
 }
 
 /*-----------------------Top Deals Section------------------------*/
@@ -377,7 +416,7 @@
     color: rgba(255, 255, 255, 1);
 }
 #cocktailMaking {
-    background: url("../images/Rectangle\ 80.png")
+    background: url("../images/Rectangle\ 80.png");
 }
 #lastMinuteDeco {
     background: url("../images/Rectangle\ 81.png");
@@ -404,7 +443,6 @@
 .treeMargins {
     margin-left: 30px;
     margin-right: 30px;
-    
 }
 #starLogo {
     display: flex;
@@ -444,7 +482,7 @@
     margin-left: 6px;
     margin-top: 9px;
     margin-bottom: 9px;
-    width: 550px;
+    width: 450px;
 }
 .bottomRowTree:hover {
     box-shadow: 3px 3px 5px rgb(204, 2, 2);
@@ -518,4 +556,804 @@
 }
 .footer-social{
     padding: 16px;
+}
+
+/*----------------------------Media query 1----------------------*/
+@media only screen and (max-width: 1920px) {
+    /*---gift guide---*/
+    #giftGuide h1 {
+        font-size: 84px;
+    }
+    #giftGuide h4 {
+        font-size: 18px;
+    }
+    .headerText2 {
+        margin-top: 150px;
+        margin-bottom: 100px;
+        width: 450px;
+    }
+    .adjustCardMargin {
+        margin-top: 35px;
+    }
+    .adjustCard {
+        height: 225px;
+        width: 225px;
+        margin-bottom: 15px;
+    }
+    /*---cheesy---*/
+    #cheesy h1 {
+        font-size: 84px;
+    }
+    #cheesy h2 {
+        font-size: 36px;
+    }
+    #cheesy h4 {
+        font-size: 18px;
+    }
+    #cheeseShrink {
+        width: 450px;
+    }
+    
+    .firstBrand {
+        width: 375px;
+        height: auto;
+    }
+    .firstBrand img {
+        width: 375px;
+        height: auto;
+    }
+    .otherBrands {
+        width: 375px;
+        height: auto;
+    }
+    .otherBrands img {
+        width: 375px;
+        height: auto;
+    }
+
+}
+
+/*-----Media query 2------*/
+@media only screen and (max-width: 1500px) {
+    /*------Hero Carousel----*/
+    /*-----Kids slide------*/
+    #keepKidsBusy {
+        height: 550px;
+    }
+    #keepKidsBusy h1 {
+        font-size: 84px;
+    }
+    #keepKidsBusy h2 {
+        font-size: 36px;
+    }
+    #keepKidsBusy h4 {
+        font-size: 18px;
+    }
+    #keepKidsBusy img {
+        height: 450px;
+        width: 466px;
+        margin-top: 58px;
+    }
+    /*-----Gift Guide------*/
+    #giftGuide {
+        height: 550px;
+    }
+    #giftGuide h1 {
+        font-size: 84px;
+    }
+    #giftGuide h4 {
+        font-size: 18px;
+    }
+    .headerText2 {
+        margin-top: 150px;
+        margin-bottom: 100px;
+        width: 450px;
+    }
+    .adjustCardMargin {
+        margin-top: 35px;
+    }
+    .adjustCard {
+        height: 225px;
+        width: 225px;
+        margin-bottom: 15px;
+    }
+
+    /*-------Get Cooking------*/
+    #getCooking {
+        height: 550px;
+    }
+    #getCooking h1 {
+        font-size: 84px;
+    }
+    #getCooking h2 {
+        font-size: 36px;
+    }
+    #getCooking h4 {
+        font-size: 18px;
+    }
+    .whiteDiv {
+        height: 75px;
+    }
+
+    /*------Cheese board-----*/
+    #cheesy {
+        height: 550px;
+    }
+    #cheesy h1 {
+        font-size: 80px;
+    }
+    #cheesy h2 {
+        font-size: 36px;
+    }
+    #cheesy h4 {
+        font-size: 18px;
+    }
+    #cheeseShrink {
+        width: 400px;
+    }
+
+    /*------Top Deals----*/
+    #topDeals {
+        height: 925px;
+    }
+    .topDealsTopRow {
+        height: 271px;
+        width: 340px;
+        display: flex;
+        margin-bottom: 66px;
+    }
+    .topDealSize {
+        height: 271px;
+        width: 340px;
+        margin: 22px;
+    }
+    .topDealsTopRow h3 {
+        font-size: 36px;
+    }
+    .topDealSize2 {
+        height: 290px;
+        width: 200px;
+    }
+    .topDealsBottomRow {
+        height: 290px;
+        width: 200px;
+    }
+    .topDealsBottomRow h3 {
+        font-size: 36px;
+    }
+
+    /*----------Top Gifts-------*/
+    #topGifts img {
+        height: 200px;
+        width: 200px;
+    }
+    #topGifts h4 {
+        font-size: 36px;
+    }
+    .treeBoxes {
+        height: 75px;
+    }
+    .bottomRowTree {
+        width: 400px;
+    }
+
+    /*-------Daily Deals--------*/
+    #dailyDeal {
+        padding-top: 50px;
+    }
+    .dealFont h2 {
+        font-size: 48px;
+    }
+    .mediaShrink {
+        width: 450px;
+    }
+
+    /*-------Featured House Brands-----*/
+    .firstBrand {
+        width: 300px;
+        height: auto;
+    }
+    .firstBrand img {
+        width: 300px;
+        height: auto;
+    }
+    .otherBrands {
+        width: 300px;
+        height: auto;
+    }
+    .otherBrands img {
+        width: 300px;
+        height: auto;
+    }
+
+}
+
+/*---------------------------Media query 3----------------------*/
+@media only screen and (max-width: 1300px) {
+    #giftGuide h1 {
+        font-size: 72px;
+        width: 300px;
+    }
+    #giftGuide h4 {
+        font-size: 16px;
+        width: 300px;
+    }
+    .headerText2 {
+        margin-top: 150px;
+        margin-bottom: 75px;
+        width: 350px;
+    }
+    .adjustCardMargin {
+        margin-top: 35px;
+        margin-left: 30px;
+    }
+    .adjustCard {
+        height: 200px;
+        width: 200px;
+        margin-bottom: 15px;
+    } 
+/*----------------Cheesy-------*/
+    #cheesy h1 {
+        font-size: 72px;
+    }
+    #cheesy h2 {
+        font-size: 34px;
+    }
+    #cheesy h4 {
+        font-size: 16px;
+    }
+    #cheeseShrink {
+        width: 400px;
+    }
+/*--------tree section------*/
+    #topGifts img {
+        height: 200px;
+        width: 200px;
+    }
+    #topGifts h4 {
+        font-size: 36px;
+    }
+    .treeBoxes {
+        height: 75px;
+    }
+    .bottomRowTree {
+        width: 350px;
+    }
+    
+}
+
+/*-------Media Query 4------*/
+@media only screen and (max-width: 1170px) {
+    .topDealsTopRow {
+        height: 231px;
+        width: 290px;
+    }
+    .topDealSize {
+        height: 231px;
+        width: 290px;
+        margin: 15px;
+    }
+    .topDealSize2 {
+        height: 290px;
+        width: 200px;
+    }
+    .topDealsBottomRow {
+        height: 290px;
+        width: 200px;
+    }
+
+    #topGifts h4 {
+        font-size: 32px;
+    }
+    .treeBoxes {
+        height: 75px;
+    }
+    .bottomRowTree {
+        width: 300px;
+    }
+    
+    .firstBrand {
+        width: 225px;
+        height: auto;
+    }
+    .firstBrand img {
+        width: 225px;
+        height: auto;
+    }
+    .otherBrands {
+        width: 225px;
+        height: auto;
+    }
+    .otherBrands img {
+        width: 225px;
+        height: auto;
+    }
+}
+/*---------------Media Query 5-------*/
+@media only screen and (max-width: 1050px) {
+    /*----Carousel section---*/
+    /*----Kids slide----*/
+    #keepKidsBusy, #giftGuide, #cheesy, #getCooking {
+        height: 500px;
+    }
+    #keepKidsBusy img {
+        height: 400px;
+        width: 400px;
+        margin-top: 45px;
+    }
+    #keepKidsBusy h1 {
+        font-size: 64px;
+    }
+    #keepKidsBusy h2 {
+        font-size: 24px;
+    }
+    #keepKidsBusy h4 {
+        font-size: 16px;
+    }
+
+    /*------gift guide----*/
+    #giftGuide h1 {
+        font-size: 64px;
+    }
+    #giftGuide h4 {
+        font-size: 16px;
+        width: 275px;
+    }
+    .headerText2 {
+        margin-top: 150px;
+        margin-bottom: 100px;
+        width: 300px;
+    }
+    .adjustCardMargin {
+        margin-top: 35px;
+    }
+    .adjustCard {
+        height: 200px;
+        width: 200px;
+        margin-bottom: 15px;
+    }
+
+    /*-----Get Cooking----*/
+    #getCooking h1 {
+        font-size: 64px;
+    }
+    #getCooking h2 {
+        font-size: 24px;
+    }
+    #getCooking h4 {
+        font-size: 16px;
+    }
+    .whiteDiv {
+        height: 75px;
+    }
+
+    /*----cheesy---*/
+    #cheesy h1 {
+        font-size: 64px;
+    }
+    #cheesy h2 {
+        font-size: 24px;
+    }
+    #cheesy h4 {
+        font-size: 16px;
+    }
+    #cheeseShrink {
+        width: 400px;
+    }
+
+    /*------Top Gifts----*/
+    #topGifts img {
+        height: 175px;
+        width: 175px;
+    }
+    #topGifts h4 {
+        font-size: 32px;
+    }
+    .treeBoxes {
+        height: 75px;
+    }
+    .bottomRowTree {
+        width: 300px;
+    }
+
+    /*-----Top Deals----*/
+    #topDeals {
+        height: 875px;
+    }
+    .topDealsTopRow {
+        height: 231px;
+        width: 290px;
+    }
+    .topDealSize {
+        height: 231px;
+        width: 290px;
+        margin: 15px;
+    }
+    #stockingStuff {
+        background: url("../images/Rectangle 86.png") 290px/290px;
+    }
+    #groomingHim {
+        background: url("../images/Rectangle 85.png") 290px/290px;
+    }
+    #groomingHer {
+        background: url("../images/Rectangle 84.png") 290px/290px;
+    }
+    .topDealsTopRow h3 {
+        font-size: 36px;
+    }
+    .topDealSize2 {
+        height: 290px;
+        width: 200px;
+    }
+    .topDealsBottomRow {
+        height: 290px;
+        width: 200px;
+    }
+    .topDealsBottomRow h3 {
+        font-size: 36px;
+    }
+    #cocktailMaking {
+        background: url("../images/Rectangle\ 80.png") 200px/200px;
+    }
+    #lastMinuteDeco {
+        background: url("../images/Rectangle\ 81.png") 200px/200px;
+    }
+    #bogo50 {
+        background: url("../images/Rectangle\ 111.png") 200px/200px;
+    }
+    #giftWrapSupp {
+        background: url("../images/Rectangle\ 112.png") 200px/200px;
+    }
+
+    /*-----featured brands----*/
+    .firstBrand {
+        width: 225px;
+        height: auto;
+    }
+    .firstBrand img {
+        width: 225px;
+        height: auto;
+    }
+    .otherBrands {
+        width: 225px;
+        height: auto;
+    }
+    .otherBrands img {
+        width: 225px;
+        height: auto;
+    }
+}
+
+/*--------------Media query 6-----------*/
+@media only screen and (max-width: 1000px) {
+    #navbarSupportedContent {
+        height: 375px;
+    }
+    .sectionHeaders h1 {
+        font-size: 64px;
+    }
+    #keepKidsBusy, #giftGuide, #cheesy, #getCooking {
+        height: 425px;
+    }
+    #shopNowHero, #giftGuideHero, #cheesyHero, #getCookingHero {
+        width: 200px;
+    }
+
+    /*-----kids busy----*/
+    #keepKidsBusy h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+    #keepKidsBusy h2 {
+        font-size: 18px;
+    }
+    #keepKidsBusy h4 {
+        font-size: 12px;
+    }
+    #keepKidsBusy img {
+        height: 325px;
+        width: 325px;
+        margin-top: 30px;
+    }
+
+    /*-----gift guide-----*/
+    #giftGuide h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+    #giftGuide h2 {
+        font-size: 18px;
+    }
+    #giftGuide h4 {
+        font-size: 12px;
+    }
+    .headerText2 {
+        margin-top: 100px;
+        margin-bottom: 75px;
+        width: 225px;
+    }
+    .adjustCardMargin {
+        margin-top: 35px;
+    }
+    .adjustCard {
+        height: 155px;
+        width: 155px;
+        margin-bottom: 15px;
+    }
+    h5 {
+        font-size: 14px
+    }
+
+    /*----Get cooking---*/
+    #getCooking h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+    #getCooking h2 {
+        font-size: 18px;
+    }
+    #getCooking h4 {
+        font-size: 12px;
+    }
+    /*------cheesy----*/
+    #cheesy h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+    #cheesy h2 {
+        font-size: 18px;
+    }
+    #cheesy h4 {
+        font-size: 12px;
+    }
+    #cheeseShrink {
+        width: 325px;
+    }
+    
+    /*----------top deals-----*/
+    #topDeals {
+        height: 800px;
+    }
+    .topDealsTopRow {
+        height: 199px;
+        width: 250px;
+    }
+    .topDealSize {
+        height: 199px;
+        width: 250px;
+        margin: 12px;
+    }
+    .topDealSize2 {
+        height: 250px;
+        width: 172px;
+    }
+    .topDealsBottomRow {
+        height: 250px;
+        width: 172px;
+    }
+    .topDealsTopRow h3 {
+        font-size: 24px;
+    }
+    .topDealsBottomRow h3 {
+        font-size: 24px;
+    }
+
+    /*----top gifts----*/
+    .treeBoxes {
+        height: 65px;
+    }
+    .bottomRowTree {
+        width: 275px;
+    }
+
+    /*-------Daily deals---*/
+    #dailyDeal {
+        padding-top: 25px;
+    }
+    .dealFont h2 {
+        font-size: 36px;
+    }
+    .dealFont h4 {
+        font-size: 18px;
+    }
+    .mediaShrink {
+        width: 350px;
+    }
+
+    /*---------house brands-*/
+    .firstBrand {
+        width: 200px;
+        height: auto;
+    }
+    .firstBrand img {
+        width: 200px;
+        height: auto;
+    }
+    .otherBrands {
+        width: 200px;
+        height: auto;
+    }
+    .otherBrands img {
+        width: 200px;
+        height: auto;
+    }
+}
+
+/*--------------Media query 6-----------*/
+@media only screen and (max-width: 880px) {
+    .sectionHeaders h1 {
+        font-size: 48px;
+    }
+    /*-----gift guide-----*/
+    #giftGuide h1 {
+        font-size: 36px;
+        line-height: 45px;
+    }
+    #giftGuide h2 {
+        font-size: 16px;
+    }
+    #giftGuide h4 {
+        font-size: 12px;
+    }
+    .headerText2 {
+        margin-top: 70px;
+        margin-bottom: 50px;
+        margin-left: 30px;
+        width: 275px;
+    }
+    .adjustCardMargin {
+        margin-top: 20px;
+    }
+    .adjustCard {
+        height: 145px;
+        width: 125px;
+        margin-bottom: 10px;
+    }
+    h5 {
+        font-size: 12px
+    }
+
+    /*------cheesy----*/
+    #cheesy h1 {
+        font-size: 36px;
+        line-height: 45px;
+    }
+    #cheesy h2 {
+        font-size: 16px;
+    }
+    #cheesy h4 {
+        font-size: 12px;
+    }
+    #cheeseShrink {
+        width: 275px;
+    }
+
+    /*----------top deals-----*/
+    #topDeals {
+        height: 600px;
+    }
+    .topDealsTopRow {
+        height: 139px;
+        width: 175px;
+    }
+    .topDealSize {
+        height: 139px;
+        width: 175px;
+        margin: 8px;
+    }
+    .topDealsTopRow h3 {
+        font-size: 18px;
+    }
+    .topDealSize2 {
+        height: 165px;
+        width: 113px;
+        margin: 8px;
+    }
+    .topDealsBottomRow {
+        height: 165px;
+        width: 113px;
+    }
+    .topDealsBottomRow h3 {
+        font-size: 18px;
+    }
+
+    /*----top gifts----*/
+    .treeBoxes {
+        height: 55px;
+    }
+    .bottomRowTree {
+        width: 225px;
+    }
+    #topGifts h4 {
+        font-size: 24px;
+    }
+
+    /*-------Daily deals---*/
+    #dailyDeal {
+        padding-top: 15px;
+    }
+    .dealFont h2 {
+        font-size: 24px;
+    }
+    .dealFont h4 {
+        font-size: 16px;
+    }
+    .mediaShrink {
+        width: 275px;
+    }
+
+    /*---------house brands-*/
+    .firstBrand {
+        width: 175px;
+        height: auto;
+    }
+    .firstBrand img {
+        width: 175px;
+        height: auto;
+    }
+    .otherBrands {
+        width: 175px;
+        height: auto;
+    }
+    .otherBrands img {
+        width: 175px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 855px) {
+    #giftGuide h1 {
+        font-size: 24px;
+        line-height: 45px;
+    }
+    #giftGuide h2 {
+        font-size: 14px;
+    }
+    .headerText2 {
+        margin-top: 70px;
+        margin-bottom: 50px;
+        margin-left: 30px;
+        width: 225px;
+    }
+    .adjustCard {
+        height: 145px;
+        width: 125px;
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 770px) {
+    .bottomRowTree {
+        width: 712px;
+        margin-bottom: 10px;
+    }
+    /*-------Daily deals---*/
+    #dailyDeal {
+        padding-top: 15px;
+    }
+    .dealFont h2 {
+        font-size: 18px;
+    }
+    .dealFont h4 {
+        font-size: 14px;
+    }
+    .mediaShrink {
+        width: 200px;
+    }
+    /*---------house brands-*/
+    .firstBrand {
+        width: 135px;
+        height: auto;
+    }
+    .firstBrand img {
+        width: 135px;
+        height: auto;
+    }
+    .otherBrands {
+        width: 135px;
+        height: auto;
+    }
+    .otherBrands img {
+        width: 135px;
+        height: auto;
+    }
 }

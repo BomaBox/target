@@ -22,7 +22,7 @@
 }
 
 @media only screen and (min-width:768px) {
-    .collapse.dont-collapse-sm{
+    .collapse.dont-collapse-md{
         display: block;
         height: auto !important;
         visibility: visible;
@@ -32,6 +32,12 @@
 @media only screen and (min-width:768px) {
     .filterIcon{
         visibility: hidden;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .storeAvail {
+        display:inline !important
     }
 }
 /*-----Filter Options-------*/
@@ -125,6 +131,18 @@
     list-style-type: none !important;
 }
 /*----------------Product Card Styling-------------------*/
+.text-primary {
+    color: #828282!important;
+}
+
+.prodTiny {
+    font-size: 14px;
+    font-weight: 400;
+    color: #828282;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
 .srchCard {
    max-width:260px;
     max-height: auto;

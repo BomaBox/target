@@ -9,12 +9,12 @@
     
 </head>
 <body>
-
+   
 
 <!--Nav-->
 <nav class="navbar sticky-top navbar-expand-lg navbar-light customNav">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">
+      <a class="navbar-brand" href="checkout.html">
           <img src="../images/logo_wht.png" alt="target logo" width="40" height="40">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -85,6 +85,7 @@
             </ul>
           </li>
         </ul>
+
         <div class="nav justify-content-center" id="searchBox">
           <form class="d-flex nav-search align-items-center wrapper search-input">
             <input class="form-control me-2 ml-auto" type="search" placeholder="Search" aria-label="Search">
@@ -113,6 +114,26 @@
                 </ul>
               </li>
               <li class="nav-item dropdown">
+                <a class="nav-link" href="login.html" id="navbarDropdown" role="button" aria-expanded="false">
+                  <img src="../images/icons/People circle.png" alt="target logo" id="accountIcon" width="auto" >Sign In
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            <li class="d-flex align-items-center">
+                <a class="navbar-brand" href="cart.html">
+                    <img src="../images/icons/Group.png" alt="cart icon" width="30" height="30">
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Choose a different store</a></li>
+                  <li><a class="dropdown-item" href="#">Search for nearest store</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   <img src="../images/icons/People circle.png" alt="target logo" id="accountIcon" width="auto" >Sign In
                 </a>
@@ -132,7 +153,10 @@
         </div>
       </div>
     </div>
-</nav>             
+</nav>
+<div class="d-flex align-items-center ps-2">
+  <button type="button" class="btn btn-primary">Download the Target App</button>
+</div>             
 <!--Common Filters--> 
 <!--Main Content-->
 

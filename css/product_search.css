@@ -1,0 +1,207 @@
+/*Header Code*/
+.customNav {
+    background-color: #c8102e !important;
+}
+
+#accountIcon {
+    padding: 8px;
+}
+.form-control {
+    border-radius: 30px !important;
+    width: 620px;
+}
+
+.srchBar{
+    position: relative;
+}
+
+.srchIcon {
+    position: absolute;
+    right: 5%;
+
+}
+
+@media only screen and (min-width:768px) {
+    .collapse.dont-collapse-md{
+        display: block;
+        height: auto !important;
+        visibility: visible;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .filterIcon{
+        visibility: hidden;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .storeAvail {
+        display:inline !important
+    }
+}
+/*-----Filter Options-------*/
+
+.colorBox1 {
+    width: 36px;
+    height: 24px;
+    background: #558499;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+}
+
+.colorBox2 {
+    width: 36px;
+    height: 24px;
+    background: #DC3F3A;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+}
+
+.colorBox3  {
+    width: 36px;
+    height: 24px;
+    background: #FCC9AD;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+}
+
+/*-------Button Customization Code---------*/
+.btn-primary {
+    background-color: #CC0202 !important;
+    border-radius: 0 !important;
+    margin: 1rem 0 1rem 0 !important;
+    border: none !important;
+}
+.btn-outline-primary {
+    background-color: #ffffff !important;
+    border-radius: 0 !important;
+    color: #CC0202;
+    border: 1px solid #CC0202 !important;
+}
+.btn-outline-primary:hover {
+    background-color: #cc0202!important;
+    border-radius: 0 !important;
+    color: #ffffff;
+    border: 1px solid #CC0202 !important;
+}
+.btn-primary:hover{
+    background-color: #970303 !important;
+    
+}
+.btn-secondary {
+    background-color: white !important;
+    border: 4px solid #CC0202 !important;
+    color: black !important;
+    border-radius: 0 !important;
+}
+
+.relate-btn {
+    border-radius: 30px !important;
+    background-color: gray !important;
+}
+/*---------------------Circle Card section--------------------------*/
+#circleCard {
+    height: 74px;
+    background-color: #c4c4c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#circleCard a {
+    color: black;
+    font-size: 24px;
+    font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.sectionHeaders {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    margin-bottom: 54px;
+    font-size: 72px;
+    font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.sectionHeaders h1 {
+    font-size: 72px;
+    font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-weight: bold;
+}
+
+.search-star {
+    list-style-type: none !important;
+}
+/*----------------Product Card Styling-------------------*/
+.text-primary {
+    color: #828282!important;
+}
+
+.prodTiny {
+    font-size: 14px;
+    font-weight: 400;
+    color: #828282;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+.srchCard {
+   max-width:260px;
+    max-height: auto;
+}
+
+.imgContain {
+    position: relative;
+    width: 100%;
+    max-width: 260px;
+}
+
+.productPic {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.productPic:hover {
+    cursor: pointer;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .imgContain:hover .overlay{
+    opacity: 100%;
+}
+/*------------------------Footer code-------------------*/
+.footer-area {
+    background-color: #c8102e !important;
+    color: white;
+    margin-top: 8px;
+}
+
+.footer-tittle a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-tittle a :hover {
+    border-bottom: 1px solid white;
+}
+#topFooter{
+    padding-top: 16px;
+}
+.footer-logo{
+    padding-bottom: 8px;
+}
+.footer-social{
+    padding: 16px;
+}

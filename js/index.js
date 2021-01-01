@@ -4,4 +4,3 @@ $("#selector").autocomplete({
 });
 
 
-

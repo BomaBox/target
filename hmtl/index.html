@@ -6,11 +6,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/aa7dd4826a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="../css/index.css">
-    
 </head>
 <body>
-
-
 <!--Nav-->
 <nav class="navbar sticky-top navbar-expand-lg navbar-light customNav">
     <div class="container-fluid">
@@ -85,8 +82,17 @@
             </ul>
           </li>
         </ul>
-        <div class="nav justify-content-center" id="searchBox">
-          <form class="d-flex nav-search align-items-center wrapper search-input">
+        <div class="nav d-flex justify-content-start" id="searchBox">
+            <!--Make sure the form has the autocomplete function switched off:-->
+          <form class="d-flex nav-search align-items-center wrapper search-input" id="searchBox" autocomplete="off">
+            <div class="autocomplete" style="width:300px;">
+              <input id="targetItem" class="form-control me-2 ml-auto" type="text" name="itemSearch" placeholder="search">
+            </div>
+            <div class="search-icon">
+              <i class="fas fa-search special-tag"></i>
+            </div>
+          </form>
+          <!--<form class="d-flex nav-search align-items-center wrapper search-input">
             <input class="form-control me-2 ml-auto" type="search" placeholder="Search" aria-label="Search">
             <ul id="autocom-box">
               <li><a href="#">Taco Shells</a></li>
@@ -98,10 +104,10 @@
                 <i class="fas fa-search special-tag"></i>
               </div>
             </a>
-          </form>
+          </form>-->
         </div>
         
-        <div class="nav justify-contet-end" id="shoppingCenter">
+        <div class="nav justify-content-end" id="shoppingCenter">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item dropdown d-flex align-items-center">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -132,7 +138,7 @@
         </div>
       </div>
     </div>
-</nav>             
+</nav>           
 <!--Common Filters--> 
 <!--Main Content-->
 

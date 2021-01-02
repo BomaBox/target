@@ -265,15 +265,16 @@
     
 
         <div class="row">
-            
-            <div class="d-block bg-danger text-white fs-3">
-                Payment</p>
+            <div id="bgColortargetgray">
+                <div class="d-block text-white fs-3">
+                    Payment</p>
+                </div>
             </div>
         </div>       
             
     <!--    <form class="was-validated">-->
     <!-- Credit Card Information -->
-                
+     <!--hidden payment info          
                 <div class="row pt-4">
                     
                     <div class="col-sm-6">
@@ -297,14 +298,14 @@
                         </div>
                     </div>
                                         
-        <!-- Name -->
+        <!-- Name 
                 <div class="form-outline mb-4">
                     <label class="form-label">Cardholder Name</label>
                     <input type="text" class="form-control" id="cardholder"/>
                 </div>
                     
-
-        <!--Payment Address-->
+            --> 
+        <!--Payment Address
 
 
                 <div class="row">
@@ -362,7 +363,7 @@
                 
                
                                                                               
-        <!-- Checkbox -->
+        <!-- Checkbox 
                 
                 <div class="form-check d-flex  mb-4">
                     <input
@@ -380,7 +381,7 @@
          <!-- Button trigger modal -->
 
   
-  <!-- Modal -->
+  <!-- Modal 
   <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -396,15 +397,15 @@
           
         </div>
       </div>
-    </div>
+    </div>-->
   </div>  
   
         <!-- Submit button 
         <div class="row pb-5">
             <button type="submit" class="btn-lg btn-primary btn-block mb-4">Save and Continue</button>     
-        </div>-->
+        </div>
             </div>   
-    <!--  </form>-->
+     </form>
  
   
   
@@ -484,214 +485,3 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>
-
-
-
-<!--------PLEASE DO NOT DELETE THIS DISCARDED CODE - Thanks! KW-->
-
-
-<!------Your cart, items count, sub-total, sign in BAR - 3rd ATTEMPT
-
-<div class="grid-container">
-
-    <!----Your Cart and Item Count
-    <div>
-        <div id="ycverticalLine">
-            <h3>Your <br>
-                Cart</h3> 
-        </div>
-    </div>
-
-    <div>
-        <div id="itemcount">
-        <h3> # items <br>
-         $00.00 </h3>
-        </div>
-    </div>
-    
-    <!---Edit Cart
-    <div>
-        <div id="editCart" href="cart.html">
-            <h5>
-                <a href="cart.html"> Edit Cart</a>
-            </h5>
-        </div>
-    </div>
-
-    <!---Have an account and Sign In button
-    <div>
-        <div id="haveAccount">
-            <h6>Have an account?<br>
-            Sign in to checkout faster.</h6>
-        </div>
-    </div>
-
-      <div>
-        <div id="signIn">
-            <a href="index.html" class="btn btn-primary btn-lg" role="button" aria-pressed="true">Sign In</a>
-        </div>
-    </div>
-
-    <style>
-        /* unvisited link */
-        a:link {
-          color: black;
-        }
-        
-        /* visited link */
-        a:visited {
-          color: black;
-        }
-        
-        /* mouse over link */
-        a:hover {
-          color: #CC0202;
-        }
-        
-        /* selected link */
-        a:active {
-          color: black;
-        }
-    </style>
-
-</div>
--->
-
-<!--Checkout Progress--
-
-    <div class="position-relative m-4">
-
-
-<div class="container">
-    <div class="row">       
-
-        <div class="col float-end">
-                <img src="../images/icons/checkout_gray.jpg" alt="Checkout Icon"></img>
-            </div>
-            <div>
-                <h3> 1. Checkout</h3>
-            </div>          
-        </div>
-    
-        <div class= "col-md-auto">
-            <div>
-                <img src="../images/icons/cc_gray.jpg" class="img-fluid" alt="payment icon"></img>
-            </div>
-            <div></div>
-                <h3>----------2. Payment ----------</h3>
-            </div>
-        </div>
-    
-        <div class="col">
-            <div>
-                <img src="../images/icons/confirmation_gray.jpg" alt="confirmation icon">
-                <br><h3>3. Confirmation</h3>
-            </div>
-        </div>
-    
-    </div>
-   
-</div>
-
-
-<!---attempt to checkout progress coding 1
-
-
--->
-<!--OTHER ATTEMPTS!!  
-    trying to use col-1, etc to set columns across a row but it is breaking into new rows - 
-    
-Checkout Attempt 2
-
-<div class="row">
-     <!--invisible column
-    <div class="col-2"></div>
-    
-    
-    <div class="col-1">
-        <div id="ycverticalLine">
-            <h3>Your Cart </h3> 
-        </div>
-    </div>
-
-    <div class="col-2">
-        <div id="itemcount">
-           <h3> # items <br>
-            $00.00 </h3>
-        </div>
-    </div>
-
-    </div class="col-1">
-        <div id="editCart" href="#">
-            <h3>Edit Cart</h3>
-        </div>
-    </div>
-
-     <div class="col-2">
-         <div id="haveAccount">
-            <h6>Already have an account?<br>
-            Sign in to checkout faster.</h6>
-        </div>
-    </div>
-
-     <div class="col-1">
-         <div id="signin">
-             <h3>Sign in</h3>      
-        </div>
-    </div>
-
-  </div>
-
-
-Checkout Information attempt 1
-  <container>
-    <div id="cartInfo-row">
-        <div class="row">
-
-        <!--invisible column
-        <div class="col-2"></div>
-
-        <!--Your Cart
-        <div class="col-1">
-            <div>
-                <img src="../images/YourCart.JPG" alt="Your Cart" width="80" height="80">
-             </div>
-        </div>
-
-         <!--Cart Item and Sub-total
-        <div class="col-2">           
-            <div>
-                <ul class="list-unstyled">
-                    <h4>
-                    <li># Items </li>  
-                    <li>$00.00</li> 
-                    </h4>
-                </ul>
-            </div>
-        </div>    
-       
-         <!--Edit Cart-->
-            <!--needs hyperlink to cart page
-        <div class="col-2">
-            <div style= "padding:10px"></div>
-           <H3>Edit Cart</H3>
-        </div>
-
-        <!--Already have an account?
-        <div class="col-2">
-            <div class="row">
-                <h6>Already have an account?</h6>
-            </div>
-
-            <div class="row">
-                <h6>Sign in to checkout faster.</h6>
-            </div>
-        </div>
-
-        <!-- Sign In button 
-        <div class="col-1">
-            <button type="submit" class="btn-primary btn-outline-primary">Sign In</button>
-        </div>
-    </div>
-    </div>
-</container>-->

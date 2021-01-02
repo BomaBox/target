@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Target</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    
+    <script src="https://kit.fontawesome.com/aa7dd4826a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="../css/checkout.css">
+</head>
+<body>       
+
+
+<!--header-->
+
+<!------Your cart, items count, sub-total, sign in BAR-->
+
+<div class="container">
+   
+    
+
+    <!----Your Cart and Item Count-->
+    <div class="row  pt-3 pb-3  border-dark border-bottom border-3">
+        <div class="col">
+            <div id="ycverticalLine">
+                <h3>Your <br>
+                    Cart</h3> 
+            </div>
+        </div>
+
+        <div class="col">
+            <div id="itemcount">
+                <h4> # items <br>
+                    $00.00 </h4>
+            </div>
+        </div>
+        
+    
+    <!---Edit Cart-->
+        <div class="col">
+            <div id="editCart" href="cart.html">
+                <h5>
+                    <a href="cart.html"> Edit Cart</a></h5>
+            </div>
+        </div>
+
+    <!---Have an account and Sign In button-->
+        <div class="col-md-auto">
+            <div id="haveAccount">
+                <h6>Have an account?<br>
+                    Sign in to checkout faster.</h6>
+            </div>
+        </div>
+
+        <div class="col">
+            <div id="signIn">
+                <a href="index.html" class="btn btn-primary btn-lg" role="button" aria-pressed="true">Sign In</a>
+            </div>
+        </div>
+
+    <style>
+        /* unvisited link */
+        a:link {
+          color: black;
+        }
+        
+        /* visited link */
+        a:visited {
+          color: black;
+        }
+        
+        /* mouse over link */
+        a:hover {
+          color: #CC0202;
+        }
+        
+        /* selected link */
+        a:active {
+          color: black;
+        }
+    </style>
+    
+    
+</div>
+        
+<!------ PROGRESS BAR WITH ICONS-->
+
+<div class="row justify-content-center pb-5 pt-5">
+    
+  
+    <div class="position-relative col-sm-8 pt-3 pb-4">
+       
+        <div class="progress" style="height: 2px;">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            </div>
+        </div>
+
+        <div class="position-absolute top-0 start-0 translate-middle" style="width: 2rem; height:2rem;">
+            <img src="../images/icons/checkout_black.png" alt="checkout icon">
+            
+        </div>
+
+        <div class="position-absolute top-0 start-50 translate-middle" style="width: 2rem; height:2rem;">
+            <img src="../images/icons/cc_gray.png" alt="credit card icon">
+            
+        </div>
+
+        <div class="position-absolute top-0 start-100 translate-middle" style="width: 2rem; height:2rem;">
+            <img src="../images/icons/confirmation_gray.png"  alt="confirmation icon">
+            
+        </div>
+    </div>
+</div>
+
+ 
+<!--Payment, Shipping, and Checkout Options-->            
+<div class="row me-3"></div>
+    <!--Shipping Information 
+    <div class="collapse" id="collapseExample">
+  <div class="card card-body">
+    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+  </div>
+</div>-->
+<div class="container border-top border-dark border-3"> 
+    
+        
+
+    <div class="row pt-4">
+        <div class="col-sm-8 border-end border-danger border-3">
+
+            <div class="row">
+                
+                <div class="d-block bg-danger text-white fs-3">
+                    Shipping</p>
+                </div>
+            </div>
+            
+            <form class="collapse.show">
+            <!-- Name input -->
+                <div class="row pt-4">
+
+                    <div class="col">
+                        <div class="form-outline">
+                            <label class="form-label">First name</label>
+                            <input type="text" class="form-control" id="Firstname"/>
+                        </div>
+                   </div>
+
+                   <div class="col"> 
+                        <div class="form-outline mb-4">
+                            <label class="form-label">Last name</label>
+                            <input type="text" class="form-control" id="Lastname"/>
+                        </div>
+                    </div> 
+                
+            <!-- Address input -->
+
+                    <div class="form-outline mb-4">
+                         <label class="form-label">Address Line 1</label>
+                         <input type="text" class="form-control" id="address1"/>                   
+                    </div>
+                  
+                    <div class="form-outline mb-4">
+                        <label class="form-label">Address Line 2</label>
+                        <input type="text" class="form-control" id="address2"/>               
+                      </div>
+                    
+                    <div class="row">
+
+                        <div class="col">
+                            <div class="form-outline mb-4">
+                                <label class="form-label">City</label>
+                                <input type="text" class="form-control" id="city"/> 
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="form-outline mb-4">
+                                <label class="form-label">State</label>
+                                <input type="text" class="form-control" id="state"/>
+                            </div>
+                        </div>
+                    </div>
+                    
+               
+
+                    <!-- Zip Code input-->
+                    <div class="form-outline mb-4">
+                        <label class="form-label">Zip Code</label>
+                        <input type="number" class="form-control" id="zipcode">
+                    </div>
+                    
+                    <!-- Email input -->
+                    <div class="form-outline mb-4">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email"/>
+                    </div>
+                  
+                    <!-- Number input -->
+                    <div class="form-outline mb-4">
+                        <label class="form-label">Phone</label>
+                        <input type="number" class="form-control" id="phone"/>
+                    </div>
+                  
+                    <!-- Message input -->
+                    <div class="form-outline mb-4">
+                        <label class="form-label">Additional information</label>
+                        <textarea class="form-control" rows="4" id="additionalinformation"></textarea>
+                    </div>
+                  
+                    <!-- Checkboxes -->
+                    <div class="row">
+                        <div class="col">
+                        <div class="form-check d-flex justify-content-center mb-4">
+                            <input
+                            class="form-check-input me-2"
+                            type="checkbox"
+                            value=""
+                            id="form6Example8"
+                            checked
+                            />
+                        <label class="form-check-label" for="form6Example8"> Set as Default Shipping Address </label>
+                        </div>
+                        </div>
+
+                        <div class="col">
+                        <div class="form-check d-flex justify-content-center mb-4">
+                            <input
+                            class="form-check-input me-2"
+                            type="checkbox"
+                            value=""
+                            id="form6Example8"
+                            checked
+                            />
+                            <label class="form-check-label" for="form6Example8"> Save as Billing Address </label>
+                        </div>
+                        </div>
+
+                    </div>
+                </div>
+                  
+            </form>
+
+                      <!-- Submit button -->
+                 <button type="submit" href="../index.html" class="btn btn-primary btn-block mb-4">Save and Continue</button>     
+
+                
+<!--Payment Information-->            
+    <div class="d-block bg-danger text-white fs-3">
+            Payment</p>
+    </div>
+            
+            <form class="was-validated">
+    <!-- Credit Card Information -->
+                <div class="row">
+
+                    <div class="form-outline mb-4">
+                        <label class="form-label">Card Number</label>
+                        <input type="number" class="form-control" id="Cardnumber"/>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="form-outline mb-4">
+                            <label class="form-label">Expiration Date</label>
+                            <input type="text" class="form-control" id="expiration"/>   
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="form-outline mb-4">
+                            <label class="form-label">CVV</label>
+                            <input type="text" class="form-control" id="CVV"/> 
+                        </div>
+                    </div>
+                                        
+        <!-- Name -->
+                <div class="form-outline mb-4">
+                    <label class="form-label">Cardholder Name</label>
+                    <input type="text" class="form-control" id="cardholder"/>
+                </div>
+                    
+
+        <!--Payment Address-->
+                    
+                <div class="form-outline mb-4">
+                    <label class="form-label">Address</label>
+                    <input type="text" class="form-control" id="address1"/>                       
+                </div>
+
+                <div class="form-outline mb-4">
+                    <label class="form-label">Address Line 2</label>
+                    <input type="text" class="form-control" id="address2"/>
+                </div>
+                      
+                <div class="row">
+                    <div class="col">
+                        <div class="form-outline mb-4">
+                            <label class="form-label">City</label>
+                            <input type="text" class="form-control" id="city"/>   
+                        </div>
+                    </div>
+  
+                    <div class="col">
+                        <div class="form-outline mb-4">
+                            <label class="form-label">State</label>
+                            <input type="text" class="form-control" id="state"/>
+                        </div>
+                    </div>
+                </div>
+            
+      
+  
+        <!-- Zip Code input-->
+       
+        
+          
+            <!-- attempt 1                         
+                <div class="was-validated form-outline mb-4">
+                    <label for="validationTextarea" class="form-label">Zip Code</label>
+                    <textarea class="form-control is-invalid" input type="number" id="validationTextarea" required></textarea> 
+                    <div class="invalid-feedback">
+                        Please enter a valid Zip Code.
+                      </div>
+                </div> -->  
+                
+
+                <div class="form-outline mb-4">
+                    <label for="validationServer05" class="form-label">Zip Code</label>
+                    <input type="text" class="form-control is-invalid" id="validationServer05" aria-describedby="validationServer05Feedback" required>
+                    <div id="validationServer05Feedback" class="invalid-feedback">
+                      Please provide a valid zip code.
+                    </div>
+               
+                                                                              
+        <!-- Checkbox -->
+                
+                <div class="form-check d-flex justify-content-center mb-4">
+                    <input
+                        class="form-check-input me-2"
+                        type="checkbox"
+                        value=""
+                        id="form6Example8"
+                        checked
+                        />
+                    <label class="form-check-label" for="form6Example8"> Set as Default Payment Address </label>
+                </div>
+            </div>
+            
+                                                  
+            </form>
+  
+        <!-- Submit button -->
+                <button type="submit" class="btn btn-primary btn-block mb-4" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Save and Continue</button>
+      
+                
+                <!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Oops!  There has been an error.</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Please provide a valid zip code
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fix error</button>
+           
+            
+             
+          
+        </div>
+      </div>
+    </div>
+  </div>  
+</div>        
+
+
+
+<div class="col ms-5">
+    <div class="row d-block bg-danger text-white fs-3">
+       <p> Order Summary</p>
+    </div>
+    
+    
+        <div class="row">
+        <div class="col">
+            <div class="form-outline pt-3">
+                
+                <input type="text" class="form-control" placeholder="Promo Code"/>
+            </div>
+        </div>
+ <div class="col">
+    <button type="submit" class="btn btn-primary btn-block mb-4">Apply</button>
+</div>
+
+        <div class="row">
+            <div class="col">
+            <h5>Subtotal</h5>
+            </div>
+
+            <div class="col">
+            <h5>$00.00</h5>
+        </div>
+</div>
+
+        <div class="row">
+            <div class="col">
+            <h5>Delivery</h5>
+        </div>
+
+            <div class="col">
+            <h5>$00.00</h5>
+        </div>
+</div>
+
+        <div class="row">
+            <div class="col">
+            <h5>Estimated Tax</h5>
+        </div>
+
+        <div class="col">
+            <h5>$00.00</h5>
+        </div>
+</div>
+
+    <div class="row">
+        <div class="col">
+            <h4>TOTAL</h4>
+        </div>
+
+        <div class="col">
+            <h5>$00.00</h5>
+        </div>
+</div> 
+       
+<!-- Submit button -->
+<button type="submit" class="btn-primary btn-outline-primary">Place order</button>
+
+</div>
+</div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>

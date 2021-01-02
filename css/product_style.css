@@ -145,3 +145,21 @@
     padding-right: 0px !important;
     padding-top: 0px !important;
 }
+
+.btnSizing {
+    color: black !important;
+    display: inline !important;
+}
+
+
+#btnSizes-primary {
+    color: black !important;
+    background-color: lightgray !important;
+    border: 1px black solid !important;
+    width: 40px;
+    text-align: center;
+}
+
+.btn-check {
+    background-color: black !important;
+}

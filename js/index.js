@@ -101,7 +101,7 @@ function autocomplete(inp, arr) {
   
   autocomplete(document.getElementById("targetItem"), mySearch);
 
-  $("#targetItemautocomplete-list").click(function () {
+  /*$("#targetItemautocomplete-list").click(function () {
       var searchResult = $(this).getElementsByTagName("input");
       if (searchResult == "Trendy Dress") {
 
@@ -114,4 +114,4 @@ function autocomplete(inp, arr) {
 
       }
   })
-  bad99f33204e8142f4410e939cca861472f23a42
+  bad99f33204e8142f4410e939cca861472f23a42*/

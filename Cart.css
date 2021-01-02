@@ -1,0 +1,23 @@
+.plus-image{
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    left: 50px;
+}
+
+.recommendation-img-container {
+    position: relative;
+}
+
+.tag{
+    height: 24px;
+    width: 24px;
+    left: 50px;
+}
+
+.x-icon{
+    height: 24px;
+    width: 24px;
+    left: 50px;
+
+}

@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--header-->
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Target</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="../css/index.css">
+  <link rel="stylesheet" type="text/css" href="../css/Cart.css">
+  <script src="https://kit.fontawesome.com/aa7dd4826a.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+
+  <!--Nav-->
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark customNav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="../images/logo_wht.png" alt="target logo" width="40" height="40">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Categories
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Women</a></li>
+              <li><a class="dropdown-item" href="#">Men</a></li>
+              <li><a class="dropdown-item" href="#">Men</a></li>
+              <li><a class="dropdown-item" href="#">Men</a></li>
+              <li><a class="dropdown-item" href="#">Men</a></li>
+              <li><a class="dropdown-item" href="#">Men</a></li>
+              <li><a class="dropdown-item" href="#">Men</a></li>
+              <li><a class="dropdown-item" href="#">Men</a></li>
+              <li><a class="dropdown-item" href="#">Men</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Deals
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Trendspot
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="nav justify-content-center">
+          <form class="d-flex nav-search align-items-center">
+            <input class="form-control me-2 ml-auto" type="search" placeholder="Search" aria-label="Search">
+            <div class="search-icon">
+              <i class="fas fa-search special-tag"></i>
+            </div>
+          </form>
+        </div>
+        <div class="nav justify-content-end">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown d-flex align-items-center">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                You're Shopping at La Cantera
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Choose a different store</a></li>
+                <li><a class="dropdown-item" href="#">Search for nearest store</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="login.html" id="navbarDropdown" role="button" aria-expanded="false">
+                <img src="../images/icons/People circle.png" alt="target logo" id="accountIcon" width="auto">Sign In
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="d-flex align-items-center">
+              <a class="navbar-brand" href="cart.html">
+                <img src="../images/icons/Group.png" alt="cart icon" width="30" height="30">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!--Save Money-->
+  <div class="fluid-container">
+    <div class="row">
+      <div class="p-3 mb-2 mt-2 bg-secondary text-white">
+        <center> Save Money Using Our Circle Card </center>
+      </div>
+      <div class="col-12"></div>
+    </div>
+  </div>
+
+  <div class="fluid-container">
+    <div class="shadow-sm p-3 mb-5 bg-white rounded">
+      <div class="row">
+        <div class="col-3 d-flex justify-content-end">
+          <h2 class="text-center text-lg-end align-self-center"><strong>Your Cart</strong></h2>
+        </div>
+        <div class="col-3">
+          <div class="row">
+            <div class="col-1"><img src="../images/Line 1.png"></div>
+
+            <div class="col-11"> <br /> 3 Items <br /> $40.32 </div>
+          </div>
+        </div>
+
+        <div class="col-1"></div>
+        <div class="col-2"> <br /> Have an account?<br /> Sign in to checkout faster </div>
+        <div class="col-2 d-flex"> <br />
+          <a href="#" class="btn btn-lg btn-primary align-self-center">Sign In</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--
+   <div class="container">
+    <div class="row">
+      <div class="col-2"><h2><strong><br/>Your Cart</strong></h2></div>
+      <div class="col-1">
+        <img src="../images/Line 1.png">
+      </div>
+      <div class="col-3"><br/> 3 Items <br/> $40.32 </div>
+     <div class="col-1"></div>
+      <div class="col-3"> <br/> Have an account?<br/> Sign in to checkout faster </div>
+      <div class="col-2"> <br/>
+      <a href="#" class="btn btn-primary">Sign In</a>
+      </div>
+    </div>
+   </div>
+  -->
+
+
+
+
+
+  <!--Section: Block Content-->
+  <section>
+    <div class="container">
+      <!-- Main Row: Cart, Checkout Summary -->
+      <div class="row">
+        <!-- Cart Column -->
+        <div class="col-6">
+          <!-- Header -->
+          <h4 class="mb-4"> <br /> Cart (<span>3</span> items)</h4>
+          
+          <!-- Taco Shells -->
+          <!-- Taco Image and Details Row -->
+          <div class="row mb-4">
+
+            <div class="col-6">
+              <img src="../images/cart_taco.jpg" class="img-fluid" alt="...">
+            </div>
+
+
+            <div class="col-5">
+              <h5 class="">$3.33</h5>
+              <p class="">El Paso Taco Shells.</p>
+              <p class="">1 ct </p>
+              
+              <div class="col-12">
+                <div class="form-group">
+                  <select class="" id="exampleFormControlSelect1">
+                    <option>Qty. 1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                  </select>
+                </div>
+              </div>
+
+              <a href="#" class="btn btn-primary">Save For Later</a>
+            
+              <div class="row">
+                <div class="col-12">
+                  <img class="tag" src="../images/Subtract.png">
+                  <u>1 Offer Available</u>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-1">
+              <img class="x-icon" src="../images/icons/X_icon.png">
+            </div>
+            
+          </div>
+
+          
+           <!--Radio Buttons-->
+          <div class="row">
+            <div class="col-6">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="tacoRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                  <h5> Shipping </h5>
+                </label>
+              </div>
+              <p>Will arrive on Sunday</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-6">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="tacoRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                  <h5> Same day delivery </h5>
+                </label>
+              </div>
+
+              <p>Will arrive this afternoon</p>
+              <p><u>More details</u></p>
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-6">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="tacoRadios" id="exampleRadios1" value="option1"
+                  checked>
+                <label class="form-check-label" for="exampleRadios1">
+                  <h5> Order Pickup </h5>
+                </label>
+              </div>
+              
+              <p>Will be ready this afternoon</p>
+              <p>La Cantera <u>Change store</u></p>
+            </div>
+          </div>
+          <!-- End Radio Buttons -->
+
+          <!-- Customers Also Bought -->
+          <div class="row">
+            <div class="col-6">
+              <h5> <strong>Customers Also Bought</strong>  </h5>
+              <p>Click plus to quick add</p>
+            </div>
+          </div>
+          
+          <!-- Recommendations -->
+          <div class="row">
+            <div class="col-3">
+              <div class="recommendation-img-container">
+                <img class="plus-image" src="../images/Group 26.png">
+                <img src="../images/cart_cilantro.jpg" alt="Cilantro">
+              </div>
+              <p><strong>Cilantro</strong></p>
+            </div>
+            <div class="col-3">
+              <div class="recommendation-img-container">
+                <img class="plus-image" src="../images/Group 26.png">
+                <img src="../images/cart_groundbeef.jpg" alt="beef">
+                <p><strong>Ground Beef</strong></p>
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="recommendation-img-container">
+                <img class="plus-image" src="../images/Group 26.png">
+                <img src="../images/cart_avocados.jpg">
+                <p> <strong>Organic Avocados</strong></p>
+              </div>
+            </div>
+          </div>
+          <!-- End Taco Shells -->
+
+          <hr />
+
+          <!-- Cookbook -->
+          <div class="row mb-4">
+            <div class="row">
+              <div class="col-6">
+                <img src="../images/cart_cookbook.jpg" class="img-fluid" alt="...">
+              </div>
+
+              <div class="col-5">
+                <h5 class="">$17.00</h5>
+                <p class="">Magnolia Vol. 1</p>
+                <p class="">1 ct </p>
+                <div class="form-group">
+                  <select class="" id="exampleFormControlSelect1">
+                    <option>Qty. 1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                  </select>
+                </div>
+                <a href="#" class="btn btn-primary">Save For Later</a>
+                <div class="row">
+                  <div class="col-12">
+                    <img class="tag" src="../images/Subtract.png">
+                    <u>1 Offer Available</u>
+                  </div>
+                </div>
+              </div>
+              <div class="col-1">
+                <img class="x-icon" src="../images/icons/X_icon.png">
+              </div>
+                
+            </div>
+
+
+            <div class="row">
+              <div class="col-6">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="cookbookRadios" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios2">
+                    <h5> Shipping </h5>
+                  </label>
+                </div>
+                <p>Will arrive on Sunday</p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-6">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="cookbookRadios" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios2">
+                    <h5> Same day delivery </h5>
+                  </label>
+                </div>
+  
+                <p>Will arrive this afternoon</p>
+                <p><u>More details</u></p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-6">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="cookbookRadios" id="exampleRadios1" value="option1"
+                    checked>
+                  <label class="form-check-label" for="exampleRadios1">
+                    <h5> Order Pickup </h5>
+                  </label>
+                </div>
+                
+                <p>Will be ready this afternoon</p>
+                <p>La Cantera <u>Change store</u></p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-6">
+                <h5> <strong>Customers Also Bought</strong>  </h5>
+                <p>Click plus to quick add</p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-3">
+              </div>
+
+
+              <div class="row">
+                <div class="col-3">
+                  <div class="recommendation-img-container">
+                    <img class="plus-image" src="../images/Group 26.png">
+                    <img src="../images/cart_magtote.jpg" alt="Bag">
+                  </div>
+                  <p><strong>Reuseable Grid Tote </strong></p>
+                </div>
+                <div class="col-3">
+                  <div class="recommendation-img-container">
+                    <img class="plus-image" src="../images/Group 26.png">
+                    <img src="../images/cart_magsign.jpg" alt="WC Sign ">
+                    <p><strong>Platform Sneakers</strong></p>
+                  </div>
+                </div>
+    
+                <div class="col-3">
+                  <div class="recommendation-img-container">
+                    <img class="plus-image" src="../images/Group 26.png">
+                    <img src="../images/cart_candle.jpg" alt="Candle">
+                    <p> <strong>Fresh Magnolia Candle</strong></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Cookbook -->
+          
+          <hr />
+          <!-- Dress Item -->
+          <div class="row mb-4">
+            <div class="row">
+              <div class="col-6">
+                <img src="../images/cart_dress.jpg" class="card-img-top" alt="...">
+              </div>
+  
+              <div class="col-5">
+                <h5 class="">$15.99</h5>
+                <p class="">Happening Cool Dress </p>
+                <p class="">1 ct </p>
+                <div class="col-6">
+                  <div class="form-group">
+                    <select class="" id="exampleFormControlSelect1">
+                      <option>Qty. 1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                    </select>
+                  </div>
+                </div>
+
+                <a href="#" class="btn btn-primary">Save For Later</a>
+  
+  
+                <div class="row">
+                  <div class="col-12">
+                    <img class="tag" src="../images/Subtract.png">
+                    <u>1 Offer Available</u>
+                  </div>
+                </div>
+              </div>
+              <div class="col-1">
+                <img class="x-icon" src="../images/icons/X_icon.png">
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col-6">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="DressRadios" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios2">
+                    <h5> Shipping </h5>
+                  </label>
+                </div>
+                <p>Will arrive on Sunday</p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-6">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="DressRadios" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios2">
+                    <h5> Same day delivery </h5>
+                  </label>
+                </div>
+  
+                <p>Will arrive this afternoon</p>
+                <p><u>More details</u></p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="DressRadios" id="exampleRadios1" value="option1"
+                    checked>
+                  <label class="form-check-label" for="exampleRadios1">
+                    
+                    <h5> Order Pickup </h5>
+                  </label>
+                </div>
+                
+                <p>Will be ready this afternoon</p>
+                <p>La Cantera <u>Change store</u></p>
+              </div>
+            
+
+            <div class="row">
+              <div class="col-6">
+                <h5> <strong>Customers Also Bought</strong>  </h5>
+                <p>Click plus to quick add</p>
+              </div>
+            </div>
+          </div>
+
+            <div class="row">
+              <div class="col-3">
+              </div>
+            </div>
+
+            
+        
+
+            <div class="row">
+              <div class="col-3">
+                <div class="recommendation-img-container">
+                  <img class="plus-image" src="../images/Group 26.png">
+                  <img src="../images/cart_jacket.jpg" alt="Jacket">
+                </div>
+                <p><strong>Denim Jacket </strong></p>
+              </div>
+              <div class="col-3">
+                <div class="recommendation-img-container">
+                  <img class="plus-image" src="../images/Group 26.png">
+                  <img src="../images/cart_sneaker.jpg" alt="Shoes">
+                  <p><strong>Platform Sneakers</strong></p>
+                </div>
+              </div>
+
+              <div class="col-3">
+                <div class="recommendation-img-container">
+                  <img class="plus-image" src="../images/Group 26.png">
+                  <img src="../images/cart_scrunchies.jpg" alt="Hair Tie">
+                  <p> <strong>Velvet Scrunchies</strong></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Dress Item -->
+        </div>
+        <!-- End Cart Column -->
+        
+        <!-- Divider Column -->
+        <div class="col-1">
+          <img src="../images/Line 20.png">
+        </div>
+        <!-- End Divider Column -->
+
+        <!-- Checkout Summary Column -->
+        <div class="col-4">
+          <br />
+          <h1>Checkout Summary</h1>
+          <br />
+          <div class="row">
+            <div class="col-6">Subtotal</div>
+            <div class="col-6">$33.99</div>
+          </div>
+          <div class="row">
+            <div class="col-6">Shipping</div>
+            <div class="col-6">$0.00</div>
+          </div>
+          <div class="row">
+            <div class="col-6">Estimated Tax</div>
+            <div class="col-6">$4.00</div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-6 h4">Total Due</div>
+            <div class="col-6 h4">$40.32</div>
+          </div>
+          <button class="btn btn-primary btn-lg">I'm Ready to Checkout</button>
+        </div>
+        <!-- End Checkout Summary Column -->
+      </div>
+      <!-- End Main Row -->
+    </div>
+  </section>
+ 
+  <!--Footer-->
+  <div class="footer-area footer-padding">
+    <div class="container">
+      <div class="row d-flex justify-content-between" id="topFooter">
+        <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6">
+          <div class="single-footer-caption mb-50">
+            <div class="single-footer-caption mb-30">
+              <!-- logo -->
+              <div class="footer-logo">
+                <a href="index.html"><img src="../images/logo_wht.png" alt="Target Logo in white"></a>
+              </div>
+              <div class="footer-tittle">
+                <div class="footer-pera">
+                  <h5>How we Help</h5>
+                  <p>Our Target volunteers in their red shirts - out lending a hand on projects that enrich their local
+                    communities. Our dedicated team members donate more than 1 million hours of their time each year to
+                    causes like hunger relief, education, the environment and more.</p>
+                  <h5>Response to Covid-19</h5>
+                  <p>Target committed $10 million to expand relief and assistance to team members and organizations
+                    helping respond to the corona virus. The $10 million donation supports four areas: team members,
+                    local communities, national organizations, and global response organizations.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-3 col-sm-5">
+          <div class="single-footer-caption mb-50">
+            <div class="footer-tittle">
+              <h4>Need Help?</h4>
+              <ul style="list-style-type:none;">
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a href="#">Service Center</a></li>
+                <li><a href="#">Customer Service</a></li>
+                <li><a href="#"> Get Coupon</a></li>
+                <li><a href="#"> Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-7">
+          <div class="single-footer-caption mb-50">
+            <div class="footer-tittle">
+              <h4>Useful Links</h4>
+              <ul style="list-style-type:none;">
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a href="#">Warenty & Complaints</a></li>
+                <li><a href="#">Orders & Shipping</a></li>
+                <li><a href="#">Tracking Order</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Repair</a></li>
+                </li>
+                <li><a href="#">Terms</a></li>
+                </li>
+                <li><a href="#">FAQ</a></li>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-5 col-sm-7">
+          <div class="single-footer-caption mb-50">
+            <div class="footer-tittle">
+              <h4>My Store</h4>
+              <ul style="list-style-type:none;">
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a href="#">Frequently Asked Questions</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Report a Payment Issue</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-4"></div>
+          <div class="col-xl-4 col-lg-4 col-md-4 d-flex justify-content-center align-items-center">
+            <div>
+              Copyright &copy;
+              <script>document.write(new Date().getFullYear());</script>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4 d-flex justify-content-end">
+            <div class="footer-copy-right f-right">
+              <!-- social -->
+              <div class="footer-social">
+                <a href="#"><img src="../images/icons/Twitter.png"></a>
+                <a href="#"><img src="../images/icons/Facebook.png"></a>
+                <a href="#"><img src="../images/icons/Instagram.png"></a>
+                <a href="#"><img src="../images/icons/Youtube.png"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

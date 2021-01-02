@@ -1,0 +1,198 @@
+/*Header Code*/
+.customNav {
+    background-color: #c8102e !important;
+}
+
+#accountIcon {
+    padding: 8px;
+}
+
+
+/*-------Button Customization Code---------*/
+
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-lg {
+    width: 200px;
+}
+
+.btn-primary {
+    background-color: #CC0202 !important;
+    border-radius: 0 !important;
+    margin: 1rem 0 1rem 0 !important;
+    border: none !important;
+}
+.btn-outline-primary {
+    background-color: #ffffff !important;
+    border-radius: 0 !important;
+    color: #CC0202;
+    border: 1px solid #CC0202 !important;
+}
+.btn-outline-primary:hover {
+    background-color: #cc0202!important;
+    border-radius: 0 !important;
+    color: #ffffff;
+    border: 1px solid #CC0202 !important;
+}
+.btn-primary:hover{
+    background-color: #970303 !important;
+    
+}
+.btn-secondary {
+    background-color: white !important;
+    border: 4px solid #CC0202 !important;
+    color: black !important;
+    border-radius: 0 !important;
+}
+
+#formLogo {
+    margin: 60px;
+}
+
+/*----------cart info row------------------------------------*/
+
+
+.mt-3 {
+    margin-top: 3 !important;
+  }
+  
+  .ms-1 {
+    margin-left: ($spacer * .25) !important;
+  }
+  
+  .px-2 {
+    padding-left: ($spacer * .5) !important;
+    padding-right: ($spacer * .5) !important;
+  }
+  
+  .p-3 {
+    padding: $spacer !important;
+  }
+.sectionHeaders {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    margin-bottom: 54px;
+    font-size: 72px;
+    font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#cartInfo-row {
+    height: 200px;
+    padding:40px 5px;
+    margin-top: 75px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#ycverticalLine {
+    grid-column: 1 / 2;
+    height: 80px;
+    width: 100%;
+    border-right: 6px solid black;
+    text-align: right;
+    padding-right: 15px;
+}
+
+#itemcount {
+    height: 80px;
+    width: 100%;
+    padding-left: 8px;
+}
+
+#editCart {
+    height: 80px;
+    width: 100%;
+    padding-top: 25px;
+    padding-left: 25px;  
+}
+
+#haveAccount {
+    grid-column: 4 / 5;
+    height: 80px;
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 130px;
+}
+
+#signIn {
+    height: 80px;
+    width: 100%;
+    padding-left: 20px;
+}
+
+
+
+#blankRow {
+    height: 40px;
+}
+
+
+/*--------------------------Payment code----------------*/
+
+
+}
+.form-outline .form-control {
+    min-height: auto;
+    padding: .33em .75em;
+    border: 1px solid darkgray;
+    background: transparent;
+    
+    transition: all .2s linear;
+}
+
+.form-control {
+        border-radius: 30px !important;
+        
+    }
+
+
+/*------------------------Footer code-------------------*/
+.footer-area {
+    background-color: #c8102e !important;
+    color: white;
+    margin-top: 8px;
+}
+
+.footer-tittle a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-tittle a :hover {
+    border-bottom: 1px solid white;
+}
+#topFooter{
+    padding-top: 16px;
+}
+.footer-logo{
+    padding-bottom: 8px;
+}
+.footer-social{
+    padding: 16px;
+}
+
+
+
+
+

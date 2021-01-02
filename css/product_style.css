@@ -1,0 +1,147 @@
+/*Header Code*/
+.customNav {
+    background-color: #c8102e !important;
+}
+
+#accountIcon {
+    padding: 8px;
+}
+.form-control {
+    border-radius: 30px !important;
+    width: 620px;
+}
+.tinyCrumb {
+    font-size: 10px !important;
+}
+/*Hero Code*/
+
+.crumbsContain {
+    margin-left: 5%;
+}
+
+
+
+.morePics {
+    background-color: darkgray;
+    width: 86px;
+    height: 110px;
+}
+
+.sizeSelect {
+    border: 2px solid #4F4F4F !important;
+}
+
+
+.text-primary {
+    color: #828282!important;
+}
+
+.prodTiny {
+    font-size: 14px;
+    font-weight: 400;
+    color: #828282;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+.qtySelect {
+    font-size: 14px;
+    font-weight: 400;
+    color: #828282;
+    text-align: center;
+}
+
+.colorBox1 {
+    width: 36px;
+    height: 24px;
+    background: #558499;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+}
+
+.colorBox2 {
+    width: 36px;
+    height: 24px;
+    background: #DC3F3A;
+    border: 3px solid black;
+    box-sizing: border-box;
+}
+
+.colorBox3  {
+    width: 36px;
+    height: 24px;
+    background: #FCC9AD;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+}
+
+
+.targetPrimarybtn {
+    background-color: #c8102e !important;
+}
+
+.btn-primary {
+    background-color: #cc0202 !important;
+    border-radius: 0 !important;
+    margin: 5rem 0 1rem 0 !important;
+    border: none !important;
+}
+
+.btn-secondary {
+    background-color: white !important;
+    border: 4px solid #cc0202 !important;
+    color: black !important;
+    border-radius: 0 !important;
+}
+
+.checkOutRow {
+    margin-left: 1rem !important;
+}
+
+
+
+
+.tabbyInfo {
+    width: 85% !important;
+    margin: 7rem auto 0 auto;
+}
+
+.tabBox {
+    border: 1px solid lightgray;
+    padding: 2%;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.tabTime {
+    border-bottom: none !important;
+    margin: 0 auto;
+    width: 85%;
+}
+.navTabs {
+    margin: 0 auto;
+}
+
+.tabNotActive {
+    border-top: 1px solid lightgray !important;
+    border-right: 1px solid lightgray!important;
+    background-color: #F6F6F6 !important;
+    border-radius: none !important;
+    color: black;
+}
+
+
+
+
+.nav-pills .nav-link.active {
+    background: none !important;
+}
+
+.plusThree {
+    color: black !important;
+}
+
+.photoTab {
+    padding-right: 0px !important;
+    padding-top: 0px !important;
+}

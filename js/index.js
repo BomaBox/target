@@ -104,7 +104,7 @@ function autocomplete(inp, arr) {
   $("#targetItemautocomplete-list").click(function () {
       var searchResult = $(this).getElementsByTagName("input");
       if (searchResult == "Trendy Dress") {
-        
+
       }
       if-else (searchResult == "Magnolia cookbook") {
 
@@ -114,3 +114,4 @@ function autocomplete(inp, arr) {
 
       }
   })
+  bad99f33204e8142f4410e939cca861472f23a42

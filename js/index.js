@@ -97,21 +97,7 @@ function autocomplete(inp, arr) {
   
   /*An array containing all the country names in the world:*/
   
-  /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/var mySearch = ["Taco shells", "Trendy dress", "Magnolia cookbook"];
+  /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
+  var mySearch = ["Happening dress"/*, "Taco shells", "Magnolia cookbook"*/];
   
   autocomplete(document.getElementById("targetItem"), mySearch);
-
-  /*$("#targetItemautocomplete-list").click(function () {
-      var searchResult = $(this).getElementsByTagName("input");
-      if (searchResult == "Trendy Dress") {
-
-      }
-      if-else (searchResult == "Magnolia cookbook") {
-
-      }
-
-      if-else (searchResult == "Taco shells") {
-
-      }
-  })
-  bad99f33204e8142f4410e939cca861472f23a42*/

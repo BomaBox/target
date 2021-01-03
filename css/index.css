@@ -72,7 +72,6 @@ nav {
 }
 .form-control {
     border-radius: 30px !important;
-    width: 620px;
 }
 
 #searchBox {
@@ -82,6 +81,10 @@ nav {
     position: absolute;
     top: 1;
     right: 5%;
+}
+.downloadApp:hover {
+    cursor: pointer;
+    background-color: #9b0303;
 }
 
 /*-------Button Customization Code---------*/

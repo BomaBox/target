@@ -85,6 +85,11 @@ nav {
     background-color: #9b0303;
 }
 
+.menu-itm {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: large;
+}
 /*-------Button Customization Code---------*/
 .btn-primary {
     background-color: #CC0202 !important;

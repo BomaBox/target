@@ -35,8 +35,10 @@
     width: 200px;
 }
 
+
 .btn-primary {
     background-color: #CC0202 !important;
+    color: white !important;
     border-radius: 0 !important;
     margin: 1rem 0 1rem 0 !important;
     border: none !important;
@@ -58,15 +60,16 @@
     
 }
 .btn-secondary {
-    background-color: white !important;
-    border: 4px solid #CC0202 !important;
-    color: black !important;
+    background-color: #A3A1A1 !important;
+    border: none !important;
+    color: white !important;
     border-radius: 0 !important;
 }
 
 #formLogo {
     margin: 60px;
 }
+
 
 /*----------cart info row------------------------------------*/
 
@@ -150,8 +153,14 @@
 
 /*--------------------------Payment code----------------*/
 
-
+#bgColortargetred {
+    background-color: #cc0202;
 }
+
+#bgColortargetgray {
+    background-color: #A3A1A1;
+}
+
 .form-outline .form-control {
     min-height: auto;
     padding: .33em .75em;

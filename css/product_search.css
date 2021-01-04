@@ -42,30 +42,56 @@
 }
 /*-----Filter Options-------*/
 
-.colorBox1 {
-    width: 36px;
-    height: 24px;
-    background: #558499;
-    border: 1px solid #BDBDBD;
-    box-sizing: border-box;
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
 }
 
-.colorBox2 {
-    width: 36px;
-    height: 24px;
-    background: #DC3F3A;
-    border: 1px solid #BDBDBD;
-    box-sizing: border-box;
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
 }
 
-.colorBox3  {
-    width: 36px;
-    height: 24px;
-    background: #FCC9AD;
-    border: 1px solid #BDBDBD;
-    box-sizing: border-box;
+.colorFil1 {
+    background-color: red !important;
 }
-
+.colorFil2 {
+    background-color: orange !important;
+}
+.colorFil3 {
+    background-color: yellow !important;
+}
+.colorFil4 {
+    background-color: green !important;
+}
+.colorFil5 {
+    background-color: blue !important;
+}
+.colorFil6 {
+    background-color: purple !important;
+}
+.colorFil7 {
+    background-color: black !important;
+}
+.colorFil8 {
+    background-color: brown !important;
+}
+.colorFil9 {
+    background-color: gray !important;
+}
+.colorFil10 {
+    background-color: white !important;
+    border: 2px solid gray !important;
+}
 /*-------Button Customization Code---------*/
 .btn-primary {
     background-color: #CC0202 !important;

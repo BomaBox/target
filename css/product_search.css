@@ -248,17 +248,6 @@ nav {
     margin-bottom: 8px;
 }
 
-.srchCard {
-   max-width:260px;
-    max-height: auto;
-}
-
-.imgContain {
-    position: relative;
-    width: 100%;
-    max-width: 260px;
-}
-
 .productPic {
     display: block;
     max-width: 100%;
@@ -268,9 +257,15 @@ nav {
 .productPic:hover {
     cursor: pointer;
 }
+ 
+ .imgContain {
+     position: relative;
+     width: 100%;
+ }
 .overlay {
     position: absolute;
     bottom: 0;
+    margin-bottom: 16px;
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.5); /* Black see-through */
     color: #f1f1f1;

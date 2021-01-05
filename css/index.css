@@ -1399,3 +1399,22 @@ nav {
         height: auto;
     }
 }
+
+
+
+
+
+/*--login page--*/
+
+.logInForm {
+    border-radius: 0 !important;
+}
+
+.formLabel2 {
+    font-size: 14px;
+    color: #A3A1A1;
+}
+
+.formLabel3 {
+    font-size: 14px;
+}

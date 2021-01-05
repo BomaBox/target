@@ -146,3 +146,6 @@
     padding-top: 0px !important;
 }
 
+prodHeader {
+    min-height: 100px !important;
+}

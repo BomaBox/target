@@ -13,6 +13,10 @@
 .tinyCrumb {
     font-size: 10px !important;
 }
+
+.tinyCrumb a {
+    color: #cc0000;
+}
 /*Hero Code*/
 
 .crumbsContain {
@@ -146,6 +150,31 @@
     padding-top: 0px !important;
 }
 
-prodHeader {
+.prodHeader {
     min-height: 100px !important;
+}
+
+ 
+ .imgContain {
+     position: relative;
+     width: 100%;
+ }
+.overlay {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 16px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .imgContain:hover .overlay{
+    opacity: 100%;
 }

@@ -1,6 +1,6 @@
 /*Header Code*/
 .customNav {
-    background-color: #c8102e !important;
+    background-color: #cc0000 !important;
 }
 
 #accountIcon {
@@ -37,7 +37,7 @@
 
 
 .btn-primary {
-    background-color: #CC0202 !important;
+    background-color: #cc0000 !important;
     color: white !important;
     border-radius: 0 !important;
     margin: 1rem 0 1rem 0 !important;
@@ -46,14 +46,14 @@
 .btn-outline-primary {
     background-color: #ffffff !important;
     border-radius: 0 !important;
-    color: #CC0202;
-    border: 1px solid #CC0202 !important;
+    color: #cc0000;
+    border: 1px solid #cc0000 !important;
 }
 .btn-outline-primary:hover {
-    background-color: #cc0202!important;
+    background-color: ##970303!important;
     border-radius: 0 !important;
     color: #ffffff;
-    border: 1px solid #CC0202 !important;
+    border: 1px solid #970303 !important;
 }
 .btn-primary:hover{
     background-color: #970303 !important;
@@ -154,7 +154,7 @@
 /*--------------------------Payment code----------------*/
 
 #bgColortargetred {
-    background-color: #cc0202;
+    background-color: #cc0000;
 }
 
 #bgColortargetgray {
@@ -178,7 +178,7 @@
 
 /*------------------------Footer code-------------------*/
 .footer-area {
-    background-color: #c8102e !important;
+    background-color: #cc0000 !important;
     color: white;
     margin-top: 8px;
 }

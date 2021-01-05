@@ -1,6 +1,6 @@
 /*Header Code*/
 .customNav {
-    background-color: #c8102e !important;
+    background-color: #cc0000 !important;
 }
 
 #accountIcon {
@@ -77,11 +77,11 @@
 
 
 .targetPrimarybtn {
-    background-color: #c8102e !important;
+    background-color: #cc0000 !important;
 }
 
 .btn-primary {
-    background-color: #cc0202 !important;
+    background-color: #cc0000 !important;
     border-radius: 0 !important;
     margin: 5rem 0 1rem 0 !important;
     border: none !important;
@@ -89,7 +89,7 @@
 
 .btn-secondary {
     background-color: white !important;
-    border: 4px solid #cc0202 !important;
+    border: 4px solid #cc0000 !important;
     color: black !important;
     border-radius: 0 !important;
 }

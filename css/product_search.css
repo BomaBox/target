@@ -1,32 +1,101 @@
 /*Header Code*/
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font: 16px Arial;  
+  }
+  
+  /*the container must be positioned relative:*/
+  .autocomplete {
+    position: relative;
+    display: inline-block;
+  }
+  
+  input {
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  input[type=text] {
+    background-color: #f1f1f1;
+    width: 100%;
+  }
+  
+  .autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: 100%;
+    left: 0;
+    right: 0;
+  }
+  
+  .autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff; 
+    border-bottom: 1px solid #d4d4d4; 
+  }
+  
+  /*when hovering an item:*/
+  .autocomplete-items div:hover {
+    background-color: #e9e9e9; 
+  }
+
+nav {
+    position: relative;
+}
 .customNav {
-    background-color: #c8102e !important;
+    background-color: #cc0000 !important;
 }
 
+.navbar {
+    position: relative;
+}
 #accountIcon {
     padding: 8px;
 }
 .form-control {
     border-radius: 30px !important;
-    width: 620px;
 }
 
-.srchBar{
+#searchBox {
     position: relative;
 }
-
-.srchIcon {
+.search-icon {
     position: absolute;
+    top: 1;
     right: 5%;
-
+}
+.downloadApp:hover {
+    cursor: pointer;
+    background-color: #9b0303;
 }
 
+.menu-itm {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: large;
+}
+.newFontColor {
+    color: white !important;
+}
+.fa-user-circle {
+    font-size: 16px;
+}
 .tinyCrumb {
     font-size: 10px !important;
 }
 
 .tinyCrumb a {
-    color: #CC0202;
+    color: #cc0000;
 }
 .crumbsContain {
     margin-left: 10%;
@@ -104,7 +173,7 @@
 }
 /*-------Button Customization Code---------*/
 .btn-primary {
-    background-color: #CC0202 !important;
+    background-color: #cc0000 !important;
     border-radius: 0 !important;
     margin: 1rem 0 1rem 0 !important;
     border: none !important;
@@ -112,14 +181,14 @@
 .btn-outline-primary {
     background-color: #ffffff !important;
     border-radius: 0 !important;
-    color: #CC0202;
-    border: 1px solid #CC0202 !important;
+    color: #cc0000;
+    border: 1px solid #cc0000 !important;
 }
 .btn-outline-primary:hover {
-    background-color: #cc0202!important;
+    background-color: #970303!important;
     border-radius: 0 !important;
     color: #ffffff;
-    border: 1px solid #CC0202 !important;
+    border: 1px solid #970303 !important;
 }
 .btn-primary:hover{
     background-color: #970303 !important;
@@ -127,7 +196,7 @@
 }
 .btn-secondary {
     background-color: white !important;
-    border: 4px solid #CC0202 !important;
+    border: 4px solid #cc0000 !important;
     color: black !important;
     border-radius: 0 !important;
 }
@@ -219,7 +288,7 @@
 }
 /*------------------------Footer code-------------------*/
 .footer-area {
-    background-color: #c8102e !important;
+    background-color: #cc0000 !important;
     color: white;
     margin-top: 8px;
 }

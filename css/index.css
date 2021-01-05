@@ -90,6 +90,12 @@ nav {
     font-weight: 700;
     font-size: large;
 }
+.newFontColor {
+    color: white !important;
+}
+.fa-user-circle {
+    font-size: 16px;
+}
 /*-------Button Customization Code---------*/
 .btn-primary {
     background-color: #CC0202 !important;

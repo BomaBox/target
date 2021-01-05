@@ -90,6 +90,9 @@ nav {
 .fa-user-circle {
     font-size: 16px;
 }
+#targetItem {
+    background-color: white;
+}
 /*-------Button Customization Code---------*/
 .btn-primary {
     background-color: #cc0000 !important;

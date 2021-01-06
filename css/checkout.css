@@ -128,7 +128,7 @@ nav {
 .btn-lg {
     width: 200px;
 }
-a {
+.noLineButton a {
     text-decoration: none;
 }
 

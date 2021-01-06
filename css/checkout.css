@@ -128,7 +128,9 @@ nav {
 .btn-lg {
     width: 200px;
 }
-
+a {
+    text-decoration: none;
+}
 
 .btn-primary {
     background-color: #cc0000 !important;

@@ -169,8 +169,7 @@ nav {
     text-decoration: none;
 }
 .carousel-item {
-    /*left: 275px;*/
-    left: 10%;
+    left: 17.5%;
 }
 .shadow {
     box-shadow: 0px 0px 4px 4px black; 
@@ -225,7 +224,9 @@ nav {
     justify-content: center;
 }
 
-
+#keepKidsBusy, #giftGuide, #cheesy, #getCooking {
+    width: 1500px;
+} 
 #shopNowHero, #giftGuideHero, #cheesyHero {
     background-color: #cc0000 !important;
     border: solid #cc0000;
@@ -342,7 +343,6 @@ nav {
 #cheesy {
     box-shadow: 0px 16px 4px 0px black;
     height: 635px;
-    width: 80%;
 }
 #cheesy h1 {
     font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -364,15 +364,12 @@ nav {
     font-family: "Targetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #cheesy img {
-    width: 100%;
+    width: 99%;
     height: auto;
 }
-/*#cheesePicShrink {
-    width: 650px;
-}*/
 #cheeseShrink {
     margin-left: 10px;
-    width: 90%;
+    width: 625px;
 }
 
 /*-----------------------Top Deals Section------------------------*/
@@ -527,7 +524,8 @@ nav {
     margin-left: 6px;
     margin-top: 9px;
     margin-bottom: 9px;
-    width: 450px;
+    /*width: 450px;*/
+    width: 600px;
 }
 .bottomRowTree:hover {
     box-shadow: 3px 3px 5px rgb(204, 2, 2);
@@ -605,6 +603,12 @@ nav {
 
 /*----------------------------Media query 1----------------------*/
 @media only screen and (max-width: 1920px) {
+    #keepKidsBusy, #giftGuide, #cheesy, #getCooking {
+        width: 1300px;
+    }
+    .carousel-item {
+        left: 10%;
+    }
     /*---gift guide---*/
     #giftGuide h1 {
         font-size: 84px;
@@ -654,6 +658,9 @@ nav {
     .otherBrands img {
         width: 375px;
         height: auto;
+    }
+    .bottomRowTree {
+        width: 450px;
     }
 
 }

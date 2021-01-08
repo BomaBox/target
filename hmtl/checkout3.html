@@ -12,6 +12,127 @@
 
 
 <!--header-->
+<nav class="navbar sticky-top navbar-expand-lg navbar-light customNav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+          <img src="../images/logo_wht.png" alt="target logo" width="40" height="40">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle menu-itm newFontColor" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categories
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Grocery</a></li>
+              <li><a class="dropdown-item" href="#">Household Essentials</a></li>
+              <li><a class="dropdown-item" href="#">Christmas</a></li>
+              <li><a class="dropdown-item" href="#">Women</a></li>
+              <li><a class="dropdown-item" href="#">Men</a></li>
+              <li><a class="dropdown-item" href="#">Young Adult</a></li>
+              <li><a class="dropdown-item" href="#">Kids</a></li>
+              <li><a class="dropdown-item" href="#">Baby</a></li>
+              <li><a class="dropdown-item" href="#">Shoes</a></li>
+              <li><a class="dropdown-item" href="#">Home</a></li>
+              <li><a class="dropdown-item" href="#">Furniture</a></li>
+              <li><a class="dropdown-item" href="#">Kitchen & Dining</a></li>
+              <li><a class="dropdown-item" href="#">Patio & Garden</a></li>
+              <li><a class="dropdown-item" href="#">Toys</a></li>
+              <li><a class="dropdown-item" href="#">Electronics</a></li>
+              <li><a class="dropdown-item" href="#">Video Games</a></li>
+              <li><a class="dropdown-item" href="#">Movies, Music & Books</a></li>
+              <li><a class="dropdown-item" href="#">Sports & Outdoors</a></li>
+              <li><a class="dropdown-item" href="#">Beauty</a></li>
+              <li><a class="dropdown-item" href="#">Personal Care</a></li>
+              <li><a class="dropdown-item" href="#">Health</a></li>
+              <li><a class="dropdown-item" href="#">Pets</a></li>
+              <li><a class="dropdown-item" href="#">Luggage</a></li>
+              <li><a class="dropdown-item" href="#">School & Office Supplies</a></li>
+              <li><a class="dropdown-item" href="#">Party Supplies</a></li>
+              <li><a class="dropdown-item" href="#">Gift Cards</a></li>
+              <li><a class="dropdown-item" href="#">Bullseye's Playground</a></li>
+              <li><a class="dropdown-item" href="#">Clearance</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle menu-itm newFontColor" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Deals
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Holiday Deals</a></li>
+              <li><a class="dropdown-item" href="#">Clearance</a></li>
+              <li><a class="dropdown-item" href="#">Weekly Ad</a></li>
+              <li><a class="dropdown-item" href="#">Top Deals</a></li>
+              <li><a class="dropdown-item" href="#">Red Card Exclusives</a></li>
+              <li><a class="dropdown-item" href="#">Target Circle Offers</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle menu-itm newFontColor" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Trendspot
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">The Winter Wonders</a></li>
+              <li><a class="dropdown-item" href="#">Cold Weather</a></li>
+              <li><a class="dropdown-item" href="#">Cozy</a></li>
+              <li><a class="dropdown-item" href="#">Eat & Drink</a></li>
+              <li><a class="dropdown-item" href="#">Christmas</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">#TargetStyle</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <div class="nav" id="searchBox">
+            <!--Make sure the form has the autocomplete function switched off:-->
+          <form class="d-flex nav-search align-items-center wrapper search-input" id="searchBox" autocomplete="off">
+            <div class="autocomplete" style="width:300px;">
+              <input id="targetItem" class="form-control me-2 ml-auto" type="text" name="itemSearch" placeholder="Search">
+            </div>
+            <div class="search-icon">
+              <a href="search.html">
+                <i class="fas fa-search special-tag"></i>
+              </a>
+            </div>
+          </form>
+        </div>
+        
+        <div class="nav justify-content-end" id="shoppingCenter">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown d-flex align-items-center">
+                <a class="nav-link dropdown-toggle menu-itm newFontColor" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  You're Shopping at La Cantera
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Choose a different store</a></li>
+                  <li><a class="dropdown-item" href="#">Search for nearest store</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle newFontColor" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <!--<img src="../images/icons/People circle.png" alt="target logo" id="accountIcon" width="auto" >-->
+                  <i class="fas fa-user-circle"></i>Sign In
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="login.html">Sign In</a></li>
+                  <li><a class="dropdown-item" href="signup.html">Create Account</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Favorites</a></li>
+                </ul>
+              </li>
+              <li class="d-flex align-items-center">
+                  <a class="navbar-brand" href="cart.html">
+                    <i class="fas fa-shopping-cart newFontColor"></i>
+                  </a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</nav>
 
 <!------Your cart, items count, sub-total, sign in BAR-->
 
@@ -40,7 +161,7 @@
         <div class="col">
             <div id="editCart" href="cart.html">
                 <h5>
-                    <a href="cart.html"> Edit Cart</a></h5>
+                    <a href="cart.html" class="paintItBlack"> Edit Cart</a></h5>
             </div>
         </div>
 
@@ -54,33 +175,9 @@
 
         <div class="col-sm-3">
             <div id="signIn">
-                <a href="index.html" class="btn btn-primary btn-lg" role="button" aria-pressed="true">Sign In</a>
+                <a href="login.html" class="btn btn-primary btn-lg" role="button" aria-pressed="true">Sign In</a>
             </div>
-        </div>
-
-    <style>
-        /* unvisited link */
-        a:link {
-          color: black;
-          
-        }
-        
-        /* visited link */
-        a:visited {
-          color: black;
-        }
-        
-        /* mouse over link */
-        a:hover {
-          color: #CC0202;
-        }
-        
-        /* selected link */
-        a:active {
-          color: black;
-        }
-    </style>
-    
+        </div>    
     
 </div>
         
@@ -126,7 +223,7 @@
 
             <div class="row">
                 <div id="bgColortargetred">
-                    <div class="d-block text-white fs-3">
+                    <div class="d-block d-flex align-items-center p-3 text-white fs-3">
                         Shipping</p>
                     </div>
                 </div>
@@ -134,7 +231,7 @@
 
             <div class="row">
                 <p>
-                   <a href="#">
+                   <a href="#" class="paintItBlack">
                     <p style="text-align:right;">Change</a>
                 </p>
             </div>
@@ -147,7 +244,7 @@
             </div>
             
             <div class="row pt-1 ms-5">
-                <a href="#"> Add Additional Information</a>            
+                <a href="#" class="paintItBlack"> Add Additional Information</a>            
             </div>
             
                            
@@ -171,7 +268,7 @@
 <!--Payment Information-->
         <div class="row">
             <div id="bgColortargetred">
-                <div class="d-block text-white fs-3">
+                <div class="d-block d-flex align-items-center p-3 text-white fs-3">
                 Payment</p>
             </div>
         </div>
@@ -281,8 +378,10 @@
                 </div>
             </div>
             
-            <div class="row pb-5">
-                <a class="btn-primary btn-lg btn-block mb-4" href="checkout4.html" role="button">Save and Continue</a>    
+            <div class="row pt-3 pb-5 d-flex justify-content-center">
+                <div class="col-4 noLineButton">
+                    <a class="btn-primary btn-lg btn-block p-3" href="checkout4.html" role="button">Save and Continue</a> 
+                </div>   
             </div>
         </div>
                                                       
@@ -303,7 +402,7 @@
     
     <div id="bgColortargetred">
         <div class="row d-block text-white ms-2 fs-4">
-            <p> Order Summary</p>
+            <p class="p-3 m-0"> Order Summary</p>
         </div>
     </div>
     
@@ -365,9 +464,103 @@
 </div>
 </div>
 </div>
+</div>
+</div>
+<!--footer-->
+<!--Footer-->
+<div class="footer-area footer-padding">
+    <div class="container">
+      <div class="row d-flex justify-content-between" id="topFooter">
+            <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6">
+               <div class="single-footer-caption mb-50">
+                 <div class="single-footer-caption mb-30">
+                      <!-- logo -->
+                     <div class="footer-logo">
+                         <a href="index.html"><img src="../images/logo_wht.png" alt="Target Logo in white"></a>
+                     </div>
+                     <div class="footer-tittle">
+                         <div class="footer-pera">
+                             <h5>How we Help</h5>
+                             <p>Our Target volunteers in their red shirts - out lending a hand on projects that enrich their local communities. Our dedicated team members donate more than 1 million hours of their time each year to causes like hunger relief, education, the environment and more.</p>
+                            <h5>Response to Covid-19</h5>
+                            <p>Target committed $10 million to expand relief and assistance to team members and organizations helping respond to the corona virus. The $10 million donation supports four areas: team members, local communities, national organizations, and global response organizations.</p>
+                        </div>
+                     </div>
+                 </div>
+               </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-3 col-sm-5">
+                <div class="single-footer-caption mb-50">
+                    <div class="footer-tittle">
+                        <h4>Need Help?</h4>
+                        <ul style="list-style-type:none;">
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a href="#">Service Center</a></li>
+                            <li><a href="#">Customer Service</a></li>
+                            <li><a href="#"> Get Coupon</a></li>
+                            <li><a href="#">  Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-7">
+                <div class="single-footer-caption mb-50">
+                    <div class="footer-tittle">
+                        <h4>Useful Links</h4>
+                        <ul style="list-style-type:none;">
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a href="#">Warranty & Complaints</a></li>
+                            <li><a href="#">Orders & Shipping</a></li>
+                            <li><a href="#">Tracking Order</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Repair</a></li></li>
+                            <li><a href="#">Terms</a></li></li>
+                            <li><a href="#">FAQ</a></li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-5 col-sm-7">
+                <div class="single-footer-caption mb-50">
+                    <div class="footer-tittle">
+                        <h4>My Store</h4>
+                        <ul style="list-style-type:none;">
+                            <li><hr class="dropdown-divider"></li>
+                         <li><a href="#">Frequently Asked Questions</a></li>
+                         <li><a href="#">Terms & Conditions</a></li>
+                         <li><a href="#">Privacy Policy</a></li>
+                         <li><a href="#">Privacy Policy</a></li>
+                         <li><a href="#">Report a Payment Issue</a></li>
+                     </ul>
+                    </div>
+                </div>
+            </div>
+        <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-4"></div>
+                <div class="col-xl-4 col-lg-4 col-md-4 d-flex justify-content-center align-items-center">
+                    <div >
+                         Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 d-flex justify-content-end">
+                    <div class="footer-copy-right f-right">
+                        <!-- social -->
+                        <div class="footer-social">
+                            <a href="#"><img src="../images/icons/Twitter.png"></a>
+                            <a href="#"><img src="../images/icons/Facebook.png"></a>
+                            <a href="#"><img src="../images/icons/Instagram.png"></a>
+                            <a href="#"><img src="../images/icons/Youtube.png"></a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+      </div>
+    </div>
+</div>
 
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<script language="JavaScript" type="text/javascript" src="../js/index.js"></script>
 </body>
 </html>

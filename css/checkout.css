@@ -66,6 +66,10 @@ nav {
     border-radius: 30px !important;
 }
 
+
+.redAccount {
+    color: #cc0000;
+
 #searchBox {
     position: relative;
 }
@@ -77,6 +81,7 @@ nav {
 .downloadApp:hover {
     cursor: pointer;
     background-color: #9b0303;
+
 }
 
 .menu-itm {

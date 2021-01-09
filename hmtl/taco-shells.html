@@ -155,7 +155,59 @@
   </nav>
 </div> 
 <!--Hero-->
-
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">You added 'Old El Paso Taco shells' to your cart</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col">
+            <img src="../images/taco-md1.png">
+          </div>
+          <div class="col">
+            <div class="row">
+              <h3 class="ms-0 ps-md-0">Old El Paso Taco Shells</h3>
+            </div>
+           
+                      <div class="row ps-md-0">
+                      <ul class="rating list-inline ms-0 ps-md-0 d-flex align-items-center">
+                      <li class="list-inline-item">
+                      <i class="rating1 fas fa-star fa-sm text-primary"></i>
+                      </li>
+                      <li class="list-inline-item">
+                      <i class="rating1 fas fa-star fa-sm text-primary"></i>
+                      </li>
+                      <li class="list-inline-item">
+                      <i class="rating1 fas fa-star fa-sm text-primary"></i>
+                      </li>
+                      <li class="list-inline-item">
+                      <i class="rating1 fas fa-star fa-sm text-primary"></i>
+                      </li>
+                      <li class="list-inline-item">
+                      <i class="far fa-star fa-sm text-primary"></i>
+                      </li>
+                      </ul></div>
+           
+                      <div class="row">
+           <h3 class="ms-0 mb-5 ps-md-0">$3.33</h3>
+           </div>
+                  <div class="row">
+                  <h6 class="prodTiny ms-0 ps-md-0">Size 6.68 oz</h6>
+                  </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Keep Shopping</button>
+        <a href="cart.html" class="btn btn-primary" role="button" aria-pressed="true">View Cart</a>
+      </div>
+    </div>
+  </div>
+</div>
 <!--Hero TEST-->
 
 <section>
@@ -267,7 +319,7 @@
  <div class="container col-md-2 ms-3">
  <div></div> 
  <div class="row pt-6">
- <button type="button" class="targetPrimeBtn btn btn-primary btn-lg text-uppercase fw-bold fs-6">Add to Cart</button>
+ <button type="button" class="targetPrimeBtn btn btn-primary btn-lg text-uppercase fw-bold fs-6" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Add to Cart</button>
  </div>
  <div class="row">
  <a href="cart.html" type="button" class="btn btn-secondary btn-lg text-uppercase fw-bold fs-6">Buy it Now</a>

@@ -136,58 +136,50 @@
 
 <!------Your cart, items count, sub-total, sign in BAR-->
 
-<div class="container">
+
    
     
 
     <!----Your Cart and Item Count-->
-    <div class="row  pt-3 pb-3  border-dark border-bottom border-3">
-        <div class="col">
-            <div id="ycverticalLine">
-                <h3>Your <br>
-                    Cart</h3> 
+    <div class="container-fluid">
+        <div class="shadow-sm p-3 mb-5 bg-white rounded">
+          <div class="row">
+            <div class="col-2 col-sm-1 col-lg-2 d-inline-flex justify-content-lg-end">
+              <h2 class="text-center text-lg-end align-self-center"><strong>Your <br> Cart</strong></h2>
             </div>
-        </div>
-
-        <div class="col">
-            <div id="itemcount">
-                <h4> 3 items <br>
-                    $36.32  </h4>
-            </div>
-        </div>
-        
+            <div class="col-4 col-sm-8 col-lg-3">
+              <div class="row align-items-center">
+                <div class="col-auto align-items-center"><img src="../images/Line 1.png"></div>
     
-    <!---Edit Cart-->
-        <div class="col">
-            <div id="editCart" href="cart.html">
-                <h5>
-                    <a href="cart.html" class="paintItBlack"> Edit Cart</a></h5>
+                <div class="col-auto align-self-center">3 Items <br/> $40.32 </div>
+              </div>
             </div>
-        </div>
-
-    <!---Have an account and Sign In button-->
-        <div class="col-md-auto">
-            <div id="haveAccount">
-                <h6>Have an account?<br>
-                    Sign in to checkout faster.</h6>
-            </div>
-        </div>
-
-        <div class="col-sm-3">
-            <div id="signIn">
-                <a href="login.html" class="btn btn-primary btn-lg" role="button" aria-pressed="true">Sign In</a>
-            </div>
-        </div>
     
+            <div class="col-1 justify-content-start align-self-center">
+                <h5><a href="cart.html"> Edit Cart</a></h5>
+            </div>
+            <div class="col-0 col-lg-2 mx-0 px-0"></div>
+            <div class="col-6 col-lg-2 justify-content-sm-center align-items-center align-self-center"> 
+              <div class="row d-inline-flex align-items-center">
+                <div class="col float-end"><p class="redAccount mb-0">Have an account?</p></div>
+              </div>
+              <div class="row">
+                <div class="col"><p class="col mb-0">Sign in to checkout faster.</p></div></div>
     
-</div>
+            </div>
+            <div class="col-6 col-lg-2 d-flex align-self-center mx-0 px-0">
+              <a href="#" class="btn btn-lg btn-primary align-self-center">Sign In</a>
+            </div>
+          </div>
+        </div>
+      </div>
         
 <!------ PROGRESS BAR WITH ICONS-->
 
 <div class="row justify-content-center pb-5 pt-5">
     
   
-    <div class="position-relative col-sm-8 pt-3 pb-4">
+    <div class="position-relative col-6 col-md-4 pt-3 pb-4 me-5">
        
         <div class="progress" style="height: 2px;">
             <div class="progress-bar bg-danger" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
@@ -211,6 +203,7 @@
     </div>
 </div>
 
+
  
 <!--Payment, Shipping, and Checkout Options-->            
 <div class="row me-3"></div>
@@ -220,7 +213,7 @@
         
 
     <div class="row pt-4">
-        <div class="col-sm-7 border-end border-danger border-4 pr-3">
+        <div class="col-12 col-lg-7 border-end border-danger border-3 pr-3 justify-content-center mb-5">
 
             <div class="row">
                 <div id="bgColortargetred">
@@ -261,7 +254,7 @@
                             id="form6Example8"
                             unchecked
                         />
-                        <label class="form-check-label" for="form6Example8"> Save as Payment Address </label>
+                        <label class="formLabel3 form-check-label mt-1 ms-2 align-items-center" for="form6Example8"> Save as Payment Address </label>
                     </div>
                 </div>
             </div>
@@ -282,29 +275,29 @@
                     
                     <div class="col-sm-6">
                         <div class="form-outline mb-4">
-                            <label class="form-label">Card Number</label>
-                            <input type="text" class="form-control" placeholder="1234-5678-9101-1121" />
+                            <label class="formLabel2 mb-0 form-label">Card Number</label>
+                            <input type="text" class="logInForm form-control" placeholder="1234-5678-9101-1121" />
                         </div>
                     </div>
 
                     <div class="col-sm">
                         <div class="form-outline mb-4">
-                            <label class="form-label">Expiration Date</label>
-                            <input type="text" class="form-control" id="expiration" placeholder="11/2023"/>   
+                            <label class="formLabel2 mb-0 form-label">Expiration Date</label>
+                            <input type="text" class="logInForm form-control" id="expiration" placeholder="11/2023"/>   
                         </div>
                     </div>
 
                     <div class="col-sm">
                         <div class="form-outline mb-4">
-                            <label class="form-label">CVV</label>
-                            <input type="text" class="form-control" id="CVV" placeholder="678"/> 
+                            <label class="formLabel2 mb-0 form-label">CVV</label>
+                            <input type="text" class="logInForm form-control" id="CVV" placeholder="678"/> 
                         </div>
                     </div>
                                         
         <!-- Name -->
                 <div class="form-outline mb-4">
-                    <label class="form-label">Cardholder Name</label>
-                    <input type="text" class="form-control" id="cardholder" placeholder="Kelsie Olsen"/>
+                    <label class="formLabel2 mb-0 form-label">Cardholder Name</label>
+                    <input type="text" class="logInForm form-control" id="cardholder" placeholder="Kelsie Olsen"/>
                 </div>
                     
 
@@ -315,15 +308,15 @@
 
                     <div class="col">
                         <div class="form-outline mb-4">
-                            <label class="form-label">Address Line 1</label>
-                            <input type="text" class="form-control" id="address1" placeholder="3058 Spring Brook Dr"/>                       
+                            <label class="formLabel2 mb-0 form-label">Address Line 1</label>
+                            <input type="text" class="logInForm form-control" id="address1" placeholder="3058 Spring Brook Dr"/>                       
                         </div>
                     </div>
 
                     <div class="col">     
-                        <div class="form-outline mb-4">
-                            <label class="form-label">Address Line 2</label>
-                            <input type="text" class="form-control" id="address2"/>
+                        <div class="form-outline mb-0 mb-4">
+                            <label class="formLabel2 form-label">Address Line 2</label>
+                            <input type="text" class="logInForm form-control" id="address2"/>
                         </div>
                     </div>
                 </div>            
@@ -332,22 +325,22 @@
 
                     <div class="col-sm-6">
                         <div class="form-outline mb-4">
-                            <label class="form-label">City</label>
-                            <input type="text" class="form-control" id="city" placeholder="St. Paul"/>   
+                            <label class="formLabel2 mb-0 form-label">City</label>
+                            <input type="text" class="logInForm form-control" id="city" placeholder="St. Paul"/>   
                         </div>
                     </div>
   
                     <div class="col-sm">
                         <div class="form-outline mb-4">
-                            <label class="form-label">State</label>
-                            <input type="text" class="form-control" id="state" placeholder="MN"/>
+                            <label class="formLabel2 mb-0 form-label">State</label>
+                            <input type="text" class="logInForm form-control" id="state" placeholder="MN"/>
                         </div>
                     </div>
                
                     <div class="col-sm">
                         <div class="form-outline mb-4">
-                            <label class="form-label">Zip Code</label>
-                            <input type="number" class="form-control" id="zipcode" placeholder="11111">
+                            <label class="formLabel2 mb-0 form-label">Zip Code</label>
+                            <input type="number" class="logInForm form-control" id="zipcode" placeholder="11111">
                         </div>
                     </div>
                 </div>
@@ -376,13 +369,13 @@
                         id="form6Example8"
                         checked
                         />
-                    <label class="form-check-label" for="form6Example8"> Set as Default Payment Address </label>
+                    <label class="formLabel3 form-check-label mt-1 ms-2 align-items-center" for="form6Example8"> Set as Default Payment Address </label>
                 </div>
             </div>
             
-            <div class="row pt-3 pb-5 d-flex justify-content-center">
-                <div class="col-4 noLineButton">
-                    <a class="btn-primary btn-lg btn-block p-3" href="checkout3.html" role="button">Save and Continue</a> 
+            <div class="row pt-3 pb-5 justify-content-center">
+                <div class="justify-content-center d-grid mx-auto">
+                    <a class="btn-primary btn-lg p-3 text-decoration-none" href="checkout3.html" role="button">Save and Continue</a> 
                 </div>   
             </div>                                                  
          <!-- Button trigger modal -->
@@ -428,10 +421,10 @@
 <!-- Order Summary -->
 
 
-<div class="col-sm-4 ms-5">
+<div class="col-12 col-xl-4 mx-0 ms-lg-5 mb-5">
     
     <div id="bgColortargetred">
-        <div class="row d-block text-white ms-2 fs-4">
+        <div class="row d-block text-white d-flex align-items-center ms-2 fs-4">
             <p class="p-3 m-0"> Order Summary</p>
         </div>
     </div>
@@ -489,13 +482,15 @@
 </div> 
        
 <!-- Submit button -->
-<button type="submit" class="btn-secondary btn-lg">Place order</button>
+<div class="d-grid">
+    <button type="submit" class="btn-secondary btn-lg py-4">Place order</button>
+    </div>
 
 </div>
 </div>
 </div>
 </div>
-</div>
+
 <!--footer-->
 <!--Footer-->
 <div class="footer-area footer-padding">

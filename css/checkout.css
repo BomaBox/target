@@ -69,7 +69,7 @@ nav {
 
 .redAccount {
     color: #cc0000;
-
+}
 #searchBox {
     position: relative;
 }
@@ -131,7 +131,7 @@ nav {
 }
 
 .btn-lg {
-    width: 200px;
+    width: auto;
 }
 .noLineButton a {
     text-decoration: none;
@@ -276,6 +276,18 @@ nav {
         
     }
 
+.logInForm {
+        border-radius: 0 !important;
+    }
+
+.formLabel2 {
+        font-size: 14px;
+        color: #A3A1A1;
+    }
+
+.formLabel3 {
+        font-size: 14px;
+    }    
 /*------------------------Footer code-------------------*/
 .footer-area {
     background-color: #cc0000 !important;
